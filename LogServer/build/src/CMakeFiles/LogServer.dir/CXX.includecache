@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LogServer.hpp
+
+/home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp
+LogServer.hpp
+/home/ubuntu/ByteTalk/LogServer/src/LogServer.hpp
+

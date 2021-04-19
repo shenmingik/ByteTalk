@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/LogServer.dir/LogServer.cpp.o  -o ../../bin/LogServer  -L/home/ubuntu/ByteTalk/LogServer/thirdlib 
