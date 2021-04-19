@@ -3,3 +3,10 @@
 /home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/rebuild_cache.dir
 /home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/LogServer.dir
 /home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/download/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/download/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/download/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/download/src/CMakeFiles/LogSend.dir
+/home/ubuntu/ByteTalk/LogServer/build/auxiliary_process/download/src/CMakeFiles/edit_cache.dir

@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../auxiliary_process/CMakeLists.txt"
+  "../auxiliary_process/download/CMakeLists.txt"
+  "../auxiliary_process/download/src/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
@@ -40,9 +43,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "auxiliary_process/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "auxiliary_process/download/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "auxiliary_process/download/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/LogServer.dir/DependInfo.cmake"
+  "auxiliary_process/download/src/CMakeFiles/LogSend.dir/DependInfo.cmake"
   )

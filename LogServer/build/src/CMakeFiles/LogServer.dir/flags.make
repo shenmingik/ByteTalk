@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/ByteTalk/LogServer/include 
+CXX_INCLUDES = -I/home/ubuntu/ByteTalk/LogServer/include -I/home/ubuntu/ByteTalk/LogServer/auxiliary_process/download/include 
 

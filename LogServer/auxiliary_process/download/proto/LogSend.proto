@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package ik;
+
+
+/*
+* node_name: 要查询哪个节点的日志信息
+* time：要查询哪一天的日志信息（格式：%4d-%2d-%2d）
+*/
+message LogSendRequest
+{
+    bytes node_name = 1;
+    bytes time = 2;
+}
+
+message LogSendReponse
+{
+    int32 serial = 1;
+    bool is_end = 2;
+    bytes msg = 3;
+}

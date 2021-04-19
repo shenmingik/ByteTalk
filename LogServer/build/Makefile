@@ -123,6 +123,19 @@ LogServer/fast:
 	$(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/build
 .PHONY : LogServer/fast
 
+#=============================================================================
+# Target rules for targets named LogSend
+
+# Build rule for target.
+LogSend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LogSend
+.PHONY : LogSend
+
+# fast build rule for target.
+LogSend/fast:
+	$(MAKE) -f auxiliary_process/download/src/CMakeFiles/LogSend.dir/build.make auxiliary_process/download/src/CMakeFiles/LogSend.dir/build
+.PHONY : LogSend/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LogServer"
+	@echo "... LogSend"
 .PHONY : help
 
 

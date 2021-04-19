@@ -84,7 +84,7 @@ src/preinstall:
 src/CMakeFiles/LogServer.dir/all:
 	$(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/depend
 	$(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/LogServer/build/CMakeFiles --progress-num=1,2,3,4 "Built target LogServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/LogServer/build/CMakeFiles --progress-num=5,6,7,8 "Built target LogServer"
 .PHONY : src/CMakeFiles/LogServer.dir/all
 
 # Include target in all.
@@ -111,6 +111,97 @@ src/CMakeFiles/LogServer.dir/clean:
 
 # clean rule for target.
 clean: src/CMakeFiles/LogServer.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/all: auxiliary_process/download/all
+
+.PHONY : auxiliary_process/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/clean: auxiliary_process/download/clean
+
+.PHONY : auxiliary_process/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/preinstall: auxiliary_process/download/preinstall
+
+.PHONY : auxiliary_process/preinstall
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process/download
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/download/all: auxiliary_process/download/src/all
+
+.PHONY : auxiliary_process/download/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/download/clean: auxiliary_process/download/src/clean
+
+.PHONY : auxiliary_process/download/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/download/preinstall: auxiliary_process/download/src/preinstall
+
+.PHONY : auxiliary_process/download/preinstall
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process/download/src
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/download/src/all: auxiliary_process/download/src/CMakeFiles/LogSend.dir/all
+
+.PHONY : auxiliary_process/download/src/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/download/src/clean: auxiliary_process/download/src/CMakeFiles/LogSend.dir/clean
+
+.PHONY : auxiliary_process/download/src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/download/src/preinstall:
+
+.PHONY : auxiliary_process/download/src/preinstall
+
+#=============================================================================
+# Target rules for target auxiliary_process/download/src/CMakeFiles/LogSend.dir
+
+# All Build rule for target.
+auxiliary_process/download/src/CMakeFiles/LogSend.dir/all:
+	$(MAKE) -f auxiliary_process/download/src/CMakeFiles/LogSend.dir/build.make auxiliary_process/download/src/CMakeFiles/LogSend.dir/depend
+	$(MAKE) -f auxiliary_process/download/src/CMakeFiles/LogSend.dir/build.make auxiliary_process/download/src/CMakeFiles/LogSend.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/LogServer/build/CMakeFiles --progress-num=1,2,3,4 "Built target LogSend"
+.PHONY : auxiliary_process/download/src/CMakeFiles/LogSend.dir/all
+
+# Include target in all.
+all: auxiliary_process/download/src/CMakeFiles/LogSend.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+auxiliary_process/download/src/CMakeFiles/LogSend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/LogServer/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 auxiliary_process/download/src/CMakeFiles/LogSend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/LogServer/build/CMakeFiles 0
+.PHONY : auxiliary_process/download/src/CMakeFiles/LogSend.dir/rule
+
+# Convenience name for target.
+LogSend: auxiliary_process/download/src/CMakeFiles/LogSend.dir/rule
+
+.PHONY : LogSend
+
+# clean rule for target.
+auxiliary_process/download/src/CMakeFiles/LogSend.dir/clean:
+	$(MAKE) -f auxiliary_process/download/src/CMakeFiles/LogSend.dir/build.make auxiliary_process/download/src/CMakeFiles/LogSend.dir/clean
+.PHONY : auxiliary_process/download/src/CMakeFiles/LogSend.dir/clean
+
+# clean rule for target.
+clean: auxiliary_process/download/src/CMakeFiles/LogSend.dir/clean
 
 .PHONY : clean
 

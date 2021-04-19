@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/LogSend.dir/LogSend.cpp.o CMakeFiles/LogSend.dir/LogSend.pb.cc.o CMakeFiles/LogSend.dir/run.cpp.o  -o ../../../../bin/LogSend  -L/home/ubuntu/ByteTalk/LogServer/thirdlib -Wl,-rpath,/home/ubuntu/ByteTalk/LogServer/thirdlib -lrpc -lprotobuf -lmuduo_net -lmuduo_base -lpthread 
