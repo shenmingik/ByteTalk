@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package ik;
 
-
 /*
 * node_name: 要查询哪个节点的日志信息
 * time：要查询哪一天的日志信息（格式：%4d-%2d-%2d）
@@ -15,7 +14,7 @@ message LogSendRequest
 
 message LogSendReponse
 {
-    int32 serial = 1;
-    bool is_end = 2;
-    bytes msg = 3;
+    int32 serial = 1;   //序号
+    bool is_end = 2;    //是否结束了
+    bytes msg = 3;      //消息
 }
