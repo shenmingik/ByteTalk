@@ -4,3 +4,6 @@
 src/CMakeFiles/LogServer.dir/LogServer.cpp.o: ../include/LogServer.hpp
 src/CMakeFiles/LogServer.dir/LogServer.cpp.o: ../src/LogServer.cpp
 
+src/CMakeFiles/LogServer.dir/main.cpp.o: ../include/LogServer.hpp
+src/CMakeFiles/LogServer.dir/main.cpp.o: ../src/main.cpp
+

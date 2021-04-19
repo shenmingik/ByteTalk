@@ -152,6 +152,33 @@ LogServer.cpp.s:
 	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/LogServer.cpp.s
 .PHONY : LogServer.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +191,9 @@ help:
 	@echo "... LogServer.o"
 	@echo "... LogServer.i"
 	@echo "... LogServer.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

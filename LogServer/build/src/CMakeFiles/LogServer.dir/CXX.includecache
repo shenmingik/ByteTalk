@@ -7,8 +7,26 @@
 #IncludeRegexTransform: 
 
 ../include/LogServer.hpp
+string
+-
 
 /home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp
 LogServer.hpp
 /home/ubuntu/ByteTalk/LogServer/src/LogServer.hpp
+cstdlib
+-
+ctime
+-
+cstring
+-
+iostream
+-
+
+/home/ubuntu/ByteTalk/LogServer/src/main.cpp
+LogServer.hpp
+/home/ubuntu/ByteTalk/LogServer/src/LogServer.hpp
+sys/stat.h
+-
+sys/types.h
+-
 

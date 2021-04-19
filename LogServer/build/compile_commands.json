@@ -3,5 +3,10 @@
   "directory": "/home/ubuntu/ByteTalk/LogServer/build/src",
   "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/LogServer/include  -g -g   -o CMakeFiles/LogServer.dir/LogServer.cpp.o -c /home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp",
   "file": "/home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/LogServer/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/LogServer/include  -g -g   -o CMakeFiles/LogServer.dir/main.cpp.o -c /home/ubuntu/ByteTalk/LogServer/src/main.cpp",
+  "file": "/home/ubuntu/ByteTalk/LogServer/src/main.cpp"
 }
 ]
