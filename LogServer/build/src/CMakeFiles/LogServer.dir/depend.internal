@@ -3,7 +3,12 @@
 
 src/CMakeFiles/LogServer.dir/LogServer.cpp.o
  ../include/LogServer.hpp
+ ../include/LogServer.pb.h
  /home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp
-src/CMakeFiles/LogServer.dir/main.cpp.o
+src/CMakeFiles/LogServer.dir/LogServer.pb.cc.o
+ ../include/LogServer.pb.h
+ /home/ubuntu/ByteTalk/LogServer/src/LogServer.pb.cc
+src/CMakeFiles/LogServer.dir/run.cpp.o
  ../include/LogServer.hpp
- /home/ubuntu/ByteTalk/LogServer/src/main.cpp
+ ../include/LogServer.pb.h
+ /home/ubuntu/ByteTalk/LogServer/src/run.cpp

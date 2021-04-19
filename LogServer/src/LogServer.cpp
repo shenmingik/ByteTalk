@@ -1,16 +1,14 @@
 #include "LogServer.hpp"
 #include <cstdlib>
-#include <ctime>
+#include <ctime> // for time
 #include <cstring>
 #include <iostream>
 
+#include <sys/stat.h> //for mkdir
+#include <sys/types.h>
+
 #define BUFF_SIZE 32
 #define FILE_SIZE 64
-
-string LogServer::FATAL = "[FATAL]";
-string LogServer::INFO = "[INFO]";
-string LogServer::ERROR = "[ERROR]";
-char LogServer::input_str[INPUT_SIZE] = {0};
 
 //打印INFO 日志
 void LogServer::Log_INFO(const char *file_path, string msg)
@@ -63,4 +61,59 @@ bool LogServer::write_file(const char *file_path, string msg)
     }
     fputs(msg.c_str(), fp);
     fclose(fp);
+}
+
+void LogServer::Log_INFO(::google::protobuf::RpcController *controller,
+                         const ::ik::LogRequest *request,
+                         ::google::protobuf::Empty *response,
+                         ::google::protobuf::Closure *done)
+{
+    string node_name = request->name();
+    string msg = request->msg();
+
+    //创建目录
+    string dir_path = "../log/";
+    dir_path += node_name;
+    mkdir(dir_path.c_str(), 0777);
+
+    //写日志
+    Log_INFO(dir_path.c_str(), msg);
+
+    done->Run();
+}
+void LogServer::Log_ERROR(::google::protobuf::RpcController *controller,
+                          const ::ik::LogRequest *request,
+                          ::google::protobuf::Empty *response,
+                          ::google::protobuf::Closure *done)
+{
+    string node_name = request->name();
+    string msg = request->msg();
+
+    //创建目录
+    string dir_path = "../log/";
+    dir_path += node_name;
+    mkdir(dir_path.c_str(), 0777);
+
+    //写日志
+    Log_ERROR(dir_path.c_str(), msg);
+
+    done->Run();
+}
+void LogServer::Log_FATAL(::google::protobuf::RpcController *controller,
+                          const ::ik::LogRequest *request,
+                          ::google::protobuf::Empty *response,
+                          ::google::protobuf::Closure *done)
+{
+    string node_name = request->name();
+    string msg = request->msg();
+
+    //创建目录
+    string dir_path = "../log/";
+    dir_path += node_name;
+    mkdir(dir_path.c_str(), 0777);
+
+    //写日志
+    Log_FATAL(dir_path.c_str(), msg);
+
+    done->Run();
 }

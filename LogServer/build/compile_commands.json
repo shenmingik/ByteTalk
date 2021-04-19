@@ -6,7 +6,12 @@
 },
 {
   "directory": "/home/ubuntu/ByteTalk/LogServer/build/src",
-  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/LogServer/include  -g -g   -o CMakeFiles/LogServer.dir/main.cpp.o -c /home/ubuntu/ByteTalk/LogServer/src/main.cpp",
-  "file": "/home/ubuntu/ByteTalk/LogServer/src/main.cpp"
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/LogServer/include  -g -g   -o CMakeFiles/LogServer.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/LogServer/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/LogServer/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/LogServer/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/LogServer/include  -g -g   -o CMakeFiles/LogServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/LogServer/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/LogServer/src/run.cpp"
 }
 ]

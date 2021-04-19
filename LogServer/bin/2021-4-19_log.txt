@@ -1,0 +1,11 @@
+16:14:33=>[INFO]: zookeeper init success
+16:14:33=>[INFO]: znode create  success...path: /LogServerRpc
+16:14:33=>[INFO]: znode create  success...path: /LogServerRpc/Log_FATAL
+16:14:33=>[INFO]: znode create  success...path: /LogServerRpc/Log_INFO
+16:14:33=>[INFO]: znode create  success...path: /LogServerRpc/Log_ERROR
+16:14:33=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6001]
+16:17:25=>[INFO]: zookeeper init success
+16:17:25=>[INFO]: znode create  success...path: /LogServerRpc/Log_FATAL
+16:17:25=>[INFO]: znode create  success...path: /LogServerRpc/Log_INFO
+16:17:25=>[INFO]: znode create  success...path: /LogServerRpc/Log_ERROR
+16:17:25=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6001]

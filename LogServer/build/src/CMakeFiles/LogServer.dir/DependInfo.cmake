@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/ByteTalk/LogServer/src/LogServer.cpp" "/home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/LogServer.dir/LogServer.cpp.o"
-  "/home/ubuntu/ByteTalk/LogServer/src/main.cpp" "/home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/LogServer.dir/main.cpp.o"
+  "/home/ubuntu/ByteTalk/LogServer/src/LogServer.pb.cc" "/home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/LogServer.dir/LogServer.pb.cc.o"
+  "/home/ubuntu/ByteTalk/LogServer/src/run.cpp" "/home/ubuntu/ByteTalk/LogServer/build/src/CMakeFiles/LogServer.dir/run.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

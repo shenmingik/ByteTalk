@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LogServer.dir/LogServer.cpp.o"
-  "CMakeFiles/LogServer.dir/main.cpp.o"
+  "CMakeFiles/LogServer.dir/LogServer.pb.cc.o"
+  "CMakeFiles/LogServer.dir/run.cpp.o"
   "../../bin/LogServer.pdb"
   "../../bin/LogServer"
 )

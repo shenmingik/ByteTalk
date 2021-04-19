@@ -152,32 +152,59 @@ LogServer.cpp.s:
 	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/LogServer.cpp.s
 .PHONY : LogServer.cpp.s
 
-main.o: main.cpp.o
+LogServer.pb.o: LogServer.pb.cc.o
 
-.PHONY : main.o
+.PHONY : LogServer.pb.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.o
-.PHONY : main.cpp.o
+LogServer.pb.cc.o:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/LogServer.pb.cc.o
+.PHONY : LogServer.pb.cc.o
 
-main.i: main.cpp.i
+LogServer.pb.i: LogServer.pb.cc.i
 
-.PHONY : main.i
+.PHONY : LogServer.pb.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.i
-.PHONY : main.cpp.i
+LogServer.pb.cc.i:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/LogServer.pb.cc.i
+.PHONY : LogServer.pb.cc.i
 
-main.s: main.cpp.s
+LogServer.pb.s: LogServer.pb.cc.s
 
-.PHONY : main.s
+.PHONY : LogServer.pb.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/main.cpp.s
-.PHONY : main.cpp.s
+LogServer.pb.cc.s:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/LogServer.pb.cc.s
+.PHONY : LogServer.pb.cc.s
+
+run.o: run.cpp.o
+
+.PHONY : run.o
+
+# target to build an object file
+run.cpp.o:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/run.cpp.o
+.PHONY : run.cpp.o
+
+run.i: run.cpp.i
+
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cpp.i:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/run.cpp.i
+.PHONY : run.cpp.i
+
+run.s: run.cpp.s
+
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cpp.s:
+	cd /home/ubuntu/ByteTalk/LogServer/build && $(MAKE) -f src/CMakeFiles/LogServer.dir/build.make src/CMakeFiles/LogServer.dir/run.cpp.s
+.PHONY : run.cpp.s
 
 # Help Target
 help:
@@ -191,9 +218,12 @@ help:
 	@echo "... LogServer.o"
 	@echo "... LogServer.i"
 	@echo "... LogServer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... LogServer.pb.o"
+	@echo "... LogServer.pb.i"
+	@echo "... LogServer.pb.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
 .PHONY : help
 
 

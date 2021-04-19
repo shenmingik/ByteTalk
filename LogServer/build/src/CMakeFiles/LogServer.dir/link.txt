@@ -1,1 +1,1 @@
-/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/LogServer.dir/LogServer.cpp.o CMakeFiles/LogServer.dir/main.cpp.o  -o ../../bin/LogServer  -L/home/ubuntu/ByteTalk/LogServer/thirdlib 
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/LogServer.dir/LogServer.cpp.o CMakeFiles/LogServer.dir/LogServer.pb.cc.o CMakeFiles/LogServer.dir/run.cpp.o  -o ../../bin/LogServer  -L/home/ubuntu/ByteTalk/LogServer/thirdlib -Wl,-rpath,/home/ubuntu/ByteTalk/LogServer/thirdlib -lprotobuf -lrpc -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 
