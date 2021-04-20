@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package ik;
+import "google/protobuf/empty.proto";
+
+option cc_generic_services = true;
+
+/*
+* 发送日志节点的名称
+* msg：收到的参数
+*/
+message LogRequest
+{
+    bytes name = 1;
+    bytes msg = 2;
+}
+
+message ErrorMsg
+{
+    bool state = 1;
+    bytes error_msg = 2;
+}
+
+message LogResponse
+{
+    ErrorMsg msg = 1;
+}
+
+service LogServerRpc
+{
+    rpc  Log_INFO(LogRequest) returns(google.protobuf.Empty);
+    rpc  Log_ERROR(LogRequest) returns(google.protobuf.Empty);
+    rpc  Log_FATAL(LogRequest) returns(google.protobuf.Empty);
+}
