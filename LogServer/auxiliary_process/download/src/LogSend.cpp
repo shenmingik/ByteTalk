@@ -3,7 +3,7 @@
 #include <functional>
 #include <cstdlib>
 #include <cstring>
-
+#include <iostream>
 using namespace std;
 using namespace placeholders;
 
@@ -28,13 +28,15 @@ void LogSend::send_file(const muduo::net::TcpConnectionPtr &conn,
                         muduo::net::Buffer *buf,
                         muduo::Timestamp stamp)
 {
+    string recv = buf->retrieveAllAsString().c_str();
     ik::LogSendRequest request;
-    request.ParseFromString(buf->retrieveAllAsString());
+    request.ParseFromArray(recv.c_str(),recv.size());
 
     string file_path = "../log/";
     file_path += request.node_name();
     file_path += "/";
-    file_path += request.time();
+    file_path += request.time()+"_log.txt";
+    cout << file_path << endl;
 
     ik::LogSendReponse response;
     int count = 1;

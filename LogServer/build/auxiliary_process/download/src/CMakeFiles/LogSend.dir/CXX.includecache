@@ -55,6 +55,8 @@ cstdlib
 -
 cstring
 -
+iostream
+-
 
 /home/ubuntu/ByteTalk/LogServer/auxiliary_process/download/src/LogSend.pb.cc
 LogSend.pb.h
