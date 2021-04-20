@@ -1,0 +1,110 @@
+[2021-04-20T19:27:05.144] [DEBUG] cpptips - needLoadDir: []
+[2021-04-20T19:27:05.146] [DEBUG] cpptips - needLoadLinkDir: []
+[2021-04-20T19:27:05.156] [DEBUG] cpptips - 回调消息： [
+  {
+    text: 'auxiliary_process',
+    data: '5',
+    state: { opened: false, checked: true },
+    children: [ [Object] ]
+  },
+  {
+    text: 'bin',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'build',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: [ [Object], [Object], [Object] ]
+  },
+  {
+    text: 'include',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'log',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: [ [Object], [Object] ]
+  },
+  {
+    text: 'proto',
+    data: '1',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'src',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'thridlib',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  }
+]
+[2021-04-20T19:27:05.165] [DEBUG] cpptips - {
+  needLoadLinkDir: [],
+  needLoadDir: [],
+  ignorDir: [],
+  ignoreFileAndDir: [
+    '^[.~]{1,1}[.]{1,128}$',
+    '^.*_tools_pb\\.(cpp|h)$',
+    '^.*testimpl_pb\\.(cpp|h)$',
+    '^.*\\.pb\\.(cc|h)$',
+    '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+    '^mm3rd$',
+    '^lib32$',
+    '^lib64$',
+    '^lib64_debug$',
+    '^lib64_release$',
+    '^lib32_debug$',
+    '^lib32_release$',
+    '^debug$',
+    '^release$',
+    '^win32$',
+    '^bin$',
+    '^\\.svn$',
+    '^\\.git$',
+    '^\\.vscode$',
+    '^build64_fastbuild$'
+  ],
+  updateCheckIntervalTime: 600000000,
+  defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+    '\tlet commids = {\n' +
+    "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+    '\t};\n' +
+    '\thander.CallBack(0, commids, dirname);\n' +
+    '}',
+  updateCheckUrl: 'http://9.134.38.144:8888',
+  buildParams: ''
+}
+[2021-04-20T19:27:05.165] [DEBUG] cpptips - 回调消息： [
+  '^[.~]{1,1}[.]{1,128}$',
+  '^.*_tools_pb\\.(cpp|h)$',
+  '^.*testimpl_pb\\.(cpp|h)$',
+  '^.*\\.pb\\.(cc|h)$',
+  '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+  '^mm3rd$',
+  '^lib32$',
+  '^lib64$',
+  '^lib64_debug$',
+  '^lib64_release$',
+  '^lib32_debug$',
+  '^lib32_release$',
+  '^debug$',
+  '^release$',
+  '^win32$',
+  '^bin$',
+  '^\\.svn$',
+  '^\\.git$',
+  '^\\.vscode$',
+  '^build64_fastbuild$'
+]

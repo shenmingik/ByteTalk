@@ -1,0 +1,61 @@
+[2021-04-20T19:27:02.778] [DEBUG] cpptips - root path /home/ubuntu/ByteTalk/LogServer
+[2021-04-20T19:27:02.795] [INFO] cpptips - auxiliary_process/download/src/LogSend.cpp
+[2021-04-20T19:27:02.796] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/LogServer/auxiliary_process/download/src/LogSend.cpp /home/ubuntu/ByteTalk/LogServer/ auxiliary_process/download/src/LogSend.cpp
+[2021-04-20T19:27:02.803] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-04-20T19:27:02.803] [INFO] cpptips - config: {
+  basedir: '/home/ubuntu/ByteTalk/LogServer/',
+  dbpath: '/home/ubuntu/ByteTalk/LogServer//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: '/home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-04-20T19:27:02.804] [INFO] cpptips - db path! /home/ubuntu/ByteTalk/LogServer//.vscode/db/cpptips.db /home/ubuntu/ByteTalk/LogServer//.vscode/db
+[2021-04-20T19:27:02.804] [INFO] cpptips - KeyWordStore in constructor
+[2021-04-20T19:27:02.804] [INFO] cpptips - databasepath: /home/ubuntu/ByteTalk/LogServer//.vscode/db/cpptips.db
+[2021-04-20T19:27:02.806] [ERROR] cpptips - not find t_keyword, create table now
+[2021-04-20T19:27:02.919] [INFO] cpptips - FileIndexStore in constructor
+[2021-04-20T19:27:02.920] [ERROR] cpptips - not find t_fileindex, create table now
+[2021-04-20T19:27:02.924] [DEBUG] cpptips - create trigger. on delete
+[2021-04-20T19:27:02.924] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-04-20T19:27:04.133] [DEBUG] cpptips - success
+[2021-04-20T19:27:04.133] [ERROR] cpptips - not find t_keyword, create table now
+[2021-04-20T19:27:06.540] [INFO] cpptips - Set {}
+[2021-04-20T19:27:06.540] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-04-20T19:27:06.546] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"/home/ubuntu/ByteTalk/LogServer/","dbpath":"/home/ubuntu/ByteTalk/LogServer//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-04-20T19:27:15.317] [INFO] cpptips - Set {}
+[2021-04-20T20:14:35.128] [DEBUG] cpptips - on onShutdown

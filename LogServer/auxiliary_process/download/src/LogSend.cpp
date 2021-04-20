@@ -30,7 +30,7 @@ void LogSend::send_file(const muduo::net::TcpConnectionPtr &conn,
 {
     string recv = buf->retrieveAllAsString().c_str();
     ik::LogSendRequest request;
-    request.ParseFromArray(recv.c_str(),recv.size());
+    request.ParseFromString(recv);
 
     string file_path = "../log/";
     file_path += request.node_name();
