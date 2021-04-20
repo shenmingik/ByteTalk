@@ -1,0 +1,5 @@
+/home/ubuntu/ByteTalk/UserService/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/UserService/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserServer.dir
+/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/edit_cache.dir

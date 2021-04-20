@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/UserService.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/src/UserService.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/UserService.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/src/run.cpp"
+}
+]
