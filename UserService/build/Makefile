@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named UserService
+
+# Build rule for target.
+UserService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UserService
+.PHONY : UserService
+
+# fast build rule for target.
+UserService/fast:
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/build
+.PHONY : UserService/fast
+
+#=============================================================================
 # Target rules for targets named UserServer
 
 # Build rule for target.
@@ -120,7 +133,7 @@ UserServer: cmake_check_build_system
 
 # fast build rule for target.
 UserServer/fast:
-	$(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/build
+	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build
 .PHONY : UserServer/fast
 
 # Help Target
@@ -131,6 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... UserService"
 	@echo "... UserServer"
 .PHONY : help
 

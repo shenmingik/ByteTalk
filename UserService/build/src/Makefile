@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/UserServer.dir/rule:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/UserServer.dir/rule
-.PHONY : src/CMakeFiles/UserServer.dir/rule
+src/CMakeFiles/UserService.dir/rule:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/UserService.dir/rule
+.PHONY : src/CMakeFiles/UserService.dir/rule
 
 # Convenience name for target.
-UserServer: src/CMakeFiles/UserServer.dir/rule
+UserService: src/CMakeFiles/UserService.dir/rule
 
-.PHONY : UserServer
+.PHONY : UserService
 
 # fast build rule for target.
-UserServer/fast:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/build
-.PHONY : UserServer/fast
+UserService/fast:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/build
+.PHONY : UserService/fast
 
 LogServer.pb.o: LogServer.pb.cc.o
 
@@ -131,7 +131,7 @@ LogServer.pb.o: LogServer.pb.cc.o
 
 # target to build an object file
 LogServer.pb.cc.o:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/LogServer.pb.cc.o
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/LogServer.pb.cc.o
 .PHONY : LogServer.pb.cc.o
 
 LogServer.pb.i: LogServer.pb.cc.i
@@ -140,7 +140,7 @@ LogServer.pb.i: LogServer.pb.cc.i
 
 # target to preprocess a source file
 LogServer.pb.cc.i:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/LogServer.pb.cc.i
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/LogServer.pb.cc.i
 .PHONY : LogServer.pb.cc.i
 
 LogServer.pb.s: LogServer.pb.cc.s
@@ -149,7 +149,7 @@ LogServer.pb.s: LogServer.pb.cc.s
 
 # target to generate assembly for a file
 LogServer.pb.cc.s:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/LogServer.pb.cc.s
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/LogServer.pb.cc.s
 .PHONY : LogServer.pb.cc.s
 
 UserService.o: UserService.cpp.o
@@ -158,7 +158,7 @@ UserService.o: UserService.cpp.o
 
 # target to build an object file
 UserService.cpp.o:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.cpp.o
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.cpp.o
 .PHONY : UserService.cpp.o
 
 UserService.i: UserService.cpp.i
@@ -167,7 +167,7 @@ UserService.i: UserService.cpp.i
 
 # target to preprocess a source file
 UserService.cpp.i:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.cpp.i
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.cpp.i
 .PHONY : UserService.cpp.i
 
 UserService.s: UserService.cpp.s
@@ -176,7 +176,7 @@ UserService.s: UserService.cpp.s
 
 # target to generate assembly for a file
 UserService.cpp.s:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.cpp.s
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.cpp.s
 .PHONY : UserService.cpp.s
 
 UserService.pb.o: UserService.pb.cc.o
@@ -185,7 +185,7 @@ UserService.pb.o: UserService.pb.cc.o
 
 # target to build an object file
 UserService.pb.cc.o:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.pb.cc.o
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.pb.cc.o
 .PHONY : UserService.pb.cc.o
 
 UserService.pb.i: UserService.pb.cc.i
@@ -194,7 +194,7 @@ UserService.pb.i: UserService.pb.cc.i
 
 # target to preprocess a source file
 UserService.pb.cc.i:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.pb.cc.i
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.pb.cc.i
 .PHONY : UserService.pb.cc.i
 
 UserService.pb.s: UserService.pb.cc.s
@@ -203,7 +203,7 @@ UserService.pb.s: UserService.pb.cc.s
 
 # target to generate assembly for a file
 UserService.pb.cc.s:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/UserService.pb.cc.s
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.pb.cc.s
 .PHONY : UserService.pb.cc.s
 
 run.o: run.cpp.o
@@ -212,7 +212,7 @@ run.o: run.cpp.o
 
 # target to build an object file
 run.cpp.o:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/run.cpp.o
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/run.cpp.o
 .PHONY : run.cpp.o
 
 run.i: run.cpp.i
@@ -221,7 +221,7 @@ run.i: run.cpp.i
 
 # target to preprocess a source file
 run.cpp.i:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/run.cpp.i
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/run.cpp.i
 .PHONY : run.cpp.i
 
 run.s: run.cpp.s
@@ -230,7 +230,7 @@ run.s: run.cpp.s
 
 # target to generate assembly for a file
 run.cpp.s:
-	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/run.cpp.s
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/run.cpp.s
 .PHONY : run.cpp.s
 
 # Help Target
@@ -240,7 +240,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... UserServer"
+	@echo "... UserService"
 	@echo "... edit_cache"
 	@echo "... LogServer.pb.o"
 	@echo "... LogServer.pb.i"

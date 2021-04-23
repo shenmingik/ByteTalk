@@ -1,22 +1,42 @@
 [
 {
   "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
-  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserService.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc",
   "file": "/home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc"
 },
 {
   "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
-  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/UserService.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.cpp",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserService.dir/UserService.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.cpp",
   "file": "/home/ubuntu/ByteTalk/UserService/src/UserService.cpp"
 },
 {
   "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
-  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/UserService.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserService.dir/UserService.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc",
   "file": "/home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc"
 },
 {
   "directory": "/home/ubuntu/ByteTalk/UserService/build/src",
-  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include  -g -g   -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/run.cpp",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserService.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/run.cpp",
   "file": "/home/ubuntu/ByteTalk/UserService/src/run.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/UserServer.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/UserServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp"
 }
 ]

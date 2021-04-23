@@ -63,12 +63,12 @@ CMAKE_BINARY_DIR = /home/ubuntu/ByteTalk/UserService/build
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/UserServer.dir/all
+src/all: src/CMakeFiles/UserService.dir/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/UserServer.dir/clean
+src/clean: src/CMakeFiles/UserService.dir/clean
 
 .PHONY : src/clean
 
@@ -78,39 +78,130 @@ src/preinstall:
 .PHONY : src/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/UserServer.dir
+# Target rules for target src/CMakeFiles/UserService.dir
 
 # All Build rule for target.
-src/CMakeFiles/UserServer.dir/all:
-	$(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/depend
-	$(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target UserServer"
-.PHONY : src/CMakeFiles/UserServer.dir/all
+src/CMakeFiles/UserService.dir/all:
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/depend
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target UserService"
+.PHONY : src/CMakeFiles/UserService.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/UserServer.dir/all
+all: src/CMakeFiles/UserService.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/UserServer.dir/rule: cmake_check_build_system
+src/CMakeFiles/UserService.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/UserService/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/UserServer.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/UserService.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/UserService/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/UserServer.dir/rule
+.PHONY : src/CMakeFiles/UserService.dir/rule
 
 # Convenience name for target.
-UserServer: src/CMakeFiles/UserServer.dir/rule
+UserService: src/CMakeFiles/UserService.dir/rule
+
+.PHONY : UserService
+
+# clean rule for target.
+src/CMakeFiles/UserService.dir/clean:
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/clean
+.PHONY : src/CMakeFiles/UserService.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/UserService.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/all: auxiliary_process/UserService_Sub/all
+
+.PHONY : auxiliary_process/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/clean: auxiliary_process/UserService_Sub/clean
+
+.PHONY : auxiliary_process/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/preinstall: auxiliary_process/UserService_Sub/preinstall
+
+.PHONY : auxiliary_process/preinstall
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process/UserService_Sub
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/UserService_Sub/all: auxiliary_process/UserService_Sub/src/all
+
+.PHONY : auxiliary_process/UserService_Sub/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/UserService_Sub/clean: auxiliary_process/UserService_Sub/src/clean
+
+.PHONY : auxiliary_process/UserService_Sub/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/UserService_Sub/preinstall: auxiliary_process/UserService_Sub/src/preinstall
+
+.PHONY : auxiliary_process/UserService_Sub/preinstall
+
+#=============================================================================
+# Directory level rules for directory auxiliary_process/UserService_Sub/src
+
+# Convenience name for "all" pass in the directory.
+auxiliary_process/UserService_Sub/src/all: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/all
+
+.PHONY : auxiliary_process/UserService_Sub/src/all
+
+# Convenience name for "clean" pass in the directory.
+auxiliary_process/UserService_Sub/src/clean: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/clean
+
+.PHONY : auxiliary_process/UserService_Sub/src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+auxiliary_process/UserService_Sub/src/preinstall:
+
+.PHONY : auxiliary_process/UserService_Sub/src/preinstall
+
+#=============================================================================
+# Target rules for target auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir
+
+# All Build rule for target.
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/all:
+	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/depend
+	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target UserServer"
+.PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/all
+
+# Include target in all.
+all: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/UserService/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/UserService/build/CMakeFiles 0
+.PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/rule
+
+# Convenience name for target.
+UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/rule
 
 .PHONY : UserServer
 
 # clean rule for target.
-src/CMakeFiles/UserServer.dir/clean:
-	$(MAKE) -f src/CMakeFiles/UserServer.dir/build.make src/CMakeFiles/UserServer.dir/clean
-.PHONY : src/CMakeFiles/UserServer.dir/clean
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/clean:
+	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/clean
+.PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/clean
 
 # clean rule for target.
-clean: src/CMakeFiles/UserServer.dir/clean
+clean: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/clean
 
 .PHONY : clean
 

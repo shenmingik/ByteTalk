@@ -1,0 +1,14 @@
+{
+    "cpptips.needLoadDir": [
+        "/bin/",
+        "/build/",
+        "/configure/",
+        "/include/",
+        "/proto/",
+        "/src/"
+    ],
+    "files.associations": {
+        "memory": "cpp",
+        "iostream": "cpp"
+    }
+}

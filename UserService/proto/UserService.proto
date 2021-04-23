@@ -1,17 +1,11 @@
 syntax = "proto3";
 
-package ik_login;
+package ik_UserService;
 import "google/protobuf/empty.proto";
 
 option cc_generic_services = true;
 
 // 有关登录的消息
-enum UserError
-{
-    OFFLINE = 0;
-    NOT_EXIST = 1;
-}
-
 message LoginRequest
 {
     int32 id = 1;
@@ -26,7 +20,6 @@ message UserInfo
 
 message ErrorMsg
 {
-    UserError error = 1;
     bytes message = 2;
 }
 

@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/UserServer.dir/LogServer.pb.cc.o CMakeFiles/UserServer.dir/UserServer.cpp.o CMakeFiles/UserServer.dir/UserServer.pb.cc.o CMakeFiles/UserServer.dir/run.cpp.o  -o ../../../../bin/UserServer -lrpc -lmysqlclient -lzookeeper_mt -lprotobuf -lmuduo_net -lmuduo_base -lPool -lpthread 

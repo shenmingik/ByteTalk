@@ -17,7 +17,7 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 
-namespace ik_login {
+namespace ik_UserService {
 
 namespace {
 
@@ -45,7 +45,6 @@ const ::google::protobuf::internal::GeneratedMessageReflection*
 const ::google::protobuf::Descriptor* LoginOutRequest_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
   LoginOutRequest_reflection_ = NULL;
-const ::google::protobuf::EnumDescriptor* UserError_descriptor_ = NULL;
 const ::google::protobuf::ServiceDescriptor* UserServiceRpc_descriptor_ = NULL;
 
 }  // namespace
@@ -91,8 +90,7 @@ void protobuf_AssignDesc_UserService_2eproto() {
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, _is_default_instance_));
   ErrorMsg_descriptor_ = file->message_type(2);
-  static const int ErrorMsg_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ErrorMsg, error_),
+  static const int ErrorMsg_offsets_[1] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ErrorMsg, message_),
   };
   ErrorMsg_reflection_ =
@@ -189,7 +187,6 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(LoginOutRequest),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginOutRequest, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginOutRequest, _is_default_instance_));
-  UserError_descriptor_ = file->enum_type(0);
   UserServiceRpc_descriptor_ = file->service(0);
 }
 
@@ -252,27 +249,27 @@ void protobuf_AddDesc_UserService_2eproto() {
 
   ::google::protobuf::protobuf_AddDesc_google_2fprotobuf_2fempty_2eproto();
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\021UserService.proto\022\010ik_login\032\033google/pr"
-    "otobuf/empty.proto\",\n\014LoginRequest\022\n\n\002id"
-    "\030\001 \001(\005\022\020\n\010password\030\002 \001(\014\"$\n\010UserInfo\022\n\n\002"
-    "id\030\001 \001(\005\022\014\n\004name\030\002 \001(\014\"\?\n\010ErrorMsg\022\"\n\005er"
-    "ror\030\001 \001(\0162\023.ik_login.UserError\022\017\n\007messag"
-    "e\030\002 \001(\014\"H\n\tGroupInfo\022\n\n\002id\030\001 \001(\005\022\014\n\004name"
-    "\030\002 \001(\014\022!\n\005users\030\003 \003(\0132\022.ik_login.UserInf"
-    "o\"\242\001\n\014LoginReponse\022\022\n\nis_success\030\001 \001(\010\022\037"
-    "\n\003msg\030\002 \001(\0132\022.ik_login.ErrorMsg\022#\n\007frien"
-    "ds\030\003 \003(\0132\022.ik_login.UserInfo\022\023\n\013offline_"
-    "msg\030\004 \003(\014\022#\n\006groups\030\005 \003(\0132\023.ik_login.Gro"
-    "upInfo\"1\n\017RegisterRequest\022\014\n\004name\030\001 \001(\014\022"
-    "\020\n\010password\030\002 \001(\014\"2\n\020RegisterResponse\022\022\n"
-    "\nis_success\030\001 \001(\010\022\n\n\002id\030\002 \001(\005\"\035\n\017LoginOu"
-    "tRequest\022\n\n\002id\030\001 \001(\005*\'\n\tUserError\022\013\n\007OFF"
-    "LINE\020\000\022\r\n\tNOT_EXIST\020\0012\312\001\n\016UserServiceRpc"
-    "\0227\n\005Login\022\026.ik_login.LoginRequest\032\026.ik_l"
-    "ogin.LoginReponse\022@\n\007Registe\022\031.ik_login."
-    "RegisterRequest\032\032.ik_login.RegisterRespo"
-    "nse\022=\n\010LoginOut\022\031.ik_login.LoginOutReque"
-    "st\032\026.google.protobuf.EmptyB\003\200\001\001b\006proto3", 839);
+    "\n\021UserService.proto\022\016ik_UserService\032\033goo"
+    "gle/protobuf/empty.proto\",\n\014LoginRequest"
+    "\022\n\n\002id\030\001 \001(\005\022\020\n\010password\030\002 \001(\014\"$\n\010UserIn"
+    "fo\022\n\n\002id\030\001 \001(\005\022\014\n\004name\030\002 \001(\014\"\033\n\010ErrorMsg"
+    "\022\017\n\007message\030\002 \001(\014\"N\n\tGroupInfo\022\n\n\002id\030\001 \001"
+    "(\005\022\014\n\004name\030\002 \001(\014\022\'\n\005users\030\003 \003(\0132\030.ik_Use"
+    "rService.UserInfo\"\264\001\n\014LoginReponse\022\022\n\nis"
+    "_success\030\001 \001(\010\022%\n\003msg\030\002 \001(\0132\030.ik_UserSer"
+    "vice.ErrorMsg\022)\n\007friends\030\003 \003(\0132\030.ik_User"
+    "Service.UserInfo\022\023\n\013offline_msg\030\004 \003(\014\022)\n"
+    "\006groups\030\005 \003(\0132\031.ik_UserService.GroupInfo"
+    "\"1\n\017RegisterRequest\022\014\n\004name\030\001 \001(\014\022\020\n\010pas"
+    "sword\030\002 \001(\014\"2\n\020RegisterResponse\022\022\n\nis_su"
+    "ccess\030\001 \001(\010\022\n\n\002id\030\002 \001(\005\"\035\n\017LoginOutReque"
+    "st\022\n\n\002id\030\001 \001(\0052\350\001\n\016UserServiceRpc\022C\n\005Log"
+    "in\022\034.ik_UserService.LoginRequest\032\034.ik_Us"
+    "erService.LoginReponse\022L\n\007Registe\022\037.ik_U"
+    "serService.RegisterRequest\032 .ik_UserServ"
+    "ice.RegisterResponse\022C\n\010LoginOut\022\037.ik_Us"
+    "erService.LoginOutRequest\032\026.google.proto"
+    "buf.EmptyB\003\200\001\001b\006proto3", 822);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "UserService.proto", &protobuf_RegisterTypes);
   LoginRequest::default_instance_ = new LoginRequest();
@@ -300,20 +297,6 @@ struct StaticDescriptorInitializer_UserService_2eproto {
     protobuf_AddDesc_UserService_2eproto();
   }
 } static_descriptor_initializer_UserService_2eproto_;
-const ::google::protobuf::EnumDescriptor* UserError_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return UserError_descriptor_;
-}
-bool UserError_IsValid(int value) {
-  switch(value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
 
 // ===================================================================
 
@@ -325,7 +308,7 @@ const int LoginRequest::kPasswordFieldNumber;
 LoginRequest::LoginRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.LoginRequest)
+  // @@protoc_insertion_point(constructor:ik_UserService.LoginRequest)
 }
 
 void LoginRequest::InitAsDefaultInstance() {
@@ -337,7 +320,7 @@ LoginRequest::LoginRequest(const LoginRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.LoginRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.LoginRequest)
 }
 
 void LoginRequest::SharedCtor() {
@@ -349,7 +332,7 @@ void LoginRequest::SharedCtor() {
 }
 
 LoginRequest::~LoginRequest() {
-  // @@protoc_insertion_point(destructor:ik_login.LoginRequest)
+  // @@protoc_insertion_point(destructor:ik_UserService.LoginRequest)
   SharedDtor();
 }
 
@@ -385,7 +368,7 @@ LoginRequest* LoginRequest::New(::google::protobuf::Arena* arena) const {
 }
 
 void LoginRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.LoginRequest)
   id_ = 0;
   password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -394,7 +377,7 @@ bool LoginRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.LoginRequest)
+  // @@protoc_insertion_point(parse_start:ik_UserService.LoginRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -440,17 +423,17 @@ bool LoginRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.LoginRequest)
+  // @@protoc_insertion_point(parse_success:ik_UserService.LoginRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.LoginRequest)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.LoginRequest)
   return false;
 #undef DO_
 }
 
 void LoginRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.LoginRequest)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.LoginRequest)
   // optional int32 id = 1;
   if (this->id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
@@ -462,12 +445,12 @@ void LoginRequest::SerializeWithCachedSizes(
       2, this->password(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.LoginRequest)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.LoginRequest)
 }
 
 ::google::protobuf::uint8* LoginRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.LoginRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.LoginRequest)
   // optional int32 id = 1;
   if (this->id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
@@ -480,12 +463,12 @@ void LoginRequest::SerializeWithCachedSizes(
         2, this->password(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.LoginRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.LoginRequest)
   return target;
 }
 
 int LoginRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.LoginRequest)
   int total_size = 0;
 
   // optional int32 id = 1;
@@ -509,7 +492,7 @@ int LoginRequest::ByteSize() const {
 }
 
 void LoginRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.LoginRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -517,16 +500,16 @@ void LoginRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const LoginRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.LoginRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.LoginRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.LoginRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.LoginRequest)
     MergeFrom(*source);
   }
 }
 
 void LoginRequest::MergeFrom(const LoginRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.LoginRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -540,14 +523,14 @@ void LoginRequest::MergeFrom(const LoginRequest& from) {
 }
 
 void LoginRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.LoginRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void LoginRequest::CopyFrom(const LoginRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.LoginRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.LoginRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -585,13 +568,13 @@ void LoginRequest::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 LoginRequest::id() const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginRequest.id)
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginRequest.id)
   return id_;
 }
  void LoginRequest::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.LoginRequest.id)
+  // @@protoc_insertion_point(field_set:ik_UserService.LoginRequest.id)
 }
 
 // optional bytes password = 2;
@@ -599,32 +582,32 @@ void LoginRequest::clear_password() {
   password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& LoginRequest::password() const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginRequest.password)
   return password_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void LoginRequest::set_password(const ::std::string& value) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_set:ik_UserService.LoginRequest.password)
 }
  void LoginRequest::set_password(const char* value) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.LoginRequest.password)
 }
  void LoginRequest::set_password(const void* value, size_t size) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.LoginRequest.password)
 }
  ::std::string* LoginRequest::mutable_password() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginRequest.password)
   return password_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* LoginRequest::release_password() {
-  // @@protoc_insertion_point(field_release:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_release:ik_UserService.LoginRequest.password)
   
   return password_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -635,7 +618,7 @@ void LoginRequest::clear_password() {
     
   }
   password_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), password);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.LoginRequest.password)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.LoginRequest.password)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -650,7 +633,7 @@ const int UserInfo::kNameFieldNumber;
 UserInfo::UserInfo()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.UserInfo)
+  // @@protoc_insertion_point(constructor:ik_UserService.UserInfo)
 }
 
 void UserInfo::InitAsDefaultInstance() {
@@ -662,7 +645,7 @@ UserInfo::UserInfo(const UserInfo& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.UserInfo)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.UserInfo)
 }
 
 void UserInfo::SharedCtor() {
@@ -674,7 +657,7 @@ void UserInfo::SharedCtor() {
 }
 
 UserInfo::~UserInfo() {
-  // @@protoc_insertion_point(destructor:ik_login.UserInfo)
+  // @@protoc_insertion_point(destructor:ik_UserService.UserInfo)
   SharedDtor();
 }
 
@@ -710,7 +693,7 @@ UserInfo* UserInfo::New(::google::protobuf::Arena* arena) const {
 }
 
 void UserInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.UserInfo)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.UserInfo)
   id_ = 0;
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -719,7 +702,7 @@ bool UserInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.UserInfo)
+  // @@protoc_insertion_point(parse_start:ik_UserService.UserInfo)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -765,17 +748,17 @@ bool UserInfo::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.UserInfo)
+  // @@protoc_insertion_point(parse_success:ik_UserService.UserInfo)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.UserInfo)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.UserInfo)
   return false;
 #undef DO_
 }
 
 void UserInfo::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.UserInfo)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.UserInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
@@ -787,12 +770,12 @@ void UserInfo::SerializeWithCachedSizes(
       2, this->name(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.UserInfo)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.UserInfo)
 }
 
 ::google::protobuf::uint8* UserInfo::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.UserInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.UserInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
@@ -805,12 +788,12 @@ void UserInfo::SerializeWithCachedSizes(
         2, this->name(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.UserInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.UserInfo)
   return target;
 }
 
 int UserInfo::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.UserInfo)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.UserInfo)
   int total_size = 0;
 
   // optional int32 id = 1;
@@ -834,7 +817,7 @@ int UserInfo::ByteSize() const {
 }
 
 void UserInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.UserInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.UserInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -842,16 +825,16 @@ void UserInfo::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const UserInfo>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.UserInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.UserInfo)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.UserInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.UserInfo)
     MergeFrom(*source);
   }
 }
 
 void UserInfo::MergeFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.UserInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.UserInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -865,14 +848,14 @@ void UserInfo::MergeFrom(const UserInfo& from) {
 }
 
 void UserInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.UserInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.UserInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void UserInfo::CopyFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.UserInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.UserInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -910,13 +893,13 @@ void UserInfo::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 UserInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_login.UserInfo.id)
+  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.id)
   return id_;
 }
  void UserInfo::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.UserInfo.id)
+  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.id)
 }
 
 // optional bytes name = 2;
@@ -924,32 +907,32 @@ void UserInfo::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& UserInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.name)
   return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void UserInfo::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.name)
 }
  void UserInfo::set_name(const char* value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.UserInfo.name)
 }
  void UserInfo::set_name(const void* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.UserInfo.name)
 }
  ::std::string* UserInfo::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.UserInfo.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* UserInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_release:ik_UserService.UserInfo.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -960,7 +943,7 @@ void UserInfo::clear_name() {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.UserInfo.name)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.UserInfo.name)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -968,14 +951,13 @@ void UserInfo::clear_name() {
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ErrorMsg::kErrorFieldNumber;
 const int ErrorMsg::kMessageFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 ErrorMsg::ErrorMsg()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(constructor:ik_UserService.ErrorMsg)
 }
 
 void ErrorMsg::InitAsDefaultInstance() {
@@ -987,19 +969,18 @@ ErrorMsg::ErrorMsg(const ErrorMsg& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.ErrorMsg)
 }
 
 void ErrorMsg::SharedCtor() {
     _is_default_instance_ = false;
   ::google::protobuf::internal::GetEmptyString();
   _cached_size_ = 0;
-  error_ = 0;
   message_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
 
 ErrorMsg::~ErrorMsg() {
-  // @@protoc_insertion_point(destructor:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(destructor:ik_UserService.ErrorMsg)
   SharedDtor();
 }
 
@@ -1035,8 +1016,7 @@ ErrorMsg* ErrorMsg::New(::google::protobuf::Arena* arena) const {
 }
 
 void ErrorMsg::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.ErrorMsg)
-  error_ = 0;
+// @@protoc_insertion_point(message_clear_start:ik_UserService.ErrorMsg)
   message_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
 
@@ -1044,31 +1024,15 @@ bool ErrorMsg::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(parse_start:ik_UserService.ErrorMsg)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional .ik_login.UserError error = 1;
-      case 1: {
-        if (tag == 8) {
-          int value;
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
-                 input, &value)));
-          set_error(static_cast< ::ik_login::UserError >(value));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(18)) goto parse_message;
-        break;
-      }
-
       // optional bytes message = 2;
       case 2: {
         if (tag == 18) {
-         parse_message:
           DO_(::google::protobuf::internal::WireFormatLite::ReadBytes(
                 input, this->mutable_message()));
         } else {
@@ -1091,41 +1055,29 @@ bool ErrorMsg::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(parse_success:ik_UserService.ErrorMsg)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.ErrorMsg)
   return false;
 #undef DO_
 }
 
 void ErrorMsg::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.ErrorMsg)
-  // optional .ik_login.UserError error = 1;
-  if (this->error() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteEnum(
-      1, this->error(), output);
-  }
-
+  // @@protoc_insertion_point(serialize_start:ik_UserService.ErrorMsg)
   // optional bytes message = 2;
   if (this->message().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(
       2, this->message(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.ErrorMsg)
 }
 
 ::google::protobuf::uint8* ErrorMsg::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.ErrorMsg)
-  // optional .ik_login.UserError error = 1;
-  if (this->error() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
-      1, this->error(), target);
-  }
-
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.ErrorMsg)
   // optional bytes message = 2;
   if (this->message().size() > 0) {
     target =
@@ -1133,19 +1085,13 @@ void ErrorMsg::SerializeWithCachedSizes(
         2, this->message(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.ErrorMsg)
   return target;
 }
 
 int ErrorMsg::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.ErrorMsg)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.ErrorMsg)
   int total_size = 0;
-
-  // optional .ik_login.UserError error = 1;
-  if (this->error() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::EnumSize(this->error());
-  }
 
   // optional bytes message = 2;
   if (this->message().size() > 0) {
@@ -1161,7 +1107,7 @@ int ErrorMsg::ByteSize() const {
 }
 
 void ErrorMsg::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.ErrorMsg)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.ErrorMsg)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1169,21 +1115,18 @@ void ErrorMsg::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const ErrorMsg>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.ErrorMsg)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.ErrorMsg)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.ErrorMsg)
     MergeFrom(*source);
   }
 }
 
 void ErrorMsg::MergeFrom(const ErrorMsg& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.ErrorMsg)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.ErrorMsg)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  if (from.error() != 0) {
-    set_error(from.error());
   }
   if (from.message().size() > 0) {
 
@@ -1192,14 +1135,14 @@ void ErrorMsg::MergeFrom(const ErrorMsg& from) {
 }
 
 void ErrorMsg::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.ErrorMsg)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.ErrorMsg)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ErrorMsg::CopyFrom(const ErrorMsg& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.ErrorMsg)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.ErrorMsg)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1215,7 +1158,6 @@ void ErrorMsg::Swap(ErrorMsg* other) {
   InternalSwap(other);
 }
 void ErrorMsg::InternalSwap(ErrorMsg* other) {
-  std::swap(error_, other->error_);
   message_.Swap(&other->message_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
   std::swap(_cached_size_, other->_cached_size_);
@@ -1232,51 +1174,37 @@ void ErrorMsg::InternalSwap(ErrorMsg* other) {
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // ErrorMsg
 
-// optional .ik_login.UserError error = 1;
-void ErrorMsg::clear_error() {
-  error_ = 0;
-}
- ::ik_login::UserError ErrorMsg::error() const {
-  // @@protoc_insertion_point(field_get:ik_login.ErrorMsg.error)
-  return static_cast< ::ik_login::UserError >(error_);
-}
- void ErrorMsg::set_error(::ik_login::UserError value) {
-  
-  error_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.ErrorMsg.error)
-}
-
 // optional bytes message = 2;
 void ErrorMsg::clear_message() {
   message_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& ErrorMsg::message() const {
-  // @@protoc_insertion_point(field_get:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_get:ik_UserService.ErrorMsg.message)
   return message_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void ErrorMsg::set_message(const ::std::string& value) {
   
   message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_set:ik_UserService.ErrorMsg.message)
 }
  void ErrorMsg::set_message(const char* value) {
   
   message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.ErrorMsg.message)
 }
  void ErrorMsg::set_message(const void* value, size_t size) {
   
   message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.ErrorMsg.message)
 }
  ::std::string* ErrorMsg::mutable_message() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.ErrorMsg.message)
   return message_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* ErrorMsg::release_message() {
-  // @@protoc_insertion_point(field_release:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_release:ik_UserService.ErrorMsg.message)
   
   return message_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1287,7 +1215,7 @@ void ErrorMsg::clear_message() {
     
   }
   message_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), message);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.ErrorMsg.message)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.ErrorMsg.message)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -1303,7 +1231,7 @@ const int GroupInfo::kUsersFieldNumber;
 GroupInfo::GroupInfo()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.GroupInfo)
+  // @@protoc_insertion_point(constructor:ik_UserService.GroupInfo)
 }
 
 void GroupInfo::InitAsDefaultInstance() {
@@ -1315,7 +1243,7 @@ GroupInfo::GroupInfo(const GroupInfo& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.GroupInfo)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.GroupInfo)
 }
 
 void GroupInfo::SharedCtor() {
@@ -1327,7 +1255,7 @@ void GroupInfo::SharedCtor() {
 }
 
 GroupInfo::~GroupInfo() {
-  // @@protoc_insertion_point(destructor:ik_login.GroupInfo)
+  // @@protoc_insertion_point(destructor:ik_UserService.GroupInfo)
   SharedDtor();
 }
 
@@ -1363,7 +1291,7 @@ GroupInfo* GroupInfo::New(::google::protobuf::Arena* arena) const {
 }
 
 void GroupInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.GroupInfo)
   id_ = 0;
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   users_.Clear();
@@ -1373,7 +1301,7 @@ bool GroupInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.GroupInfo)
+  // @@protoc_insertion_point(parse_start:ik_UserService.GroupInfo)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1406,7 +1334,7 @@ bool GroupInfo::MergePartialFromCodedStream(
         break;
       }
 
-      // repeated .ik_login.UserInfo users = 3;
+      // repeated .ik_UserService.UserInfo users = 3;
       case 3: {
         if (tag == 26) {
          parse_users:
@@ -1436,17 +1364,17 @@ bool GroupInfo::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.GroupInfo)
+  // @@protoc_insertion_point(parse_success:ik_UserService.GroupInfo)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.GroupInfo)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.GroupInfo)
   return false;
 #undef DO_
 }
 
 void GroupInfo::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.GroupInfo)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.GroupInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
@@ -1458,18 +1386,18 @@ void GroupInfo::SerializeWithCachedSizes(
       2, this->name(), output);
   }
 
-  // repeated .ik_login.UserInfo users = 3;
+  // repeated .ik_UserService.UserInfo users = 3;
   for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       3, this->users(i), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.GroupInfo)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.GroupInfo)
 }
 
 ::google::protobuf::uint8* GroupInfo::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.GroupInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.GroupInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
@@ -1482,19 +1410,19 @@ void GroupInfo::SerializeWithCachedSizes(
         2, this->name(), target);
   }
 
-  // repeated .ik_login.UserInfo users = 3;
+  // repeated .ik_UserService.UserInfo users = 3;
   for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
         3, this->users(i), false, target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.GroupInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.GroupInfo)
   return target;
 }
 
 int GroupInfo::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.GroupInfo)
   int total_size = 0;
 
   // optional int32 id = 1;
@@ -1511,7 +1439,7 @@ int GroupInfo::ByteSize() const {
         this->name());
   }
 
-  // repeated .ik_login.UserInfo users = 3;
+  // repeated .ik_UserService.UserInfo users = 3;
   total_size += 1 * this->users_size();
   for (int i = 0; i < this->users_size(); i++) {
     total_size +=
@@ -1526,7 +1454,7 @@ int GroupInfo::ByteSize() const {
 }
 
 void GroupInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.GroupInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1534,16 +1462,16 @@ void GroupInfo::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const GroupInfo>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.GroupInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.GroupInfo)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.GroupInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.GroupInfo)
     MergeFrom(*source);
   }
 }
 
 void GroupInfo::MergeFrom(const GroupInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.GroupInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1558,14 +1486,14 @@ void GroupInfo::MergeFrom(const GroupInfo& from) {
 }
 
 void GroupInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.GroupInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void GroupInfo::CopyFrom(const GroupInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.GroupInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.GroupInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1604,13 +1532,13 @@ void GroupInfo::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 GroupInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_login.GroupInfo.id)
+  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.id)
   return id_;
 }
  void GroupInfo::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.GroupInfo.id)
+  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.id)
 }
 
 // optional bytes name = 2;
@@ -1618,32 +1546,32 @@ void GroupInfo::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& GroupInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.name)
   return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void GroupInfo::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.name)
 }
  void GroupInfo::set_name(const char* value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.GroupInfo.name)
 }
  void GroupInfo::set_name(const void* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.GroupInfo.name)
 }
  ::std::string* GroupInfo::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* GroupInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_release:ik_UserService.GroupInfo.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1654,36 +1582,36 @@ void GroupInfo::clear_name() {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.GroupInfo.name)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.GroupInfo.name)
 }
 
-// repeated .ik_login.UserInfo users = 3;
+// repeated .ik_UserService.UserInfo users = 3;
 int GroupInfo::users_size() const {
   return users_.size();
 }
 void GroupInfo::clear_users() {
   users_.Clear();
 }
-const ::ik_login::UserInfo& GroupInfo::users(int index) const {
-  // @@protoc_insertion_point(field_get:ik_login.GroupInfo.users)
+const ::ik_UserService::UserInfo& GroupInfo::users(int index) const {
+  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.users)
   return users_.Get(index);
 }
-::ik_login::UserInfo* GroupInfo::mutable_users(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_login.GroupInfo.users)
+::ik_UserService::UserInfo* GroupInfo::mutable_users(int index) {
+  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.users)
   return users_.Mutable(index);
 }
-::ik_login::UserInfo* GroupInfo::add_users() {
-  // @@protoc_insertion_point(field_add:ik_login.GroupInfo.users)
+::ik_UserService::UserInfo* GroupInfo::add_users() {
+  // @@protoc_insertion_point(field_add:ik_UserService.GroupInfo.users)
   return users_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::ik_login::UserInfo >*
+::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
 GroupInfo::mutable_users() {
-  // @@protoc_insertion_point(field_mutable_list:ik_login.GroupInfo.users)
+  // @@protoc_insertion_point(field_mutable_list:ik_UserService.GroupInfo.users)
   return &users_;
 }
-const ::google::protobuf::RepeatedPtrField< ::ik_login::UserInfo >&
+const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
 GroupInfo::users() const {
-  // @@protoc_insertion_point(field_list:ik_login.GroupInfo.users)
+  // @@protoc_insertion_point(field_list:ik_UserService.GroupInfo.users)
   return users_;
 }
 
@@ -1702,12 +1630,12 @@ const int LoginReponse::kGroupsFieldNumber;
 LoginReponse::LoginReponse()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.LoginReponse)
+  // @@protoc_insertion_point(constructor:ik_UserService.LoginReponse)
 }
 
 void LoginReponse::InitAsDefaultInstance() {
   _is_default_instance_ = true;
-  msg_ = const_cast< ::ik_login::ErrorMsg*>(&::ik_login::ErrorMsg::default_instance());
+  msg_ = const_cast< ::ik_UserService::ErrorMsg*>(&::ik_UserService::ErrorMsg::default_instance());
 }
 
 LoginReponse::LoginReponse(const LoginReponse& from)
@@ -1715,7 +1643,7 @@ LoginReponse::LoginReponse(const LoginReponse& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.LoginReponse)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.LoginReponse)
 }
 
 void LoginReponse::SharedCtor() {
@@ -1727,7 +1655,7 @@ void LoginReponse::SharedCtor() {
 }
 
 LoginReponse::~LoginReponse() {
-  // @@protoc_insertion_point(destructor:ik_login.LoginReponse)
+  // @@protoc_insertion_point(destructor:ik_UserService.LoginReponse)
   SharedDtor();
 }
 
@@ -1763,7 +1691,7 @@ LoginReponse* LoginReponse::New(::google::protobuf::Arena* arena) const {
 }
 
 void LoginReponse::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.LoginReponse)
   is_success_ = false;
   if (GetArenaNoVirtual() == NULL && msg_ != NULL) delete msg_;
   msg_ = NULL;
@@ -1776,7 +1704,7 @@ bool LoginReponse::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.LoginReponse)
+  // @@protoc_insertion_point(parse_start:ik_UserService.LoginReponse)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1796,7 +1724,7 @@ bool LoginReponse::MergePartialFromCodedStream(
         break;
       }
 
-      // optional .ik_login.ErrorMsg msg = 2;
+      // optional .ik_UserService.ErrorMsg msg = 2;
       case 2: {
         if (tag == 18) {
          parse_msg:
@@ -1809,7 +1737,7 @@ bool LoginReponse::MergePartialFromCodedStream(
         break;
       }
 
-      // repeated .ik_login.UserInfo friends = 3;
+      // repeated .ik_UserService.UserInfo friends = 3;
       case 3: {
         if (tag == 26) {
          parse_friends:
@@ -1840,7 +1768,7 @@ bool LoginReponse::MergePartialFromCodedStream(
         break;
       }
 
-      // repeated .ik_login.GroupInfo groups = 5;
+      // repeated .ik_UserService.GroupInfo groups = 5;
       case 5: {
         if (tag == 42) {
          parse_groups:
@@ -1870,29 +1798,29 @@ bool LoginReponse::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.LoginReponse)
+  // @@protoc_insertion_point(parse_success:ik_UserService.LoginReponse)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.LoginReponse)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.LoginReponse)
   return false;
 #undef DO_
 }
 
 void LoginReponse::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.LoginReponse)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.LoginReponse)
   // optional bool is_success = 1;
   if (this->is_success() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBool(1, this->is_success(), output);
   }
 
-  // optional .ik_login.ErrorMsg msg = 2;
+  // optional .ik_UserService.ErrorMsg msg = 2;
   if (this->has_msg()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       2, *this->msg_, output);
   }
 
-  // repeated .ik_login.UserInfo friends = 3;
+  // repeated .ik_UserService.UserInfo friends = 3;
   for (unsigned int i = 0, n = this->friends_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       3, this->friends(i), output);
@@ -1904,31 +1832,31 @@ void LoginReponse::SerializeWithCachedSizes(
       4, this->offline_msg(i), output);
   }
 
-  // repeated .ik_login.GroupInfo groups = 5;
+  // repeated .ik_UserService.GroupInfo groups = 5;
   for (unsigned int i = 0, n = this->groups_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       5, this->groups(i), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.LoginReponse)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.LoginReponse)
 }
 
 ::google::protobuf::uint8* LoginReponse::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.LoginReponse)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.LoginReponse)
   // optional bool is_success = 1;
   if (this->is_success() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(1, this->is_success(), target);
   }
 
-  // optional .ik_login.ErrorMsg msg = 2;
+  // optional .ik_UserService.ErrorMsg msg = 2;
   if (this->has_msg()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
         2, *this->msg_, false, target);
   }
 
-  // repeated .ik_login.UserInfo friends = 3;
+  // repeated .ik_UserService.UserInfo friends = 3;
   for (unsigned int i = 0, n = this->friends_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
@@ -1941,19 +1869,19 @@ void LoginReponse::SerializeWithCachedSizes(
       WriteBytesToArray(4, this->offline_msg(i), target);
   }
 
-  // repeated .ik_login.GroupInfo groups = 5;
+  // repeated .ik_UserService.GroupInfo groups = 5;
   for (unsigned int i = 0, n = this->groups_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
         5, this->groups(i), false, target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.LoginReponse)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.LoginReponse)
   return target;
 }
 
 int LoginReponse::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.LoginReponse)
   int total_size = 0;
 
   // optional bool is_success = 1;
@@ -1961,14 +1889,14 @@ int LoginReponse::ByteSize() const {
     total_size += 1 + 1;
   }
 
-  // optional .ik_login.ErrorMsg msg = 2;
+  // optional .ik_UserService.ErrorMsg msg = 2;
   if (this->has_msg()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->msg_);
   }
 
-  // repeated .ik_login.UserInfo friends = 3;
+  // repeated .ik_UserService.UserInfo friends = 3;
   total_size += 1 * this->friends_size();
   for (int i = 0; i < this->friends_size(); i++) {
     total_size +=
@@ -1983,7 +1911,7 @@ int LoginReponse::ByteSize() const {
       this->offline_msg(i));
   }
 
-  // repeated .ik_login.GroupInfo groups = 5;
+  // repeated .ik_UserService.GroupInfo groups = 5;
   total_size += 1 * this->groups_size();
   for (int i = 0; i < this->groups_size(); i++) {
     total_size +=
@@ -1998,7 +1926,7 @@ int LoginReponse::ByteSize() const {
 }
 
 void LoginReponse::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.LoginReponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2006,16 +1934,16 @@ void LoginReponse::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const LoginReponse>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.LoginReponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.LoginReponse)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.LoginReponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.LoginReponse)
     MergeFrom(*source);
   }
 }
 
 void LoginReponse::MergeFrom(const LoginReponse& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.LoginReponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2026,19 +1954,19 @@ void LoginReponse::MergeFrom(const LoginReponse& from) {
     set_is_success(from.is_success());
   }
   if (from.has_msg()) {
-    mutable_msg()->::ik_login::ErrorMsg::MergeFrom(from.msg());
+    mutable_msg()->::ik_UserService::ErrorMsg::MergeFrom(from.msg());
   }
 }
 
 void LoginReponse::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.LoginReponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void LoginReponse::CopyFrom(const LoginReponse& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.LoginReponse)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.LoginReponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2079,16 +2007,16 @@ void LoginReponse::clear_is_success() {
   is_success_ = false;
 }
  bool LoginReponse::is_success() const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginReponse.is_success)
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.is_success)
   return is_success_;
 }
  void LoginReponse::set_is_success(bool value) {
   
   is_success_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.LoginReponse.is_success)
+  // @@protoc_insertion_point(field_set:ik_UserService.LoginReponse.is_success)
 }
 
-// optional .ik_login.ErrorMsg msg = 2;
+// optional .ik_UserService.ErrorMsg msg = 2;
 bool LoginReponse::has_msg() const {
   return !_is_default_instance_ && msg_ != NULL;
 }
@@ -2096,26 +2024,26 @@ void LoginReponse::clear_msg() {
   if (GetArenaNoVirtual() == NULL && msg_ != NULL) delete msg_;
   msg_ = NULL;
 }
-const ::ik_login::ErrorMsg& LoginReponse::msg() const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginReponse.msg)
+const ::ik_UserService::ErrorMsg& LoginReponse::msg() const {
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.msg)
   return msg_ != NULL ? *msg_ : *default_instance_->msg_;
 }
-::ik_login::ErrorMsg* LoginReponse::mutable_msg() {
+::ik_UserService::ErrorMsg* LoginReponse::mutable_msg() {
   
   if (msg_ == NULL) {
-    msg_ = new ::ik_login::ErrorMsg;
+    msg_ = new ::ik_UserService::ErrorMsg;
   }
-  // @@protoc_insertion_point(field_mutable:ik_login.LoginReponse.msg)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.msg)
   return msg_;
 }
-::ik_login::ErrorMsg* LoginReponse::release_msg() {
-  // @@protoc_insertion_point(field_release:ik_login.LoginReponse.msg)
+::ik_UserService::ErrorMsg* LoginReponse::release_msg() {
+  // @@protoc_insertion_point(field_release:ik_UserService.LoginReponse.msg)
   
-  ::ik_login::ErrorMsg* temp = msg_;
+  ::ik_UserService::ErrorMsg* temp = msg_;
   msg_ = NULL;
   return temp;
 }
-void LoginReponse::set_allocated_msg(::ik_login::ErrorMsg* msg) {
+void LoginReponse::set_allocated_msg(::ik_UserService::ErrorMsg* msg) {
   delete msg_;
   msg_ = msg;
   if (msg) {
@@ -2123,36 +2051,36 @@ void LoginReponse::set_allocated_msg(::ik_login::ErrorMsg* msg) {
   } else {
     
   }
-  // @@protoc_insertion_point(field_set_allocated:ik_login.LoginReponse.msg)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.LoginReponse.msg)
 }
 
-// repeated .ik_login.UserInfo friends = 3;
+// repeated .ik_UserService.UserInfo friends = 3;
 int LoginReponse::friends_size() const {
   return friends_.size();
 }
 void LoginReponse::clear_friends() {
   friends_.Clear();
 }
-const ::ik_login::UserInfo& LoginReponse::friends(int index) const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginReponse.friends)
+const ::ik_UserService::UserInfo& LoginReponse::friends(int index) const {
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.friends)
   return friends_.Get(index);
 }
-::ik_login::UserInfo* LoginReponse::mutable_friends(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_login.LoginReponse.friends)
+::ik_UserService::UserInfo* LoginReponse::mutable_friends(int index) {
+  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.friends)
   return friends_.Mutable(index);
 }
-::ik_login::UserInfo* LoginReponse::add_friends() {
-  // @@protoc_insertion_point(field_add:ik_login.LoginReponse.friends)
+::ik_UserService::UserInfo* LoginReponse::add_friends() {
+  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.friends)
   return friends_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::ik_login::UserInfo >*
+::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
 LoginReponse::mutable_friends() {
-  // @@protoc_insertion_point(field_mutable_list:ik_login.LoginReponse.friends)
+  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.friends)
   return &friends_;
 }
-const ::google::protobuf::RepeatedPtrField< ::ik_login::UserInfo >&
+const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
 LoginReponse::friends() const {
-  // @@protoc_insertion_point(field_list:ik_login.LoginReponse.friends)
+  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.friends)
   return friends_;
 }
 
@@ -2164,80 +2092,80 @@ void LoginReponse::clear_offline_msg() {
   offline_msg_.Clear();
 }
  const ::std::string& LoginReponse::offline_msg(int index) const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.offline_msg)
   return offline_msg_.Get(index);
 }
  ::std::string* LoginReponse::mutable_offline_msg(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.offline_msg)
   return offline_msg_.Mutable(index);
 }
  void LoginReponse::set_offline_msg(int index, const ::std::string& value) {
-  // @@protoc_insertion_point(field_set:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_set:ik_UserService.LoginReponse.offline_msg)
   offline_msg_.Mutable(index)->assign(value);
 }
  void LoginReponse::set_offline_msg(int index, const char* value) {
   offline_msg_.Mutable(index)->assign(value);
-  // @@protoc_insertion_point(field_set_char:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.LoginReponse.offline_msg)
 }
  void LoginReponse::set_offline_msg(int index, const void* value, size_t size) {
   offline_msg_.Mutable(index)->assign(
     reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.LoginReponse.offline_msg)
 }
  ::std::string* LoginReponse::add_offline_msg() {
-  // @@protoc_insertion_point(field_add_mutable:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_add_mutable:ik_UserService.LoginReponse.offline_msg)
   return offline_msg_.Add();
 }
  void LoginReponse::add_offline_msg(const ::std::string& value) {
   offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.offline_msg)
 }
  void LoginReponse::add_offline_msg(const char* value) {
   offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add_char:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_add_char:ik_UserService.LoginReponse.offline_msg)
 }
  void LoginReponse::add_offline_msg(const void* value, size_t size) {
   offline_msg_.Add()->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_add_pointer:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_add_pointer:ik_UserService.LoginReponse.offline_msg)
 }
  const ::google::protobuf::RepeatedPtrField< ::std::string>&
 LoginReponse::offline_msg() const {
-  // @@protoc_insertion_point(field_list:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.offline_msg)
   return offline_msg_;
 }
  ::google::protobuf::RepeatedPtrField< ::std::string>*
 LoginReponse::mutable_offline_msg() {
-  // @@protoc_insertion_point(field_mutable_list:ik_login.LoginReponse.offline_msg)
+  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.offline_msg)
   return &offline_msg_;
 }
 
-// repeated .ik_login.GroupInfo groups = 5;
+// repeated .ik_UserService.GroupInfo groups = 5;
 int LoginReponse::groups_size() const {
   return groups_.size();
 }
 void LoginReponse::clear_groups() {
   groups_.Clear();
 }
-const ::ik_login::GroupInfo& LoginReponse::groups(int index) const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginReponse.groups)
+const ::ik_UserService::GroupInfo& LoginReponse::groups(int index) const {
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.groups)
   return groups_.Get(index);
 }
-::ik_login::GroupInfo* LoginReponse::mutable_groups(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_login.LoginReponse.groups)
+::ik_UserService::GroupInfo* LoginReponse::mutable_groups(int index) {
+  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.groups)
   return groups_.Mutable(index);
 }
-::ik_login::GroupInfo* LoginReponse::add_groups() {
-  // @@protoc_insertion_point(field_add:ik_login.LoginReponse.groups)
+::ik_UserService::GroupInfo* LoginReponse::add_groups() {
+  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.groups)
   return groups_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::ik_login::GroupInfo >*
+::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >*
 LoginReponse::mutable_groups() {
-  // @@protoc_insertion_point(field_mutable_list:ik_login.LoginReponse.groups)
+  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.groups)
   return &groups_;
 }
-const ::google::protobuf::RepeatedPtrField< ::ik_login::GroupInfo >&
+const ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >&
 LoginReponse::groups() const {
-  // @@protoc_insertion_point(field_list:ik_login.LoginReponse.groups)
+  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.groups)
   return groups_;
 }
 
@@ -2253,7 +2181,7 @@ const int RegisterRequest::kPasswordFieldNumber;
 RegisterRequest::RegisterRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(constructor:ik_UserService.RegisterRequest)
 }
 
 void RegisterRequest::InitAsDefaultInstance() {
@@ -2265,7 +2193,7 @@ RegisterRequest::RegisterRequest(const RegisterRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.RegisterRequest)
 }
 
 void RegisterRequest::SharedCtor() {
@@ -2277,7 +2205,7 @@ void RegisterRequest::SharedCtor() {
 }
 
 RegisterRequest::~RegisterRequest() {
-  // @@protoc_insertion_point(destructor:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(destructor:ik_UserService.RegisterRequest)
   SharedDtor();
 }
 
@@ -2314,7 +2242,7 @@ RegisterRequest* RegisterRequest::New(::google::protobuf::Arena* arena) const {
 }
 
 void RegisterRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.RegisterRequest)
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2323,7 +2251,7 @@ bool RegisterRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(parse_start:ik_UserService.RegisterRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -2367,17 +2295,17 @@ bool RegisterRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(parse_success:ik_UserService.RegisterRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.RegisterRequest)
   return false;
 #undef DO_
 }
 
 void RegisterRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.RegisterRequest)
   // optional bytes name = 1;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(
@@ -2390,12 +2318,12 @@ void RegisterRequest::SerializeWithCachedSizes(
       2, this->password(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.RegisterRequest)
 }
 
 ::google::protobuf::uint8* RegisterRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.RegisterRequest)
   // optional bytes name = 1;
   if (this->name().size() > 0) {
     target =
@@ -2410,12 +2338,12 @@ void RegisterRequest::SerializeWithCachedSizes(
         2, this->password(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.RegisterRequest)
   return target;
 }
 
 int RegisterRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.RegisterRequest)
   int total_size = 0;
 
   // optional bytes name = 1;
@@ -2439,7 +2367,7 @@ int RegisterRequest::ByteSize() const {
 }
 
 void RegisterRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.RegisterRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2447,16 +2375,16 @@ void RegisterRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const RegisterRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.RegisterRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.RegisterRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.RegisterRequest)
     MergeFrom(*source);
   }
 }
 
 void RegisterRequest::MergeFrom(const RegisterRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.RegisterRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2471,14 +2399,14 @@ void RegisterRequest::MergeFrom(const RegisterRequest& from) {
 }
 
 void RegisterRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.RegisterRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void RegisterRequest::CopyFrom(const RegisterRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.RegisterRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.RegisterRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2516,32 +2444,32 @@ void RegisterRequest::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& RegisterRequest::name() const {
-  // @@protoc_insertion_point(field_get:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_get:ik_UserService.RegisterRequest.name)
   return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void RegisterRequest::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_set:ik_UserService.RegisterRequest.name)
 }
  void RegisterRequest::set_name(const char* value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.RegisterRequest.name)
 }
  void RegisterRequest::set_name(const void* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.RegisterRequest.name)
 }
  ::std::string* RegisterRequest::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.RegisterRequest.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* RegisterRequest::release_name() {
-  // @@protoc_insertion_point(field_release:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_release:ik_UserService.RegisterRequest.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2552,7 +2480,7 @@ void RegisterRequest::clear_name() {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.RegisterRequest.name)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.RegisterRequest.name)
 }
 
 // optional bytes password = 2;
@@ -2560,32 +2488,32 @@ void RegisterRequest::clear_password() {
   password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& RegisterRequest::password() const {
-  // @@protoc_insertion_point(field_get:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_get:ik_UserService.RegisterRequest.password)
   return password_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void RegisterRequest::set_password(const ::std::string& value) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_set:ik_UserService.RegisterRequest.password)
 }
  void RegisterRequest::set_password(const char* value) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_set_char:ik_UserService.RegisterRequest.password)
 }
  void RegisterRequest::set_password(const void* value, size_t size) {
   
   password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_set_pointer:ik_UserService.RegisterRequest.password)
 }
  ::std::string* RegisterRequest::mutable_password() {
   
-  // @@protoc_insertion_point(field_mutable:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_mutable:ik_UserService.RegisterRequest.password)
   return password_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* RegisterRequest::release_password() {
-  // @@protoc_insertion_point(field_release:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_release:ik_UserService.RegisterRequest.password)
   
   return password_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2596,7 +2524,7 @@ void RegisterRequest::clear_password() {
     
   }
   password_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), password);
-  // @@protoc_insertion_point(field_set_allocated:ik_login.RegisterRequest.password)
+  // @@protoc_insertion_point(field_set_allocated:ik_UserService.RegisterRequest.password)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -2611,7 +2539,7 @@ const int RegisterResponse::kIdFieldNumber;
 RegisterResponse::RegisterResponse()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(constructor:ik_UserService.RegisterResponse)
 }
 
 void RegisterResponse::InitAsDefaultInstance() {
@@ -2623,7 +2551,7 @@ RegisterResponse::RegisterResponse(const RegisterResponse& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.RegisterResponse)
 }
 
 void RegisterResponse::SharedCtor() {
@@ -2634,7 +2562,7 @@ void RegisterResponse::SharedCtor() {
 }
 
 RegisterResponse::~RegisterResponse() {
-  // @@protoc_insertion_point(destructor:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(destructor:ik_UserService.RegisterResponse)
   SharedDtor();
 }
 
@@ -2669,7 +2597,7 @@ RegisterResponse* RegisterResponse::New(::google::protobuf::Arena* arena) const 
 }
 
 void RegisterResponse::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.RegisterResponse)
 #if defined(__clang__)
 #define ZR_HELPER_(f) \
   _Pragma("clang diagnostic push") \
@@ -2697,7 +2625,7 @@ bool RegisterResponse::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(parse_start:ik_UserService.RegisterResponse)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -2745,17 +2673,17 @@ bool RegisterResponse::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(parse_success:ik_UserService.RegisterResponse)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.RegisterResponse)
   return false;
 #undef DO_
 }
 
 void RegisterResponse::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.RegisterResponse)
   // optional bool is_success = 1;
   if (this->is_success() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBool(1, this->is_success(), output);
@@ -2766,12 +2694,12 @@ void RegisterResponse::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(2, this->id(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.RegisterResponse)
 }
 
 ::google::protobuf::uint8* RegisterResponse::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.RegisterResponse)
   // optional bool is_success = 1;
   if (this->is_success() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(1, this->is_success(), target);
@@ -2782,12 +2710,12 @@ void RegisterResponse::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(2, this->id(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.RegisterResponse)
   return target;
 }
 
 int RegisterResponse::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.RegisterResponse)
   int total_size = 0;
 
   // optional bool is_success = 1;
@@ -2809,7 +2737,7 @@ int RegisterResponse::ByteSize() const {
 }
 
 void RegisterResponse::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.RegisterResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2817,16 +2745,16 @@ void RegisterResponse::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const RegisterResponse>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.RegisterResponse)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.RegisterResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.RegisterResponse)
     MergeFrom(*source);
   }
 }
 
 void RegisterResponse::MergeFrom(const RegisterResponse& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.RegisterResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2839,14 +2767,14 @@ void RegisterResponse::MergeFrom(const RegisterResponse& from) {
 }
 
 void RegisterResponse::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.RegisterResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void RegisterResponse::CopyFrom(const RegisterResponse& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.RegisterResponse)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.RegisterResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2884,13 +2812,13 @@ void RegisterResponse::clear_is_success() {
   is_success_ = false;
 }
  bool RegisterResponse::is_success() const {
-  // @@protoc_insertion_point(field_get:ik_login.RegisterResponse.is_success)
+  // @@protoc_insertion_point(field_get:ik_UserService.RegisterResponse.is_success)
   return is_success_;
 }
  void RegisterResponse::set_is_success(bool value) {
   
   is_success_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.RegisterResponse.is_success)
+  // @@protoc_insertion_point(field_set:ik_UserService.RegisterResponse.is_success)
 }
 
 // optional int32 id = 2;
@@ -2898,13 +2826,13 @@ void RegisterResponse::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 RegisterResponse::id() const {
-  // @@protoc_insertion_point(field_get:ik_login.RegisterResponse.id)
+  // @@protoc_insertion_point(field_get:ik_UserService.RegisterResponse.id)
   return id_;
 }
  void RegisterResponse::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.RegisterResponse.id)
+  // @@protoc_insertion_point(field_set:ik_UserService.RegisterResponse.id)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -2918,7 +2846,7 @@ const int LoginOutRequest::kIdFieldNumber;
 LoginOutRequest::LoginOutRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(constructor:ik_UserService.LoginOutRequest)
 }
 
 void LoginOutRequest::InitAsDefaultInstance() {
@@ -2930,7 +2858,7 @@ LoginOutRequest::LoginOutRequest(const LoginOutRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_UserService.LoginOutRequest)
 }
 
 void LoginOutRequest::SharedCtor() {
@@ -2940,7 +2868,7 @@ void LoginOutRequest::SharedCtor() {
 }
 
 LoginOutRequest::~LoginOutRequest() {
-  // @@protoc_insertion_point(destructor:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(destructor:ik_UserService.LoginOutRequest)
   SharedDtor();
 }
 
@@ -2975,7 +2903,7 @@ LoginOutRequest* LoginOutRequest::New(::google::protobuf::Arena* arena) const {
 }
 
 void LoginOutRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(message_clear_start:ik_UserService.LoginOutRequest)
   id_ = 0;
 }
 
@@ -2983,7 +2911,7 @@ bool LoginOutRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(parse_start:ik_UserService.LoginOutRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -3016,39 +2944,39 @@ bool LoginOutRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(parse_success:ik_UserService.LoginOutRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(parse_failure:ik_UserService.LoginOutRequest)
   return false;
 #undef DO_
 }
 
 void LoginOutRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(serialize_start:ik_UserService.LoginOutRequest)
   // optional int32 id = 1;
   if (this->id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(serialize_end:ik_UserService.LoginOutRequest)
 }
 
 ::google::protobuf::uint8* LoginOutRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.LoginOutRequest)
   // optional int32 id = 1;
   if (this->id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.LoginOutRequest)
   return target;
 }
 
 int LoginOutRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_UserService.LoginOutRequest)
   int total_size = 0;
 
   // optional int32 id = 1;
@@ -3065,7 +2993,7 @@ int LoginOutRequest::ByteSize() const {
 }
 
 void LoginOutRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.LoginOutRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -3073,16 +3001,16 @@ void LoginOutRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const LoginOutRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.LoginOutRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_login.LoginOutRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.LoginOutRequest)
     MergeFrom(*source);
   }
 }
 
 void LoginOutRequest::MergeFrom(const LoginOutRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.LoginOutRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -3092,14 +3020,14 @@ void LoginOutRequest::MergeFrom(const LoginOutRequest& from) {
 }
 
 void LoginOutRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.LoginOutRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void LoginOutRequest::CopyFrom(const LoginOutRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_login.LoginOutRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.LoginOutRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3136,13 +3064,13 @@ void LoginOutRequest::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 LoginOutRequest::id() const {
-  // @@protoc_insertion_point(field_get:ik_login.LoginOutRequest.id)
+  // @@protoc_insertion_point(field_get:ik_UserService.LoginOutRequest.id)
   return id_;
 }
  void LoginOutRequest::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_login.LoginOutRequest.id)
+  // @@protoc_insertion_point(field_set:ik_UserService.LoginOutRequest.id)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -3162,23 +3090,23 @@ const ::google::protobuf::ServiceDescriptor* UserServiceRpc::GetDescriptor() {
 }
 
 void UserServiceRpc::Login(::google::protobuf::RpcController* controller,
-                         const ::ik_login::LoginRequest*,
-                         ::ik_login::LoginReponse*,
+                         const ::ik_UserService::LoginRequest*,
+                         ::ik_UserService::LoginReponse*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method Login() not implemented.");
   done->Run();
 }
 
 void UserServiceRpc::Registe(::google::protobuf::RpcController* controller,
-                         const ::ik_login::RegisterRequest*,
-                         ::ik_login::RegisterResponse*,
+                         const ::ik_UserService::RegisterRequest*,
+                         ::ik_UserService::RegisterResponse*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method Registe() not implemented.");
   done->Run();
 }
 
 void UserServiceRpc::LoginOut(::google::protobuf::RpcController* controller,
-                         const ::ik_login::LoginOutRequest*,
+                         const ::ik_UserService::LoginOutRequest*,
                          ::google::protobuf::Empty*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method LoginOut() not implemented.");
@@ -3194,19 +3122,19 @@ void UserServiceRpc::CallMethod(const ::google::protobuf::MethodDescriptor* meth
   switch(method->index()) {
     case 0:
       Login(controller,
-             ::google::protobuf::down_cast<const ::ik_login::LoginRequest*>(request),
-             ::google::protobuf::down_cast< ::ik_login::LoginReponse*>(response),
+             ::google::protobuf::down_cast<const ::ik_UserService::LoginRequest*>(request),
+             ::google::protobuf::down_cast< ::ik_UserService::LoginReponse*>(response),
              done);
       break;
     case 1:
       Registe(controller,
-             ::google::protobuf::down_cast<const ::ik_login::RegisterRequest*>(request),
-             ::google::protobuf::down_cast< ::ik_login::RegisterResponse*>(response),
+             ::google::protobuf::down_cast<const ::ik_UserService::RegisterRequest*>(request),
+             ::google::protobuf::down_cast< ::ik_UserService::RegisterResponse*>(response),
              done);
       break;
     case 2:
       LoginOut(controller,
-             ::google::protobuf::down_cast<const ::ik_login::LoginOutRequest*>(request),
+             ::google::protobuf::down_cast<const ::ik_UserService::LoginOutRequest*>(request),
              ::google::protobuf::down_cast< ::google::protobuf::Empty*>(response),
              done);
       break;
@@ -3221,11 +3149,11 @@ const ::google::protobuf::Message& UserServiceRpc::GetRequestPrototype(
   GOOGLE_DCHECK_EQ(method->service(), descriptor());
   switch(method->index()) {
     case 0:
-      return ::ik_login::LoginRequest::default_instance();
+      return ::ik_UserService::LoginRequest::default_instance();
     case 1:
-      return ::ik_login::RegisterRequest::default_instance();
+      return ::ik_UserService::RegisterRequest::default_instance();
     case 2:
-      return ::ik_login::LoginOutRequest::default_instance();
+      return ::ik_UserService::LoginOutRequest::default_instance();
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       return *::google::protobuf::MessageFactory::generated_factory()
@@ -3238,9 +3166,9 @@ const ::google::protobuf::Message& UserServiceRpc::GetResponsePrototype(
   GOOGLE_DCHECK_EQ(method->service(), descriptor());
   switch(method->index()) {
     case 0:
-      return ::ik_login::LoginReponse::default_instance();
+      return ::ik_UserService::LoginReponse::default_instance();
     case 1:
-      return ::ik_login::RegisterResponse::default_instance();
+      return ::ik_UserService::RegisterResponse::default_instance();
     case 2:
       return ::google::protobuf::Empty::default_instance();
     default:
@@ -3262,21 +3190,21 @@ UserServiceRpc_Stub::~UserServiceRpc_Stub() {
 }
 
 void UserServiceRpc_Stub::Login(::google::protobuf::RpcController* controller,
-                              const ::ik_login::LoginRequest* request,
-                              ::ik_login::LoginReponse* response,
+                              const ::ik_UserService::LoginRequest* request,
+                              ::ik_UserService::LoginReponse* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(0),
                        controller, request, response, done);
 }
 void UserServiceRpc_Stub::Registe(::google::protobuf::RpcController* controller,
-                              const ::ik_login::RegisterRequest* request,
-                              ::ik_login::RegisterResponse* response,
+                              const ::ik_UserService::RegisterRequest* request,
+                              ::ik_UserService::RegisterResponse* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(1),
                        controller, request, response, done);
 }
 void UserServiceRpc_Stub::LoginOut(::google::protobuf::RpcController* controller,
-                              const ::ik_login::LoginOutRequest* request,
+                              const ::ik_UserService::LoginOutRequest* request,
                               ::google::protobuf::Empty* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(2),
@@ -3285,6 +3213,6 @@ void UserServiceRpc_Stub::LoginOut(::google::protobuf::RpcController* controller
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace ik_login
+}  // namespace ik_UserService
 
 // @@protoc_insertion_point(global_scope)

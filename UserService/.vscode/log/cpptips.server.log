@@ -1,0 +1,124 @@
+[2021-04-23T02:08:34.556] [DEBUG] cpptips - on onShutdown
+[2021-04-23T12:10:08.490] [DEBUG] cpptips - root path /home/ubuntu/ByteTalk/UserService
+[2021-04-23T12:10:08.608] [INFO] cpptips - auxiliary_process/UserService_Sub/src/run.cpp
+[2021-04-23T12:10:08.608] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp /home/ubuntu/ByteTalk/UserService/ auxiliary_process/UserService_Sub/src/run.cpp
+[2021-04-23T12:10:08.630] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":["/bin/","/build/","/configure/","/include/","/proto/","/src/"],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-04-23T12:10:08.630] [INFO] cpptips - config: {
+  basedir: '/home/ubuntu/ByteTalk/UserService/',
+  dbpath: '/home/ubuntu/ByteTalk/UserService//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: '/home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [
+      '/bin/',
+      '/build/',
+      '/configure/',
+      '/include/',
+      '/proto/',
+      '/src/'
+    ],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-04-23T12:10:08.631] [INFO] cpptips - db path! /home/ubuntu/ByteTalk/UserService//.vscode/db/cpptips.db /home/ubuntu/ByteTalk/UserService//.vscode/db
+[2021-04-23T12:10:08.631] [INFO] cpptips - KeyWordStore in constructor
+[2021-04-23T12:10:08.632] [INFO] cpptips - databasepath: /home/ubuntu/ByteTalk/UserService//.vscode/db/cpptips.db
+[2021-04-23T12:10:08.637] [INFO] cpptips - FileIndexStore in constructor
+[2021-04-23T12:10:08.638] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-04-23T12:10:09.048] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-04-23T12:10:09.064] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"/home/ubuntu/ByteTalk/UserService/","dbpath":"/home/ubuntu/ByteTalk/UserService//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":["/bin/","/build/","/configure/","/include/","/proto/","/src/"],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-04-23T12:10:10.321] [DEBUG] cpptips - success
+[2021-04-23T12:10:10.321] [ERROR] cpptips - not find t_keyword, create table now
+[2021-04-23T12:10:10.585] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:10.585] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:10.586] [MARK] cpptips - Analyse
+[2021-04-23T12:10:10.615] [MARK] cpptips - Analyse
+[2021-04-23T12:10:10.615] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:10.618] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:10.618] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:10.618] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:10.618] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:10.619] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:10.983] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:10.983] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:10.983] [MARK] cpptips - Analyse
+[2021-04-23T12:10:10.983] [MARK] cpptips - Analyse
+[2021-04-23T12:10:10.983] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:10.983] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:10.983] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:10.983] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:10.983] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:10.984] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:11.815] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:11.815] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:11.815] [MARK] cpptips - Analyse
+[2021-04-23T12:10:11.816] [MARK] cpptips - Analyse
+[2021-04-23T12:10:11.816] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:11.816] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:11.816] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:11.816] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:11.816] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:11.816] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:12.526] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:12.526] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:12.526] [MARK] cpptips - Analyse
+[2021-04-23T12:10:12.527] [MARK] cpptips - Analyse
+[2021-04-23T12:10:12.527] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:12.527] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:12.527] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:12.527] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:12.527] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:12.527] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:12.605] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:12.605] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:12.605] [MARK] cpptips - Analyse
+[2021-04-23T12:10:12.607] [MARK] cpptips - Analyse
+[2021-04-23T12:10:12.607] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:12.607] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:12.607] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:12.607] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:12.607] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:12.607] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:14.912] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:14.912] [MARK] cpptips - Analyse
+[2021-04-23T12:10:14.912] [MARK] cpptips - Analyse
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDocumentStruct
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDocumentTree
+[2021-04-23T12:10:14.912] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:14.912] [MARK] cpptips - getDepsInDefineJson
+[2021-04-23T12:10:18.288] [INFO] cpptips - Set {}

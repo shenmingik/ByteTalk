@@ -1,0 +1,217 @@
+[2021-04-20T22:17:57.522] [DEBUG] cpptips - needLoadDir: []
+[2021-04-20T22:17:57.523] [DEBUG] cpptips - needLoadLinkDir: []
+[2021-04-20T22:17:57.525] [DEBUG] cpptips - 回调消息： [
+  {
+    text: 'bin',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'build',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: [ [Object], [Object] ]
+  },
+  {
+    text: 'configure',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'include',
+    data: '3',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'proto',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'src',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  }
+]
+[2021-04-20T22:17:57.526] [DEBUG] cpptips - {
+  needLoadLinkDir: [],
+  needLoadDir: [],
+  ignorDir: [],
+  ignoreFileAndDir: [
+    '^[.~]{1,1}[.]{1,128}$',
+    '^.*_tools_pb\\.(cpp|h)$',
+    '^.*testimpl_pb\\.(cpp|h)$',
+    '^.*\\.pb\\.(cc|h)$',
+    '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+    '^mm3rd$',
+    '^lib32$',
+    '^lib64$',
+    '^lib64_debug$',
+    '^lib64_release$',
+    '^lib32_debug$',
+    '^lib32_release$',
+    '^debug$',
+    '^release$',
+    '^win32$',
+    '^bin$',
+    '^\\.svn$',
+    '^\\.git$',
+    '^\\.vscode$',
+    '^build64_fastbuild$'
+  ],
+  updateCheckIntervalTime: 600000000,
+  defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+    '\tlet commids = {\n' +
+    "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+    '\t};\n' +
+    '\thander.CallBack(0, commids, dirname);\n' +
+    '}',
+  updateCheckUrl: 'http://9.134.38.144:8888',
+  buildParams: ''
+}
+[2021-04-20T22:17:57.528] [DEBUG] cpptips - 回调消息： [
+  '^[.~]{1,1}[.]{1,128}$',
+  '^.*_tools_pb\\.(cpp|h)$',
+  '^.*testimpl_pb\\.(cpp|h)$',
+  '^.*\\.pb\\.(cc|h)$',
+  '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+  '^mm3rd$',
+  '^lib32$',
+  '^lib64$',
+  '^lib64_debug$',
+  '^lib64_release$',
+  '^lib32_debug$',
+  '^lib32_release$',
+  '^debug$',
+  '^release$',
+  '^win32$',
+  '^bin$',
+  '^\\.svn$',
+  '^\\.git$',
+  '^\\.vscode$',
+  '^build64_fastbuild$'
+]
+[2021-04-20T22:18:06.787] [DEBUG] cpptips - {
+  cmd: 'saveIndexConfig',
+  config: [
+    '/bin/',
+    '/build/',
+    '/configure/',
+    '/include/',
+    '/proto/',
+    '/src/'
+  ]
+}
+[2021-04-20T22:18:06.787] [DEBUG] cpptips - _newIndexConfig: [ '/bin/', '/build/', '/configure/', '/include/', '/proto/', '/src/' ]
+[2021-04-20T22:18:06.787] [DEBUG] cpptips - save config.
+[2021-04-20T22:18:09.446] [DEBUG] cpptips - close webview.
+[2021-04-20T23:26:08.472] [DEBUG] cpptips - needLoadDir: [ '/bin/', '/build/', '/configure/', '/include/', '/proto/', '/src/' ]
+[2021-04-20T23:26:08.477] [DEBUG] cpptips - needLoadLinkDir: []
+[2021-04-20T23:26:08.480] [DEBUG] cpptips - 回调消息： [
+  {
+    text: 'bin',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'build',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: [ [Object], [Object] ]
+  },
+  {
+    text: 'configure',
+    data: '0',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'include',
+    data: '3',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'proto',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  },
+  {
+    text: 'src',
+    data: '2',
+    state: { opened: false, checked: true },
+    children: []
+  }
+]
+[2021-04-20T23:26:08.483] [DEBUG] cpptips - {
+  needLoadLinkDir: [],
+  needLoadDir: [
+    '/bin/',
+    '/build/',
+    '/configure/',
+    '/include/',
+    '/proto/',
+    '/src/'
+  ],
+  ignorDir: [],
+  ignoreFileAndDir: [
+    '^[.~]{1,1}[.]{1,128}$',
+    '^.*_tools_pb\\.(cpp|h)$',
+    '^.*testimpl_pb\\.(cpp|h)$',
+    '^.*\\.pb\\.(cc|h)$',
+    '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+    '^mm3rd$',
+    '^lib32$',
+    '^lib64$',
+    '^lib64_debug$',
+    '^lib64_release$',
+    '^lib32_debug$',
+    '^lib32_release$',
+    '^debug$',
+    '^release$',
+    '^win32$',
+    '^bin$',
+    '^\\.svn$',
+    '^\\.git$',
+    '^\\.vscode$',
+    '^build64_fastbuild$'
+  ],
+  updateCheckIntervalTime: 600000000,
+  defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+    '\tlet commids = {\n' +
+    "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+    '\t};\n' +
+    '\thander.CallBack(0, commids, dirname);\n' +
+    '}',
+  updateCheckUrl: 'http://9.134.38.144:8888',
+  buildParams: ''
+}
+[2021-04-20T23:26:08.484] [DEBUG] cpptips - 回调消息： [
+  '^[.~]{1,1}[.]{1,128}$',
+  '^.*_tools_pb\\.(cpp|h)$',
+  '^.*testimpl_pb\\.(cpp|h)$',
+  '^.*\\.pb\\.(cc|h)$',
+  '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+  '^mm3rd$',
+  '^lib32$',
+  '^lib64$',
+  '^lib64_debug$',
+  '^lib64_release$',
+  '^lib32_debug$',
+  '^lib32_release$',
+  '^debug$',
+  '^release$',
+  '^win32$',
+  '^bin$',
+  '^\\.svn$',
+  '^\\.git$',
+  '^\\.vscode$',
+  '^build64_fastbuild$'
+]
