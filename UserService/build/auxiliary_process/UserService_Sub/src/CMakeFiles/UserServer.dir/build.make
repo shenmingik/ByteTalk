@@ -129,9 +129,33 @@ auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o.provides.build: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o
 
 
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/flags.make
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o: ../auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o"
+	cd /home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp
+
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.i"
+	cd /home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp > CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.i
+
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.s"
+	cd /home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp -o CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.s
+
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.requires:
+
+.PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.requires
+
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.provides: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.requires
+	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.provides.build
+.PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.provides
+
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.provides.build: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o
+
+
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/flags.make
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/src/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o"
 	cd /home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp
 
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.i: cmake_force
@@ -158,6 +182,7 @@ UserServer_OBJECTS = \
 "CMakeFiles/UserServer.dir/LogServer.pb.cc.o" \
 "CMakeFiles/UserServer.dir/UserServer.cpp.o" \
 "CMakeFiles/UserServer.dir/UserServer.pb.cc.o" \
+"CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o" \
 "CMakeFiles/UserServer.dir/run.cpp.o"
 
 # External object files for target UserServer
@@ -166,10 +191,11 @@ UserServer_EXTERNAL_OBJECTS =
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/LogServer.pb.cc.o
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o
+../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make
 ../bin/UserServer: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../../bin/UserServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../bin/UserServer"
 	cd /home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UserServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -180,6 +206,7 @@ auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build: ../bin/Us
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/LogServer.pb.cc.o.requires
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o.requires
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o.requires
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o.requires
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires: auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o.requires
 
 .PHONY : auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/requires

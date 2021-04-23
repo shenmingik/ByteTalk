@@ -4,7 +4,7 @@ using namespace placeholders;
 
 #define BUFF_SIZE 128
 
-UserServer::UserServer(string ip, int port) : stub_(new RpcChannel)
+UserServer::UserServer(string ip, int port) : stub_(new RpcChannel())
 {
     ip_ = ip;
     port_ = port;
@@ -26,6 +26,31 @@ void UserServer::run()
     server.setMessageCallback(bind(&UserServer::msg_callback, this, _1, _2, _3));
     server.setConnectionCallback(bind(&UserServer::conn_callback, this, _1));
 
+    ZKClient zk_client;
+    zk_client.start();
+    string server_path = "/UserService/server";
+    char buffer[BUFF_SIZE] = {0};
+    sprintf(buffer, "%s:%d", ip_.c_str(), port_);
+    if (zk_client.create(server_path, buffer, strlen(buffer), ZOO_EPHEMERAL) == false)
+    {
+        ik::LogRequest request;
+        string name = "UserServer ";
+        name += buffer;
+        request.set_name(name);
+        request.set_msg("zookeeper connect error!");
+        google::protobuf::Empty response;
+        stub_.Log_ERROR(nullptr, &request, &response, nullptr);
+    }
+    else
+    {
+        ik::LogRequest request;
+        string name = "UserServer ";
+        name += buffer;
+        request.set_name(name);
+        request.set_msg("zookeeper connect!");
+        google::protobuf::Empty response;
+        stub_.Log_ERROR(nullptr, &request, &response, nullptr);
+    }
     server.setThreadNum(4);
     server.start();
     loop_.loop();
@@ -136,7 +161,8 @@ bool UserServer::Login(int id, string password)
             ik::LogRequest request;
             request.set_name("UserServer");
             request.set_msg(sql, strlen(sql));
-            stub_.Log_ERROR(nullptr, &request, nullptr, nullptr);
+            google::protobuf::Empty response;
+            stub_.Log_ERROR(nullptr, &request, &response, nullptr);
             return false;
         }
         return true;

@@ -206,6 +206,33 @@ UserServer.pb.cc.s:
 	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.s
 .PHONY : UserServer.pb.cc.s
 
+ZooKeeperFow.o: ZooKeeperFow.cpp.o
+
+.PHONY : ZooKeeperFow.o
+
+# target to build an object file
+ZooKeeperFow.cpp.o:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o
+.PHONY : ZooKeeperFow.cpp.o
+
+ZooKeeperFow.i: ZooKeeperFow.cpp.i
+
+.PHONY : ZooKeeperFow.i
+
+# target to preprocess a source file
+ZooKeeperFow.cpp.i:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.i
+.PHONY : ZooKeeperFow.cpp.i
+
+ZooKeeperFow.s: ZooKeeperFow.cpp.s
+
+.PHONY : ZooKeeperFow.s
+
+# target to generate assembly for a file
+ZooKeeperFow.cpp.s:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.s
+.PHONY : ZooKeeperFow.cpp.s
+
 run.o: run.cpp.o
 
 .PHONY : run.o
@@ -251,6 +278,9 @@ help:
 	@echo "... UserServer.pb.o"
 	@echo "... UserServer.pb.i"
 	@echo "... UserServer.pb.s"
+	@echo "... ZooKeeperFow.o"
+	@echo "... ZooKeeperFow.i"
+	@echo "... ZooKeeperFow.s"
 	@echo "... run.o"
 	@echo "... run.i"
 	@echo "... run.s"

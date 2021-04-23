@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/UserServer.dir/LogServer.pb.cc.o"
   "CMakeFiles/UserServer.dir/UserServer.cpp.o"
   "CMakeFiles/UserServer.dir/UserServer.pb.cc.o"
+  "CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o"
   "CMakeFiles/UserServer.dir/run.cpp.o"
   "../../../../bin/UserServer.pdb"
   "../../../../bin/UserServer"

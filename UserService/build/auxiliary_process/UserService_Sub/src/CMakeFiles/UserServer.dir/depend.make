@@ -7,13 +7,18 @@ auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/LogServer.pb.cc.
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o: ../auxiliary_process/UserService_Sub/include/LogServer.pb.h
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o: ../auxiliary_process/UserService_Sub/include/UserServer.hpp
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o: ../auxiliary_process/UserService_Sub/include/UserServer.pb.h
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o: ../auxiliary_process/UserService_Sub/include/ZooKeeperFow.hpp
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o: ../auxiliary_process/UserService_Sub/src/UserServer.cpp
 
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o: ../auxiliary_process/UserService_Sub/include/UserServer.pb.h
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o: ../auxiliary_process/UserService_Sub/src/UserServer.pb.cc
 
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o: ../auxiliary_process/UserService_Sub/include/ZooKeeperFow.hpp
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o: ../auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp
+
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/include/LogServer.pb.h
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/include/UserServer.hpp
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/include/UserServer.pb.h
+auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/include/ZooKeeperFow.hpp
 auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o: ../auxiliary_process/UserService_Sub/src/run.cpp
 

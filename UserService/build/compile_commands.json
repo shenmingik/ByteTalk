@@ -36,6 +36,11 @@
 },
 {
   "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
   "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp",
   "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp"
 }

@@ -2,6 +2,9 @@
 
 #include <zookeeper/zookeeper.h>
 
+#include <rpc/RpcApplication.hpp>
+#include <rpc/RpcConfigure.hpp>
+
 #include <semaphore.h>
 #include <string>
 
@@ -14,13 +17,13 @@ public:
     ~ZKClient();
 
     //和zkserver 连接
-    void start();
+    bool start();
 
     //在zkserver 根据指定的path创建znode节点
-    void create(const char *path, const char *data, int date_len, int state = 0);
+    bool create(string &path, const char *data, int data_len, int state = 0);
 
     //根据参数路径获得值
-    string get_data(const char *path);
+    string get_data(string path);
 
 private:
     zhandle_t *zkhandle_;

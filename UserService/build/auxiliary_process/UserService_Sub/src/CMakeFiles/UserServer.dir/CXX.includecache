@@ -37,8 +37,8 @@ LogServer.pb.h
 ../auxiliary_process/UserService_Sub/include/LogServer.pb.h
 UserServer.pb.h
 ../auxiliary_process/UserService_Sub/include/UserServer.pb.h
-zookeeper/zookeeper.h
--
+ZooKeeperFow.hpp
+../auxiliary_process/UserService_Sub/include/ZooKeeperFow.hpp
 SQL_pool/connect_pool.hpp
 -
 rpc/RpcApplication.hpp
@@ -84,6 +84,18 @@ google/protobuf/repeated_field.h
 google/protobuf/extension_set.h
 -
 google/protobuf/unknown_field_set.h
+-
+
+../auxiliary_process/UserService_Sub/include/ZooKeeperFow.hpp
+zookeeper/zookeeper.h
+-
+rpc/RpcApplication.hpp
+-
+rpc/RpcConfigure.hpp
+-
+semaphore.h
+-
+string
 -
 
 ../include/LogServer.pb.h
@@ -162,6 +174,12 @@ google/protobuf/generated_message_reflection.h
 google/protobuf/reflection_ops.h
 -
 google/protobuf/wire_format.h
+-
+
+/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp
+ZooKeeperFow.hpp
+/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.hpp
+iostream
 -
 
 /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp

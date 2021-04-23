@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/LogServer.pb.cc" "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/LogServer.pb.cc.o"
   "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.cpp" "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.cpp.o"
   "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.pb.cc" "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/UserServer.pb.cc.o"
+  "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/ZooKeeperFow.cpp" "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/ZooKeeperFow.cpp.o"
   "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp" "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/run.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

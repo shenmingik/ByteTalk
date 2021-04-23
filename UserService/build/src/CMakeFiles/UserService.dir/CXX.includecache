@@ -137,6 +137,8 @@ rpc/RpcApplication.hpp
 -
 rpc/RpcProvider.hpp
 -
+rpc/RpcControl.hpp
+-
 mysql/mysql.h
 -
 
