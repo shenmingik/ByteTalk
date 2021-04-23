@@ -2,7 +2,7 @@
 #include "LogServer.pb.h"
 #include "UserServer.pb.h"
 
-#include <zookeeper/zookeeper.h>
+#include "ZooKeeperFow.hpp"
 
 #include <SQL_pool/connect_pool.hpp>
 
