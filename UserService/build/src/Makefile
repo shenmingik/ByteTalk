@@ -152,6 +152,33 @@ LogServer.pb.cc.s:
 	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/LogServer.pb.cc.s
 .PHONY : LogServer.pb.cc.s
 
+UserServer.pb.o: UserServer.pb.cc.o
+
+.PHONY : UserServer.pb.o
+
+# target to build an object file
+UserServer.pb.cc.o:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserServer.pb.cc.o
+.PHONY : UserServer.pb.cc.o
+
+UserServer.pb.i: UserServer.pb.cc.i
+
+.PHONY : UserServer.pb.i
+
+# target to preprocess a source file
+UserServer.pb.cc.i:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserServer.pb.cc.i
+.PHONY : UserServer.pb.cc.i
+
+UserServer.pb.s: UserServer.pb.cc.s
+
+.PHONY : UserServer.pb.s
+
+# target to generate assembly for a file
+UserServer.pb.cc.s:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserServer.pb.cc.s
+.PHONY : UserServer.pb.cc.s
+
 UserService.o: UserService.cpp.o
 
 .PHONY : UserService.o
@@ -206,6 +233,33 @@ UserService.pb.cc.s:
 	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserService.pb.cc.s
 .PHONY : UserService.pb.cc.s
 
+ZooKeeperMatser.o: ZooKeeperMatser.cpp.o
+
+.PHONY : ZooKeeperMatser.o
+
+# target to build an object file
+ZooKeeperMatser.cpp.o:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o
+.PHONY : ZooKeeperMatser.cpp.o
+
+ZooKeeperMatser.i: ZooKeeperMatser.cpp.i
+
+.PHONY : ZooKeeperMatser.i
+
+# target to preprocess a source file
+ZooKeeperMatser.cpp.i:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.i
+.PHONY : ZooKeeperMatser.cpp.i
+
+ZooKeeperMatser.s: ZooKeeperMatser.cpp.s
+
+.PHONY : ZooKeeperMatser.s
+
+# target to generate assembly for a file
+ZooKeeperMatser.cpp.s:
+	cd /home/ubuntu/ByteTalk/UserService/build && $(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.s
+.PHONY : ZooKeeperMatser.cpp.s
+
 run.o: run.cpp.o
 
 .PHONY : run.o
@@ -245,12 +299,18 @@ help:
 	@echo "... LogServer.pb.o"
 	@echo "... LogServer.pb.i"
 	@echo "... LogServer.pb.s"
+	@echo "... UserServer.pb.o"
+	@echo "... UserServer.pb.i"
+	@echo "... UserServer.pb.s"
 	@echo "... UserService.o"
 	@echo "... UserService.i"
 	@echo "... UserService.s"
 	@echo "... UserService.pb.o"
 	@echo "... UserService.pb.i"
 	@echo "... UserService.pb.s"
+	@echo "... ZooKeeperMatser.o"
+	@echo "... ZooKeeperMatser.i"
+	@echo "... ZooKeeperMatser.s"
 	@echo "... run.o"
 	@echo "... run.i"
 	@echo "... run.s"

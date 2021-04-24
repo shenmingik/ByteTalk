@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/ByteTalk/UserService/src/LogServer.pb.cc" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/LogServer.pb.cc.o"
+  "/home/ubuntu/ByteTalk/UserService/src/UserServer.pb.cc" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/UserServer.pb.cc.o"
   "/home/ubuntu/ByteTalk/UserService/src/UserService.cpp" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/UserService.cpp.o"
   "/home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/UserService.pb.cc.o"
+  "/home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o"
   "/home/ubuntu/ByteTalk/UserService/src/run.cpp" "/home/ubuntu/ByteTalk/UserService/build/src/CMakeFiles/UserService.dir/run.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

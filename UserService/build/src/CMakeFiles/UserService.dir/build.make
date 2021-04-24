@@ -81,9 +81,33 @@ src/CMakeFiles/UserService.dir/LogServer.pb.cc.o.provides: src/CMakeFiles/UserSe
 src/CMakeFiles/UserService.dir/LogServer.pb.cc.o.provides.build: src/CMakeFiles/UserService.dir/LogServer.pb.cc.o
 
 
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.o: src/CMakeFiles/UserService.dir/flags.make
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.o: ../src/UserServer.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/UserService.dir/UserServer.pb.cc.o"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserService.dir/UserServer.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/UserServer.pb.cc
+
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UserService.dir/UserServer.pb.cc.i"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/UserService/src/UserServer.pb.cc > CMakeFiles/UserService.dir/UserServer.pb.cc.i
+
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UserService.dir/UserServer.pb.cc.s"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/UserService/src/UserServer.pb.cc -o CMakeFiles/UserService.dir/UserServer.pb.cc.s
+
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.requires:
+
+.PHONY : src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.requires
+
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.provides: src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.provides.build
+.PHONY : src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.provides
+
+src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.provides.build: src/CMakeFiles/UserService.dir/UserServer.pb.cc.o
+
+
 src/CMakeFiles/UserService.dir/UserService.cpp.o: src/CMakeFiles/UserService.dir/flags.make
 src/CMakeFiles/UserService.dir/UserService.cpp.o: ../src/UserService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/UserService.dir/UserService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/UserService.dir/UserService.cpp.o"
 	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserService.dir/UserService.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.cpp
 
 src/CMakeFiles/UserService.dir/UserService.cpp.i: cmake_force
@@ -107,7 +131,7 @@ src/CMakeFiles/UserService.dir/UserService.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/UserService.dir/UserService.pb.cc.o: src/CMakeFiles/UserService.dir/flags.make
 src/CMakeFiles/UserService.dir/UserService.pb.cc.o: ../src/UserService.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/UserService.dir/UserService.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/UserService.dir/UserService.pb.cc.o"
 	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserService.dir/UserService.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc
 
 src/CMakeFiles/UserService.dir/UserService.pb.cc.i: cmake_force
@@ -129,9 +153,33 @@ src/CMakeFiles/UserService.dir/UserService.pb.cc.o.provides: src/CMakeFiles/User
 src/CMakeFiles/UserService.dir/UserService.pb.cc.o.provides.build: src/CMakeFiles/UserService.dir/UserService.pb.cc.o
 
 
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o: src/CMakeFiles/UserService.dir/flags.make
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o: ../src/ZooKeeperMatser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp
+
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.i"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp > CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.i
+
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.s"
+	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp -o CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.s
+
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.requires
+
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.provides: src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/UserService.dir/build.make src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.provides.build
+.PHONY : src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.provides
+
+src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.provides.build: src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o
+
+
 src/CMakeFiles/UserService.dir/run.cpp.o: src/CMakeFiles/UserService.dir/flags.make
 src/CMakeFiles/UserService.dir/run.cpp.o: ../src/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/UserService.dir/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/UserService.dir/run.cpp.o"
 	cd /home/ubuntu/ByteTalk/UserService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UserService.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/src/run.cpp
 
 src/CMakeFiles/UserService.dir/run.cpp.i: cmake_force
@@ -156,20 +204,24 @@ src/CMakeFiles/UserService.dir/run.cpp.o.provides.build: src/CMakeFiles/UserServ
 # Object files for target UserService
 UserService_OBJECTS = \
 "CMakeFiles/UserService.dir/LogServer.pb.cc.o" \
+"CMakeFiles/UserService.dir/UserServer.pb.cc.o" \
 "CMakeFiles/UserService.dir/UserService.cpp.o" \
 "CMakeFiles/UserService.dir/UserService.pb.cc.o" \
+"CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o" \
 "CMakeFiles/UserService.dir/run.cpp.o"
 
 # External object files for target UserService
 UserService_EXTERNAL_OBJECTS =
 
 ../bin/UserService: src/CMakeFiles/UserService.dir/LogServer.pb.cc.o
+../bin/UserService: src/CMakeFiles/UserService.dir/UserServer.pb.cc.o
 ../bin/UserService: src/CMakeFiles/UserService.dir/UserService.cpp.o
 ../bin/UserService: src/CMakeFiles/UserService.dir/UserService.pb.cc.o
+../bin/UserService: src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o
 ../bin/UserService: src/CMakeFiles/UserService.dir/run.cpp.o
 ../bin/UserService: src/CMakeFiles/UserService.dir/build.make
 ../bin/UserService: src/CMakeFiles/UserService.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/UserService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/UserService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../bin/UserService"
 	cd /home/ubuntu/ByteTalk/UserService/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UserService.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,8 +230,10 @@ src/CMakeFiles/UserService.dir/build: ../bin/UserService
 .PHONY : src/CMakeFiles/UserService.dir/build
 
 src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/LogServer.pb.cc.o.requires
+src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/UserServer.pb.cc.o.requires
 src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/UserService.cpp.o.requires
 src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/UserService.pb.cc.o.requires
+src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o.requires
 src/CMakeFiles/UserService.dir/requires: src/CMakeFiles/UserService.dir/run.cpp.o.requires
 
 .PHONY : src/CMakeFiles/UserService.dir/requires

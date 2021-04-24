@@ -1,8 +1,10 @@
 #pragma once
 #include "LogServer.pb.h"
 #include "UserService.pb.h"
+#include "UserServer.pb.h"
+#include "ZooKeeperMaster.hpp"
+
 #include <mysql/mysql.h>
-#include <SQL_pool/connect_pool.hpp>
 #include <rpc/RpcChannel.hpp>
 #include <google/protobuf/service.h>
 #include <string>
@@ -30,4 +32,5 @@ public:
 
 private:
     ik::LogServerRpc_Stub stub_; //日志服务器桩类
+    ZKMatser master_;
 };

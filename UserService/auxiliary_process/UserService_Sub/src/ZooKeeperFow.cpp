@@ -57,7 +57,7 @@ bool ZKClient::create(string &path, const char *data, int data_len, int state)
 
     string tail_str;
     tail_str = path + to_string(tail);
-    cout << "tail str" << tail_str << endl;
+
     //检查path是否存在
     while (zoo_exists(zkhandle_, tail_str.c_str(), 0, nullptr) != ZNONODE)
     {

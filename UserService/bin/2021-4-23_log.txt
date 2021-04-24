@@ -37,3 +37,7 @@
 18:51: 6=>[INFO]: zookeeper init success
 18:51: 6=>[ERROR]: can't get znode... path: /LogServerRpc/Log_INFO
 18:52: 0=>[INFO]: zookeeper init success
+23:29:45=>[INFO]: zookeeper init success
+23:30:48=>[INFO]: zookeeper init success
+23:53:19=>[INFO]: zookeeper init success
+23:53:32=>[INFO]: zookeeper init success

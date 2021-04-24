@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package ik_UserServer;
+
+message Request
+{
+    bytes type = 1;
+    bytes request = 2;
+}
+
+// 有关登录的消息
+message LoginRequest
+{
+    int32 id = 1;
+    bytes password = 2;
+}
+
+
+message ErrorMsg
+{
+    bytes message = 2;
+}
+
+message LoginReponse
+{
+    bool is_success = 1;
+    ErrorMsg msg = 2;
+}
+
+// 有关注册
+message RegisterRequest
+{
+    bytes name = 1;
+    bytes password = 2;
+}
+
+message RegisterResponse
+{
+    bool is_success = 1;
+    int32 id = 2;
+}
+
+//有关下线消息
+message LoginOutRequest
+{
+    int32 id = 1;
+}

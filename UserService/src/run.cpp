@@ -1,24 +1,19 @@
-#include "UserService.hpp"
-#include <rpc/RpcApplication.hpp>
-#include <rpc/RpcProvider.hpp>
-#include <rpc/RpcControl.hpp>
-#include <mysql/mysql.h>
-
+#include "ZooKeeperMaster.hpp"
+#include <string>
+#include <unistd.h>
+using namespace std;
 int main(int argc, char **argv)
 {
     RpcApplication::init(argc, argv);
-    ik::LogServerRpc_Stub stub(new RpcChannel());
-    ik::LogRequest request;
-    request.set_name("UserServer");
-    request.set_msg("error");
-    
-    stub.Log_INFO(nullptr, &request, nullptr, nullptr);
-
-    /* 
-    RpcApplication::init(argc, argv);
-    RpcProvider provider;
-    provider.notify_service(new UserService);
-    provider.run();
-    return 0;
-    */
+    ZKMatser master("/UserService");
+    master.start();
+    int client_fd; 
+    //获取服务
+    while ((client_fd = master.get_service()) == -1)
+    {
+        // 刷新服务列表
+        master.get_follow();
+        cout << "no service" << endl;
+        sleep(1);
+    }
 }
