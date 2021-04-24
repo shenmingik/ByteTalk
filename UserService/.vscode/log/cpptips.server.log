@@ -21484,3 +21484,2134 @@
 [2021-04-24T13:54:09.712] [MARK] cpptips - getDepsInDefineJson
 [2021-04-24T13:54:09.893] [DEBUG] cpptips - success
 [2021-04-24T13:54:09.893] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:54:43.409] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T13:54:43.409] [INFO] cpptips - Set {}
+[2021-04-24T13:54:50.661] [INFO] cpptips - 31 2
+[2021-04-24T13:54:50.661] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:54:50.661] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:54:50.662] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:54:55.941] [INFO] cpptips - 32 38
+[2021-04-24T13:54:55.941] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:54:55.941] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:54:55.941] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:00.661] [DEBUG] cpptips - pos: 34 5
+[2021-04-24T13:55:00.661] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:55:00.661] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:55:00.661] [DEBUG] cpptips - linecode: c
+[2021-04-24T13:55:00.661] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:55:00.661] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:55:00.661] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:55:00.665] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:55:00.665] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:55:00.665] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:55:01.298] [DEBUG] cpptips - pos: 34 9
+[2021-04-24T13:55:01.298] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:55:01.298] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:55:01.298] [DEBUG] cpptips - linecode: char
+[2021-04-24T13:55:01.298] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:55:01.298] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:55:01.299] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:55:01.302] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:55:01.302] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:55:01.302] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:55:06.767] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:06.767] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:06.767] [MARK] cpptips - Analyse
+[2021-04-24T13:55:06.769] [MARK] cpptips - Analyse
+[2021-04-24T13:55:06.769] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:06.769] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:06.769] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:06.769] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:06.769] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:06.769] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:17.885] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:17.885] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:17.885] [MARK] cpptips - Analyse
+[2021-04-24T13:55:17.886] [MARK] cpptips - Analyse
+[2021-04-24T13:55:17.886] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:17.886] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:17.886] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:17.886] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:17.886] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:17.886] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:19.213] [INFO] cpptips - 32 39
+[2021-04-24T13:55:19.213] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:19.213] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:19.214] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:55:19.214] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:55:19.214] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:26.332] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T13:55:26.332] [INFO] cpptips - Set {}
+[2021-04-24T13:55:26.373] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:55:26.915] [DEBUG] cpptips - success
+[2021-04-24T13:55:26.916] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:55:28.286] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:28.286] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:28.286] [MARK] cpptips - Analyse
+[2021-04-24T13:55:28.288] [MARK] cpptips - Analyse
+[2021-04-24T13:55:28.288] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:28.288] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:28.288] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:28.288] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:28.288] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:28.288] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:36.572] [INFO] cpptips - 32 34
+[2021-04-24T13:55:36.573] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:36.573] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:36.574] [INFO] cpptips - filepath: /home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14/data/usr/include/c++/4.8.2/bits/basic_string.h
+[2021-04-24T13:55:36.574] [INFO] cpptips - filepath: /home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14/data/usr/include/c++/4.8.2/bits/basic_string.h
+[2021-04-24T13:55:36.576] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:42.713] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:55:42.733] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T13:55:42.733] [INFO] cpptips - Set {}
+[2021-04-24T13:55:43.983] [DEBUG] cpptips - success
+[2021-04-24T13:55:43.983] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:55:44.511] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:44.511] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:44.511] [MARK] cpptips - Analyse
+[2021-04-24T13:55:44.517] [MARK] cpptips - Analyse
+[2021-04-24T13:55:44.517] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:44.517] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:44.517] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:44.517] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:44.517] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:44.517] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:46.493] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:46.493] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:46.493] [MARK] cpptips - Analyse
+[2021-04-24T13:55:46.494] [MARK] cpptips - Analyse
+[2021-04-24T13:55:46.494] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:46.494] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:46.494] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:46.494] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:46.494] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:46.494] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:46.628] [INFO] cpptips - auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:46.628] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/UserServer.cpp /home/ubuntu/ByteTalk/UserService/ auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:46.628] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:55:46.628] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:46.628] [MARK] cpptips - Analyse
+[2021-04-24T13:55:46.630] [MARK] cpptips - Analyse
+[2021-04-24T13:55:46.630] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:46.630] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:55:46.630] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:55:46.630] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:55:46.630] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:46.630] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:55:47.316] [INFO] cpptips - 51 47
+[2021-04-24T13:55:47.316] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:47.316] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:47.317] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:47.317] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:47.317] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:47.883] [DEBUG] cpptips - success
+[2021-04-24T13:55:48.022] [INFO] cpptips - 51 47
+[2021-04-24T13:55:48.022] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:48.022] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:48.024] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:48.024] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:55:48.024] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:48.553] [INFO] cpptips - 51 33
+[2021-04-24T13:55:48.553] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:48.559] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:48.560] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:49.415] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/a46a8330e72075b78fd22e4c8ba2c928_UserServer.cpp","type":2}]}
+[2021-04-24T13:55:49.415] [INFO] cpptips - Set {}
+[2021-04-24T13:55:54.922] [INFO] cpptips - 68 8
+[2021-04-24T13:55:54.923] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:54.923] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:54.933] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:56.161] [INFO] cpptips - 76 44
+[2021-04-24T13:55:56.161] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:55:56.161] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:55:56.162] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:00.646] [INFO] cpptips - 81 37
+[2021-04-24T13:56:00.646] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:00.646] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:00.647] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T13:56:00.647] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T13:56:00.649] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:03.119] [INFO] cpptips - 84 42
+[2021-04-24T13:56:03.119] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:03.119] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:03.121] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:04.557] [INFO] cpptips - 73 40
+[2021-04-24T13:56:04.557] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:04.557] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:04.558] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:04.558] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:04.558] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:05.433] [INFO] cpptips - 81 50
+[2021-04-24T13:56:05.433] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:05.433] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:05.434] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:05.434] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:05.434] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:05.651] [INFO] cpptips - 81 51
+[2021-04-24T13:56:05.651] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:05.651] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:05.651] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:05.651] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:56:05.651] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:08.289] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:08.289] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:08.289] [MARK] cpptips - Analyse
+[2021-04-24T13:56:08.291] [MARK] cpptips - Analyse
+[2021-04-24T13:56:08.291] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:08.292] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:08.292] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:08.292] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:08.292] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:08.292] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:08.292] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:08.292] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:08.293] [MARK] cpptips - Analyse
+[2021-04-24T13:56:08.293] [MARK] cpptips - Analyse
+[2021-04-24T13:56:08.293] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:08.293] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:08.293] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:08.293] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:08.293] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:08.293] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:09.487] [INFO] cpptips - 34 33
+[2021-04-24T13:56:09.487] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:56:09.487] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:09.489] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:56:10.509] [DEBUG] cpptips - pos: 35 5
+[2021-04-24T13:56:10.509] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:10.509] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:10.509] [DEBUG] cpptips - linecode: r
+[2021-04-24T13:56:10.509] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:10.509] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:10.509] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:10.516] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:10.516] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:10.516] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:10.949] [DEBUG] cpptips - pos: 35 6
+[2021-04-24T13:56:10.949] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:10.949] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:10.949] [DEBUG] cpptips - linecode: re
+[2021-04-24T13:56:10.949] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:10.950] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:10.950] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:10.954] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:10.955] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:10.955] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:11.263] [DEBUG] cpptips - pos: 35 8
+[2021-04-24T13:56:11.263] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:11.263] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:11.263] [DEBUG] cpptips - linecode: recv
+[2021-04-24T13:56:11.263] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:11.263] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:11.264] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:11.267] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:11.267] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:11.267] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:12.685] [DEBUG] cpptips - pos: 35 10
+[2021-04-24T13:56:12.685] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:12.685] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:12.685] [DEBUG] cpptips - linecode: c
+[2021-04-24T13:56:12.685] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:12.685] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:12.685] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:12.688] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:12.693] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:12.693] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:13.013] [DEBUG] cpptips - pos: 35 12
+[2021-04-24T13:56:13.013] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:13.013] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:13.013] [DEBUG] cpptips - linecode: cli
+[2021-04-24T13:56:13.013] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:13.013] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:13.014] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:13.017] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:13.017] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:13.017] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:13.339] [DEBUG] cpptips - pos: 35 13
+[2021-04-24T13:56:13.339] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:13.339] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:13.339] [DEBUG] cpptips - linecode: clie
+[2021-04-24T13:56:13.339] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:13.339] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:13.339] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:13.342] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:13.342] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:13.342] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:17.589] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:17.589] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:17.589] [MARK] cpptips - Analyse
+[2021-04-24T13:56:17.589] [MARK] cpptips - Analyse
+[2021-04-24T13:56:17.589] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:17.590] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:17.590] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:17.590] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:17.590] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:17.590] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:18.824] [DEBUG] cpptips - pos: 35 20
+[2021-04-24T13:56:18.824] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:18.824] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:18.824] [DEBUG] cpptips - linecode: r
+[2021-04-24T13:56:18.824] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:18.824] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:18.825] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:18.828] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:18.828] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:18.828] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:19.074] [DEBUG] cpptips - pos: 35 21
+[2021-04-24T13:56:19.074] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:19.074] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:19.074] [DEBUG] cpptips - linecode: re
+[2021-04-24T13:56:19.074] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:19.074] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:19.075] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:19.078] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:19.078] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:19.078] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:19.289] [DEBUG] cpptips - pos: 35 22
+[2021-04-24T13:56:19.289] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:19.289] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:19.289] [DEBUG] cpptips - linecode: rec
+[2021-04-24T13:56:19.289] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:19.289] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:19.290] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:19.293] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:19.293] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:19.293] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:20.524] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:56:20.525] [MARK] cpptips - getShowTips
+[2021-04-24T13:56:20.525] [MARK] cpptips - getShowTips
+[2021-04-24T13:56:22.662] [DEBUG] cpptips - pos: 35 29
+[2021-04-24T13:56:22.662] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:22.662] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:22.662] [DEBUG] cpptips - linecode: b
+[2021-04-24T13:56:22.662] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:22.662] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:22.662] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:22.665] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:22.666] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:22.666] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:22.882] [DEBUG] cpptips - pos: 35 30
+[2021-04-24T13:56:22.882] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:22.882] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:22.882] [DEBUG] cpptips - linecode: bu
+[2021-04-24T13:56:22.882] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:22.882] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:22.882] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:22.893] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:22.894] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:22.894] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:23.022] [DEBUG] cpptips - pos: 35 31
+[2021-04-24T13:56:23.022] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:23.022] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:23.022] [DEBUG] cpptips - linecode: buf
+[2021-04-24T13:56:23.022] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:23.022] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:23.023] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:23.026] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:23.027] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:23.027] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:29.563] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:56:29.585] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T13:56:29.586] [INFO] cpptips - Set {}
+[2021-04-24T13:56:29.948] [DEBUG] cpptips - success
+[2021-04-24T13:56:29.948] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:56:33.360] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:33.360] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:33.361] [MARK] cpptips - Analyse
+[2021-04-24T13:56:33.361] [MARK] cpptips - Analyse
+[2021-04-24T13:56:33.361] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:33.362] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:33.362] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:33.362] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:33.362] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:33.362] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:34.889] [DEBUG] cpptips - pos: 36 5
+[2021-04-24T13:56:34.889] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:34.889] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:34.889] [DEBUG] cpptips - linecode: i
+[2021-04-24T13:56:34.889] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:34.889] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:34.890] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:34.897] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:34.898] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:34.898] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:35.121] [DEBUG] cpptips - pos: 36 6
+[2021-04-24T13:56:35.121] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:35.121] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:35.121] [DEBUG] cpptips - linecode: ik
+[2021-04-24T13:56:35.121] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:35.121] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:35.122] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:35.125] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:35.125] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:35.125] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:35.513] [DEBUG] cpptips - pos: 36 7
+[2021-04-24T13:56:35.513] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:35.513] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:35.513] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:35.678] [DEBUG] cpptips - pos: 36 8
+[2021-04-24T13:56:35.678] [DEBUG] cpptips - begin findWithNamespace
+[2021-04-24T13:56:35.678] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:56:35.678] [DEBUG] cpptips - 命名空间或者静态方法
+[2021-04-24T13:56:35.679] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:56:38.640] [DEBUG] cpptips - pos: 36 7
+[2021-04-24T13:56:38.640] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:38.640] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:38.640] [DEBUG] cpptips - linecode: ik_
+[2021-04-24T13:56:38.640] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:38.640] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:38.641] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:38.644] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:38.644] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:38.644] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:38.883] [DEBUG] cpptips - pos: 36 8
+[2021-04-24T13:56:38.883] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:38.883] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:38.883] [DEBUG] cpptips - linecode: ik_u
+[2021-04-24T13:56:38.883] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:38.883] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:38.884] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:38.887] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:38.887] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:38.887] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:39.037] [DEBUG] cpptips - pos: 36 9
+[2021-04-24T13:56:39.037] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:39.037] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:39.037] [DEBUG] cpptips - linecode: ik_us
+[2021-04-24T13:56:39.037] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:56:39.037] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:39.038] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:39.041] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:56:39.041] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:56:39.041] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:41.614] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:41.614] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:41.614] [MARK] cpptips - Analyse
+[2021-04-24T13:56:41.615] [MARK] cpptips - Analyse
+[2021-04-24T13:56:41.615] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:41.615] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:41.615] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:41.615] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:41.615] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:41.615] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:46.425] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T13:56:46.425] [INFO] cpptips - Set {}
+[2021-04-24T13:56:55.140] [DEBUG] cpptips - pos: 36 18
+[2021-04-24T13:56:55.140] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:56:55.140] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:55.140] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:56:55.303] [DEBUG] cpptips - pos: 36 19
+[2021-04-24T13:56:55.303] [DEBUG] cpptips - begin findWithNamespace
+[2021-04-24T13:56:55.303] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:56:55.303] [DEBUG] cpptips - 命名空间或者静态方法
+[2021-04-24T13:56:55.304] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:56:57.819] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:56:57.819] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:57.819] [MARK] cpptips - Analyse
+[2021-04-24T13:56:57.820] [MARK] cpptips - Analyse
+[2021-04-24T13:56:57.820] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:57.820] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:56:57.820] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:56:57.820] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:56:57.820] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:56:57.820] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:03.199] [DEBUG] cpptips - pos: 36 32
+[2021-04-24T13:57:03.199] [DEBUG] cpptips - begin findWithNamespace
+[2021-04-24T13:57:03.199] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:57:03.199] [DEBUG] cpptips - 命名空间或者静态方法
+[2021-04-24T13:57:03.199] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:57:03.256] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:03.256] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:03.257] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:03.482] [DEBUG] cpptips - pos: 36 34
+[2021-04-24T13:57:03.482] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:03.482] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:03.483] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:05.140] [DEBUG] cpptips - pos: 36 32
+[2021-04-24T13:57:05.140] [DEBUG] cpptips - begin findWithNamespace
+[2021-04-24T13:57:05.140] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:57:05.140] [DEBUG] cpptips - 命名空间或者静态方法
+[2021-04-24T13:57:05.141] [MARK] cpptips - findWithNamespace
+[2021-04-24T13:57:05.192] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:05.192] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:05.193] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:05.784] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:05.784] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:05.785] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:06.594] [DEBUG] cpptips - pos: 36 37
+[2021-04-24T13:57:06.594] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:06.594] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:06.594] [DEBUG] cpptips - linecode: loggi
+[2021-04-24T13:57:06.594] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:06.594] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:06.594] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:06.597] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:06.597] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:06.597] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.267] [DEBUG] cpptips - pos: 36 36
+[2021-04-24T13:57:07.267] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:07.267] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.267] [DEBUG] cpptips - linecode: logg
+[2021-04-24T13:57:07.267] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:07.267] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.267] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.273] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.273] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.273] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.471] [DEBUG] cpptips - pos: 36 35
+[2021-04-24T13:57:07.471] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:07.471] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.471] [DEBUG] cpptips - linecode: log
+[2021-04-24T13:57:07.471] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:07.471] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.472] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.478] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.478] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.478] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.714] [DEBUG] cpptips - pos: 36 34
+[2021-04-24T13:57:07.714] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:07.714] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:07.714] [DEBUG] cpptips - linecode: lo
+[2021-04-24T13:57:07.714] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:07.714] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.714] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.717] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:07.718] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:07.718] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:08.389] [DEBUG] cpptips - pos: 36 35
+[2021-04-24T13:57:08.389] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:08.389] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:08.389] [DEBUG] cpptips - linecode: log
+[2021-04-24T13:57:08.389] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:08.389] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:08.390] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:08.392] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:08.393] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:08.393] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:12.218] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:57:12.218] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:12.218] [MARK] cpptips - Analyse
+[2021-04-24T13:57:12.219] [MARK] cpptips - Analyse
+[2021-04-24T13:57:12.219] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:12.219] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:12.219] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:12.219] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:57:12.219] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:12.219] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:12.810] [DEBUG] cpptips - pos: 36 43
+[2021-04-24T13:57:12.810] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:12.810] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:12.810] [DEBUG] cpptips - linecode: login_respo
+[2021-04-24T13:57:12.810] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:12.810] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:12.810] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:12.814] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:12.814] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:12.815] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:13.086] [DEBUG] cpptips - pos: 36 45
+[2021-04-24T13:57:13.087] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:13.087] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:13.087] [DEBUG] cpptips - linecode: login_respons
+[2021-04-24T13:57:13.087] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:13.087] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:13.088] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:13.095] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:13.095] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:13.095] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:15.811] [DEBUG] cpptips - pos: 37 5
+[2021-04-24T13:57:15.811] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:15.811] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:15.811] [DEBUG] cpptips - linecode: l
+[2021-04-24T13:57:15.811] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:15.811] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:15.812] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:15.815] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:15.815] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:15.815] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:16.041] [DEBUG] cpptips - pos: 37 6
+[2021-04-24T13:57:16.041] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:16.042] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:16.042] [DEBUG] cpptips - linecode: lo
+[2021-04-24T13:57:16.042] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:16.042] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:16.042] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:16.053] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:16.053] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:16.053] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:16.269] [DEBUG] cpptips - pos: 37 7
+[2021-04-24T13:57:16.269] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:16.269] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:16.269] [DEBUG] cpptips - linecode: log
+[2021-04-24T13:57:16.269] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:16.269] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:16.269] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:16.272] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:16.272] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:16.272] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:17.235] [DEBUG] cpptips - pos: 37 8
+[2021-04-24T13:57:17.235] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:17.235] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:17.235] [DEBUG] cpptips - linecode: logi
+[2021-04-24T13:57:17.235] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:17.235] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:17.235] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:17.238] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:17.238] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:17.238] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:17.320] [DEBUG] cpptips - pos: 37 9
+[2021-04-24T13:57:17.320] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:17.320] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:17.320] [DEBUG] cpptips - linecode: login
+[2021-04-24T13:57:17.320] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:17.320] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:17.321] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:17.324] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:17.324] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:17.324] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:18.400] [DEBUG] cpptips - pos: 37 10
+[2021-04-24T13:57:18.400] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T13:57:18.400] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:18.400] [DEBUG] cpptips - xxx通过归属找提醒 10
+[2021-04-24T13:57:18.400] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:18.401] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:18.401] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:20.871] [DEBUG] cpptips - pos: 37 10
+[2021-04-24T13:57:20.871] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:20.871] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:20.871] [DEBUG] cpptips - linecode: loginr
+[2021-04-24T13:57:20.871] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:20.871] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:20.871] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:20.874] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:20.874] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:20.874] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:24.061] [DEBUG] cpptips - pos: 37 13
+[2021-04-24T13:57:24.061] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:24.061] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:24.061] [DEBUG] cpptips - linecode: login_rep
+[2021-04-24T13:57:24.061] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:24.061] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:24.061] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:24.064] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:24.064] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:24.064] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:25.454] [DEBUG] cpptips - pos: 37 19
+[2021-04-24T13:57:25.454] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T13:57:25.454] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:25.454] [DEBUG] cpptips - xxx通过归属找提醒 19
+[2021-04-24T13:57:25.454] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:25.454] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:25.455] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:25.456] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:25.456] [ERROR] cpptips - not find result. ids: []
+[2021-04-24T13:57:25.456] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:25.456] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:25.456] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:26.055] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:26.055] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:26.055] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:28.760] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:57:28.760] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:28.760] [MARK] cpptips - Analyse
+[2021-04-24T13:57:28.761] [MARK] cpptips - Analyse
+[2021-04-24T13:57:28.761] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:28.761] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:28.761] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:28.761] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:57:28.761] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:28.761] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:30.643] [DEBUG] cpptips - pos: 37 36
+[2021-04-24T13:57:30.644] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:30.644] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:30.644] [DEBUG] cpptips - linecode: r
+[2021-04-24T13:57:30.644] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:30.644] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:30.644] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:30.650] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:30.650] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:30.650] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:30.873] [DEBUG] cpptips - pos: 37 37
+[2021-04-24T13:57:30.873] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:30.873] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:30.873] [DEBUG] cpptips - linecode: re
+[2021-04-24T13:57:30.873] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:30.873] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:30.874] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:30.877] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:30.877] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:30.877] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:31.680] [DEBUG] cpptips - pos: 37 38
+[2021-04-24T13:57:31.680] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:31.680] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:31.680] [DEBUG] cpptips - linecode: rec
+[2021-04-24T13:57:31.680] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:31.680] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:31.681] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:31.684] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:31.684] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:31.684] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:32.651] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:32.651] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:32.651] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:35.717] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:57:35.771] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T13:57:35.771] [INFO] cpptips - Set {}
+[2021-04-24T13:57:36.548] [DEBUG] cpptips - pos: 38 5
+[2021-04-24T13:57:36.548] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:36.548] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:36.548] [DEBUG] cpptips - linecode: r
+[2021-04-24T13:57:36.548] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:36.548] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:36.548] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:36.552] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:36.555] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:36.555] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:36.795] [DEBUG] cpptips - pos: 38 6
+[2021-04-24T13:57:36.795] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:36.795] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:36.795] [DEBUG] cpptips - linecode: re
+[2021-04-24T13:57:36.795] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:36.795] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:36.795] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:36.799] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:36.799] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:36.799] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:37.096] [DEBUG] cpptips - pos: 38 7
+[2021-04-24T13:57:37.096] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:37.096] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:37.096] [DEBUG] cpptips - linecode: res
+[2021-04-24T13:57:37.096] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:37.096] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:37.096] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:37.102] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:37.102] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:37.102] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:37.126] [DEBUG] cpptips - success
+[2021-04-24T13:57:37.126] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:57:39.249] [DEBUG] cpptips - pos: 38 13
+[2021-04-24T13:57:39.249] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T13:57:39.249] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:39.249] [DEBUG] cpptips - xxx通过归属找提醒 13
+[2021-04-24T13:57:39.249] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:39.249] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:39.250] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:39.254] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:39.254] [ERROR] cpptips - not find result. ids: []
+[2021-04-24T13:57:39.254] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:39.254] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:39.255] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:42.644] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:57:42.644] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:42.644] [MARK] cpptips - Analyse
+[2021-04-24T13:57:42.645] [MARK] cpptips - Analyse
+[2021-04-24T13:57:42.645] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:42.645] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:42.645] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:42.645] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:57:42.645] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:42.645] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:49.082] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:57:49.082] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:49.082] [MARK] cpptips - Analyse
+[2021-04-24T13:57:49.082] [MARK] cpptips - Analyse
+[2021-04-24T13:57:49.082] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:49.083] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:49.083] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:49.083] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:57:49.083] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:49.083] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:51.644] [DEBUG] cpptips - pos: 38 30
+[2021-04-24T13:57:51.644] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:51.644] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:51.644] [DEBUG] cpptips - linecode: l
+[2021-04-24T13:57:51.644] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:51.644] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:51.644] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:51.659] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:51.659] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:51.660] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:51.889] [DEBUG] cpptips - pos: 38 31
+[2021-04-24T13:57:51.889] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:51.889] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:51.889] [DEBUG] cpptips - linecode: lo
+[2021-04-24T13:57:51.889] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:51.889] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:51.890] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:51.893] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:51.893] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:51.893] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:52.097] [DEBUG] cpptips - pos: 38 32
+[2021-04-24T13:57:52.097] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:57:52.097] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:52.097] [DEBUG] cpptips - linecode: log
+[2021-04-24T13:57:52.097] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T13:57:52.097] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:52.097] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:52.101] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T13:57:52.101] [MARK] cpptips - searchKeyWord
+[2021-04-24T13:57:52.101] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:57:54.225] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T13:57:54.225] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:54.225] [MARK] cpptips - getShowTips
+[2021-04-24T13:57:54.766] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:57:54.766] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:54.766] [MARK] cpptips - Analyse
+[2021-04-24T13:57:54.767] [MARK] cpptips - Analyse
+[2021-04-24T13:57:54.767] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:54.767] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:57:54.767] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:57:54.767] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:57:54.767] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:54.768] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:57:55.938] [DEBUG] cpptips - pos: 38 44
+[2021-04-24T13:57:55.938] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T13:57:55.938] [MARK] cpptips - findWithOwner
+[2021-04-24T13:57:55.938] [DEBUG] cpptips - xxx通过归属找提醒 44
+[2021-04-24T13:57:55.938] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:55.939] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:55.940] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:55.942] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:55.942] [ERROR] cpptips - not find result. ids: []
+[2021-04-24T13:57:55.942] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T13:57:55.942] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T13:57:55.942] [MARK] cpptips - findWithOwner
+[2021-04-24T13:58:00.913] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T13:58:00.913] [INFO] cpptips - Set {}
+[2021-04-24T13:58:00.982] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:58:01.691] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:58:01.691] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:58:01.691] [MARK] cpptips - Analyse
+[2021-04-24T13:58:01.692] [MARK] cpptips - Analyse
+[2021-04-24T13:58:01.692] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:58:01.692] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:58:01.692] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:58:01.692] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:58:01.692] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:58:01.692] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:58:01.919] [DEBUG] cpptips - success
+[2021-04-24T13:58:01.919] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T13:58:02.251] [INFO] cpptips - 38 13
+[2021-04-24T13:58:02.252] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:58:02.252] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:58:02.252] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:58:02.252] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:58:02.252] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:58:08.262] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:58:08.262] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:58:08.262] [MARK] cpptips - Analyse
+[2021-04-24T13:58:08.269] [MARK] cpptips - Analyse
+[2021-04-24T13:58:08.269] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:58:08.269] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:58:08.269] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:58:08.269] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:58:08.269] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:58:08.270] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:58:08.272] [INFO] cpptips - auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T13:58:17.592] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/proto/UserService.proto","type":2}]}
+[2021-04-24T13:58:17.592] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/UserService/proto/UserService.proto'
+}
+[2021-04-24T13:58:17.772] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:58:46.469] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T13:58:46.469] [INFO] cpptips - Set {}
+[2021-04-24T13:58:52.601] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/proto/UserService.proto","type":2}]}
+[2021-04-24T13:58:52.601] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/UserService/proto/UserService.proto'
+}
+[2021-04-24T13:58:52.777] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:59:12.467] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.h","type":1}]}
+[2021-04-24T13:59:12.467] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.h'
+}
+[2021-04-24T13:59:12.664] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T13:59:14.157] [INFO] cpptips - proto/UserService.pb.h
+[2021-04-24T13:59:14.157] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.h /home/ubuntu/ByteTalk/UserService/ proto/UserService.pb.h
+[2021-04-24T13:59:14.157] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:14.158] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:14.158] [MARK] cpptips - Analyse
+[2021-04-24T13:59:14.238] [MARK] cpptips - Analyse
+[2021-04-24T13:59:14.238] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:14.274] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:14.274] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:14.274] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:59:14.274] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:14.275] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:15.346] [DEBUG] cpptips - success
+[2021-04-24T13:59:16.498] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/45182d0db4c628397ad3399843f0bb4d_UserService.pb.h","type":1}]}
+[2021-04-24T13:59:16.498] [INFO] cpptips - Set {}
+[2021-04-24T13:59:19.467] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:19.467] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:19.467] [MARK] cpptips - Analyse
+[2021-04-24T13:59:19.542] [MARK] cpptips - Analyse
+[2021-04-24T13:59:19.542] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:19.600] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:19.600] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:19.600] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:59:19.600] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:19.601] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:19.611] [INFO] cpptips - proto/UserService.pb.h
+[2021-04-24T13:59:19.638] [INFO] cpptips - include/UserService.pb.h
+[2021-04-24T13:59:19.638] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/include/UserService.pb.h /home/ubuntu/ByteTalk/UserService/ include/UserService.pb.h
+[2021-04-24T13:59:19.639] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:19.639] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:19.639] [MARK] cpptips - Analyse
+[2021-04-24T13:59:19.751] [MARK] cpptips - Analyse
+[2021-04-24T13:59:19.751] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:19.778] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:19.778] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:19.778] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:59:19.778] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:19.779] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:19.816] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/include/UserService.pb.h","type":2},{"uri":"file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.h","type":3}]}
+[2021-04-24T13:59:19.816] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.h'
+}
+[2021-04-24T13:59:20.323] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:20.323] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:20.323] [MARK] cpptips - Analyse
+[2021-04-24T13:59:20.367] [MARK] cpptips - Analyse
+[2021-04-24T13:59:20.367] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:20.404] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:20.404] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:20.404] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:59:20.404] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:20.421] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:20.423] [INFO] cpptips - include/UserService.pb.h
+[2021-04-24T13:59:20.527] [INFO] cpptips - proto/UserService.pb.cc
+[2021-04-24T13:59:20.527] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/proto/UserService.pb.cc /home/ubuntu/ByteTalk/UserService/ proto/UserService.pb.cc
+[2021-04-24T13:59:20.527] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:20.527] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:20.527] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-24T13:59:20.527] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:21.028] [DEBUG] cpptips - fileerror
+[2021-04-24T13:59:21.365] [DEBUG] cpptips - success
+[2021-04-24T13:59:23.702] [INFO] cpptips - 14 36
+[2021-04-24T13:59:23.702] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:59:23.702] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:23.702] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-04-24T13:59:23.702] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:24.072] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:24.072] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:24.072] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-24T13:59:24.072] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:24.072] [INFO] cpptips - proto/UserService.pb.cc
+[2021-04-24T13:59:24.072] [DEBUG] cpptips - fileerror
+[2021-04-24T13:59:24.275] [INFO] cpptips - src/UserService.pb.cc
+[2021-04-24T13:59:24.275] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/UserService/src/UserService.pb.cc /home/ubuntu/ByteTalk/UserService/ src/UserService.pb.cc
+[2021-04-24T13:59:24.276] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:24.276] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:24.276] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-24T13:59:24.276] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:24.777] [DEBUG] cpptips - fileerror
+[2021-04-24T13:59:25.518] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:25.518] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:25.518] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-24T13:59:25.518] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:25.526] [INFO] cpptips - src/UserService.pb.cc
+[2021-04-24T13:59:25.526] [DEBUG] cpptips - fileerror
+[2021-04-24T13:59:26.589] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T13:59:26.589] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:26.589] [MARK] cpptips - Analyse
+[2021-04-24T13:59:26.590] [MARK] cpptips - Analyse
+[2021-04-24T13:59:26.590] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:26.590] [MARK] cpptips - getDocumentStruct
+[2021-04-24T13:59:26.590] [MARK] cpptips - getDocumentTree
+[2021-04-24T13:59:26.590] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T13:59:26.590] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:26.590] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T13:59:29.420] [INFO] cpptips - 38 58
+[2021-04-24T13:59:29.420] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:59:29.420] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:29.422] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T13:59:29.422] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T13:59:29.424] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:31.489] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/71d1e7280c26dd83ef4baa4a3814e936_UserService.pb.h","type":2}]}
+[2021-04-24T13:59:31.490] [INFO] cpptips - Set {}
+[2021-04-24T13:59:48.310] [INFO] cpptips - 31 8
+[2021-04-24T13:59:48.310] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:59:48.310] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:48.310] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:48.903] [INFO] cpptips - 36 29
+[2021-04-24T13:59:48.903] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:59:48.903] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:48.904] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T13:59:48.904] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T13:59:48.904] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:51.774] [INFO] cpptips - 34 27
+[2021-04-24T13:59:51.774] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T13:59:51.774] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:51.775] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:59:51.775] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:59:51.775] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T13:59:51.776] [MARK] cpptips - getDefinePoint
+[2021-04-24T13:59:55.186] [DEBUG] cpptips - pos: 34 5
+[2021-04-24T13:59:55.186] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:59:55.186] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:59:55.186] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:59:55.316] [DEBUG] cpptips - pos: 34 6
+[2021-04-24T13:59:55.316] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T13:59:55.316] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:59:55.316] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T13:59:55.731] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/df53a74a0136b95e14ac9c26dd5f8a74_LogServer.pb.h","type":3}]}
+[2021-04-24T13:59:55.731] [INFO] cpptips - Set {}
+[2021-04-24T14:00:05.929] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:00:05.929] [INFO] cpptips - Set {}
+[2021-04-24T14:00:06.013] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:00:06.972] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:00:06.972] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:06.972] [MARK] cpptips - Analyse
+[2021-04-24T14:00:06.973] [MARK] cpptips - Analyse
+[2021-04-24T14:00:06.973] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:06.973] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:06.973] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:06.973] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:00:06.974] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:06.974] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:06.991] [INFO] cpptips - 39 54
+[2021-04-24T14:00:06.991] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:06.991] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:06.997] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:06.997] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:06.999] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:07.150] [DEBUG] cpptips - success
+[2021-04-24T14:00:07.150] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:00:08.127] [DEBUG] cpptips - pos: 40 5
+[2021-04-24T14:00:08.127] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:08.127] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.127] [DEBUG] cpptips - linecode: c
+[2021-04-24T14:00:08.128] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:08.128] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.128] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.132] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.132] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.132] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.416] [DEBUG] cpptips - pos: 40 6
+[2021-04-24T14:00:08.416] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:08.416] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.416] [DEBUG] cpptips - linecode: cl
+[2021-04-24T14:00:08.416] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:08.416] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.417] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.420] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.420] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.420] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.621] [DEBUG] cpptips - pos: 40 8
+[2021-04-24T14:00:08.621] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:08.621] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.621] [DEBUG] cpptips - linecode: clos
+[2021-04-24T14:00:08.621] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:08.621] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.622] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.625] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.625] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.625] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.719] [DEBUG] cpptips - pos: 40 9
+[2021-04-24T14:00:08.719] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:08.719] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:08.719] [DEBUG] cpptips - linecode: close
+[2021-04-24T14:00:08.719] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:08.719] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.719] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.722] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:08.722] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:08.723] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:09.993] [DEBUG] cpptips - pos: 40 11
+[2021-04-24T14:00:09.993] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:09.993] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:09.993] [DEBUG] cpptips - linecode: c
+[2021-04-24T14:00:09.993] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:09.993] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:09.994] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:09.997] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:09.997] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:09.997] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:10.404] [DEBUG] cpptips - pos: 40 13
+[2021-04-24T14:00:10.404] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:10.404] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:10.404] [DEBUG] cpptips - linecode: cli
+[2021-04-24T14:00:10.404] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:10.404] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:10.404] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:10.408] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:10.408] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:10.408] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:13.516] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:00:13.516] [INFO] cpptips - Set {}
+[2021-04-24T14:00:13.637] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:00:14.018] [DEBUG] cpptips - success
+[2021-04-24T14:00:14.019] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:00:15.462] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:00:15.462] [INFO] cpptips - Set {}
+[2021-04-24T14:00:15.476] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:00:16.019] [DEBUG] cpptips - success
+[2021-04-24T14:00:16.019] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:00:16.776] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:00:16.776] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:16.777] [MARK] cpptips - Analyse
+[2021-04-24T14:00:16.780] [MARK] cpptips - Analyse
+[2021-04-24T14:00:16.780] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:16.780] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:16.780] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:16.780] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:00:16.780] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:16.780] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:19.884] [INFO] cpptips - 14 61
+[2021-04-24T14:00:19.885] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:19.885] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:19.885] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:00:19.885] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:00:19.885] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:24.349] [DEBUG] cpptips - pos: 42 5
+[2021-04-24T14:00:24.349] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:24.349] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:24.349] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:00:24.349] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:24.349] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.349] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.356] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.357] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.357] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:24.621] [DEBUG] cpptips - pos: 42 6
+[2021-04-24T14:00:24.621] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:24.621] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:24.621] [DEBUG] cpptips - linecode: ru
+[2021-04-24T14:00:24.621] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:24.621] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.621] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.625] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.625] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.625] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:24.852] [DEBUG] cpptips - pos: 42 7
+[2021-04-24T14:00:24.852] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:24.852] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:24.852] [DEBUG] cpptips - linecode: run
+[2021-04-24T14:00:24.852] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:24.852] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.852] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.856] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:24.856] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:24.856] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:26.804] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:00:26.804] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:26.804] [MARK] cpptips - Analyse
+[2021-04-24T14:00:26.807] [MARK] cpptips - Analyse
+[2021-04-24T14:00:26.807] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:26.807] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:26.807] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:26.807] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:00:26.807] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:26.807] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:27.642] [DEBUG] cpptips - pos: 42 6
+[2021-04-24T14:00:27.642] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:27.642] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:27.642] [DEBUG] cpptips - linecode: ru
+[2021-04-24T14:00:27.642] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:27.642] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:27.642] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:27.645] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:27.645] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:27.645] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:27.877] [DEBUG] cpptips - pos: 42 5
+[2021-04-24T14:00:27.877] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:27.877] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:27.877] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:00:27.877] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:27.877] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:27.877] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:27.880] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:27.881] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:27.881] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.422] [DEBUG] cpptips - pos: 42 5
+[2021-04-24T14:00:28.422] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:28.422] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.422] [DEBUG] cpptips - linecode: d
+[2021-04-24T14:00:28.422] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:28.422] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.422] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.425] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.426] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.426] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.710] [DEBUG] cpptips - pos: 42 6
+[2021-04-24T14:00:28.710] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:28.710] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.710] [DEBUG] cpptips - linecode: do
+[2021-04-24T14:00:28.710] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:28.710] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.710] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.713] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.713] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.714] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.923] [DEBUG] cpptips - pos: 42 7
+[2021-04-24T14:00:28.923] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:00:28.923] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:28.923] [DEBUG] cpptips - linecode: don
+[2021-04-24T14:00:28.923] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:00:28.923] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.923] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.926] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:00:28.926] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:00:28.926] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:00:30.482] [DEBUG] cpptips - pos: 42 10
+[2021-04-24T14:00:30.482] [DEBUG] cpptips - begin findWithPoint
+[2021-04-24T14:00:30.482] [MARK] cpptips - findWithPoint
+[2021-04-24T14:00:30.483] [DEBUG] cpptips - 指针访问提示 10
+[2021-04-24T14:00:30.483] [DEBUG] cpptips - begin getAllNameByObj
+[2021-04-24T14:00:30.483] [MARK] cpptips - getAllNameByObj
+[2021-04-24T14:00:30.483] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:00:30.484] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:00:30.484] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:00:30.484] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:00:30.484] [MARK] cpptips - getAllNameByObj
+[2021-04-24T14:00:30.484] [MARK] cpptips - findWithPoint
+[2021-04-24T14:00:33.810] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:00:33.820] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:00:33.820] [INFO] cpptips - Set {}
+[2021-04-24T14:00:34.021] [DEBUG] cpptips - success
+[2021-04-24T14:00:34.021] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:00:34.520] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:00:34.520] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:34.520] [MARK] cpptips - Analyse
+[2021-04-24T14:00:34.521] [MARK] cpptips - Analyse
+[2021-04-24T14:00:34.521] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:34.521] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:34.521] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:34.521] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:00:34.521] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:34.522] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:34.944] [INFO] cpptips - 39 46
+[2021-04-24T14:00:34.944] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:34.944] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:34.946] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:34.946] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:34.947] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:35.949] [INFO] cpptips - 39 24
+[2021-04-24T14:00:35.949] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:35.949] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:35.951] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:00:35.951] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:00:35.951] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:42.479] [INFO] cpptips - 39 47
+[2021-04-24T14:00:42.479] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:42.479] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:42.481] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:42.481] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:00:42.481] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:42.791] [INFO] cpptips - 38 38
+[2021-04-24T14:00:42.791] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:42.791] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:42.793] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:43.589] [INFO] cpptips - 39 41
+[2021-04-24T14:00:43.589] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:43.589] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:43.590] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:00:43.590] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:00:43.590] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:46.669] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T14:00:46.669] [INFO] cpptips - Set {}
+[2021-04-24T14:00:59.168] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:00:59.168] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:59.168] [MARK] cpptips - Analyse
+[2021-04-24T14:00:59.172] [MARK] cpptips - Analyse
+[2021-04-24T14:00:59.172] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:59.172] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:00:59.172] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:00:59.172] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:00:59.172] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:59.172] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:00:59.533] [INFO] cpptips - 50 32
+[2021-04-24T14:00:59.533] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:00:59.533] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:00:59.534] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:00.345] [INFO] cpptips - 49 33
+[2021-04-24T14:01:00.345] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:00.345] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:00.346] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:00.346] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:00.346] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:10.105] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:10.105] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:10.105] [MARK] cpptips - Analyse
+[2021-04-24T14:01:10.110] [MARK] cpptips - Analyse
+[2021-04-24T14:01:10.110] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:10.110] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:10.110] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:10.110] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:10.110] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:10.110] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:10.613] [INFO] cpptips - 50 9
+[2021-04-24T14:01:10.613] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:10.613] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:10.614] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:12.095] [INFO] cpptips - 49 32
+[2021-04-24T14:01:12.095] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:12.095] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:12.096] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:12.096] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:12.096] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.169] [DEBUG] cpptips - pos: 49 32
+[2021-04-24T14:01:13.169] [DEBUG] cpptips - line: ik_UserServer::Request register_request;
+[2021-04-24T14:01:13.169] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:13.169] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.170] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:13.170] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:13.170] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.271] [DEBUG] cpptips - pos: 50 30
+[2021-04-24T14:01:13.271] [DEBUG] cpptips - line: login_request.set_type("Register");
+[2021-04-24T14:01:13.271] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:13.271] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.271] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.904] [INFO] cpptips - 50 11
+[2021-04-24T14:01:13.904] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:13.904] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:13.905] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.522] [DEBUG] cpptips - pos: 50 11
+[2021-04-24T14:01:14.522] [DEBUG] cpptips - line: login_request.set_type("Register");
+[2021-04-24T14:01:14.522] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:14.522] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.523] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.809] [DEBUG] cpptips - pos: 51 12
+[2021-04-24T14:01:14.809] [DEBUG] cpptips - line: login_request.set_request(request->SerializeAsString());
+[2021-04-24T14:01:14.809] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:14.809] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.810] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.939] [INFO] cpptips - 51 12
+[2021-04-24T14:01:14.939] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:14.939] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:14.940] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:15.237] [INFO] cpptips - 51 12
+[2021-04-24T14:01:15.237] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:15.237] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:15.238] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:15.913] [DEBUG] cpptips - pos: 51 12
+[2021-04-24T14:01:15.914] [DEBUG] cpptips - line: login_request.set_request(request->SerializeAsString());
+[2021-04-24T14:01:15.914] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:15.914] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:15.915] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:18.619] [INFO] cpptips - 56 47
+[2021-04-24T14:01:18.619] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:18.619] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:18.620] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:19.489] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:19.489] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:19.489] [MARK] cpptips - Analyse
+[2021-04-24T14:01:19.491] [MARK] cpptips - Analyse
+[2021-04-24T14:01:19.491] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:19.491] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:19.491] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:19.491] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:19.491] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:19.491] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:22.780] [INFO] cpptips - 64 14
+[2021-04-24T14:01:22.780] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:22.780] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:22.781] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:22.781] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:22.781] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:24.458] [INFO] cpptips - 68 39
+[2021-04-24T14:01:24.458] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:24.458] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:24.460] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:24.460] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:24.460] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:24.460] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:26.345] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:01:26.373] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:01:26.373] [INFO] cpptips - Set {}
+[2021-04-24T14:01:26.457] [INFO] cpptips - 69 23
+[2021-04-24T14:01:26.457] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:26.458] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:26.459] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:01:26.459] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:01:26.468] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:27.061] [DEBUG] cpptips - success
+[2021-04-24T14:01:27.061] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:01:27.078] [INFO] cpptips - 69 23
+[2021-04-24T14:01:27.078] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:27.078] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:27.084] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:01:27.084] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:01:27.087] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:27.712] [INFO] cpptips - 70 29
+[2021-04-24T14:01:27.712] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:27.712] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:27.714] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:28.031] [INFO] cpptips - 70 29
+[2021-04-24T14:01:28.031] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:28.031] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:28.032] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:34.876] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:34.876] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:34.876] [MARK] cpptips - Analyse
+[2021-04-24T14:01:34.878] [MARK] cpptips - Analyse
+[2021-04-24T14:01:34.878] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:34.878] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:34.878] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:34.878] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:34.878] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:34.878] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:36.775] [DEBUG] cpptips - pos: 69 20
+[2021-04-24T14:01:36.775] [DEBUG] cpptips - begin findWithNamespace
+[2021-04-24T14:01:36.775] [MARK] cpptips - findWithNamespace
+[2021-04-24T14:01:36.775] [DEBUG] cpptips - 命名空间或者静态方法
+[2021-04-24T14:01:36.776] [MARK] cpptips - findWithNamespace
+[2021-04-24T14:01:39.996] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:01:40.028] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:01:40.028] [INFO] cpptips - Set {}
+[2021-04-24T14:01:40.519] [INFO] cpptips - 69 41
+[2021-04-24T14:01:40.519] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:40.519] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:40.521] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:40.521] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:01:40.521] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:41.037] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:41.037] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:41.037] [MARK] cpptips - Analyse
+[2021-04-24T14:01:41.039] [MARK] cpptips - Analyse
+[2021-04-24T14:01:41.040] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:41.040] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:41.041] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:41.041] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:41.041] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:41.041] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:41.116] [DEBUG] cpptips - success
+[2021-04-24T14:01:41.116] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:01:46.433] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:01:46.434] [INFO] cpptips - Set {}
+[2021-04-24T14:01:46.459] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:01:47.064] [DEBUG] cpptips - success
+[2021-04-24T14:01:47.064] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:01:47.368] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:47.368] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:47.368] [MARK] cpptips - Analyse
+[2021-04-24T14:01:47.370] [MARK] cpptips - Analyse
+[2021-04-24T14:01:47.370] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:47.370] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:47.370] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:47.370] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:47.370] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:47.370] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:53.736] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:01:53.737] [INFO] cpptips - Set {}
+[2021-04-24T14:01:53.775] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:01:53.984] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:53.984] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:53.985] [MARK] cpptips - Analyse
+[2021-04-24T14:01:53.993] [MARK] cpptips - Analyse
+[2021-04-24T14:01:53.993] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:53.993] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:53.993] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:53.993] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:53.993] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:53.993] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:54.102] [DEBUG] cpptips - success
+[2021-04-24T14:01:54.103] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:01:56.787] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:56.787] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:56.787] [MARK] cpptips - Analyse
+[2021-04-24T14:01:56.788] [MARK] cpptips - Analyse
+[2021-04-24T14:01:56.788] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:56.788] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:56.788] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:56.788] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:56.788] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:56.788] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:56.789] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:01:56.789] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:56.789] [MARK] cpptips - Analyse
+[2021-04-24T14:01:56.790] [MARK] cpptips - Analyse
+[2021-04-24T14:01:56.790] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:56.791] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:01:56.791] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:01:56.791] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:01:56.791] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:56.791] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:01:58.110] [INFO] cpptips - 28 42
+[2021-04-24T14:01:58.110] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:01:58.110] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:58.110] [DEBUG] cpptips - UserService : public ik_UserService:
+[2021-04-24T14:01:58.111] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:01:58.688] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/71d1e7280c26dd83ef4baa4a3814e936_UserService.hpp","type":2}]}
+[2021-04-24T14:01:58.688] [INFO] cpptips - Set {}
+[2021-04-24T14:02:02.907] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:02.907] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:02.907] [MARK] cpptips - Analyse
+[2021-04-24T14:02:02.908] [MARK] cpptips - Analyse
+[2021-04-24T14:02:02.908] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:02.908] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:02.908] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:02.908] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:02.908] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:02.908] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:02.914] [INFO] cpptips - include/UserService.hpp
+[2021-04-24T14:02:02.915] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:02.915] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:02.915] [MARK] cpptips - Analyse
+[2021-04-24T14:02:02.916] [MARK] cpptips - Analyse
+[2021-04-24T14:02:02.916] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:02.916] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:02.916] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:02.916] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:02.916] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:02.916] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:04.741] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:04.741] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:04.741] [MARK] cpptips - Analyse
+[2021-04-24T14:02:04.744] [MARK] cpptips - Analyse
+[2021-04-24T14:02:04.744] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:04.744] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:04.744] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:04.744] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:04.744] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:04.744] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:10.870] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:10.870] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:10.870] [MARK] cpptips - Analyse
+[2021-04-24T14:02:10.878] [MARK] cpptips - Analyse
+[2021-04-24T14:02:10.878] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:10.881] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:10.881] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:10.881] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:10.881] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:10.882] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:11.885] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:11.885] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:11.885] [MARK] cpptips - Analyse
+[2021-04-24T14:02:11.888] [MARK] cpptips - Analyse
+[2021-04-24T14:02:11.888] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:11.888] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:11.888] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:11.888] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:11.888] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:11.888] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:11.893] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:11.894] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:11.894] [MARK] cpptips - Analyse
+[2021-04-24T14:02:11.895] [MARK] cpptips - Analyse
+[2021-04-24T14:02:11.895] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:11.895] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:11.895] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:11.895] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:11.895] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:11.895] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:13.391] [INFO] cpptips - 71 10
+[2021-04-24T14:02:13.391] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:13.391] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:13.393] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:13.900] [INFO] cpptips - 71 10
+[2021-04-24T14:02:13.900] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:13.901] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:13.902] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:14.753] [INFO] cpptips - 72 18
+[2021-04-24T14:02:14.753] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:14.753] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:14.754] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:02:14.754] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:02:14.756] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:15.432] [DEBUG] cpptips - pos: 71 5
+[2021-04-24T14:02:15.432] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:15.432] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:15.432] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:02:15.432] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:15.432] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:15.433] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:15.440] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:15.443] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:15.443] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:15.925] [DEBUG] cpptips - pos: 71 7
+[2021-04-24T14:02:15.925] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:15.925] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:15.925] [DEBUG] cpptips - linecode: reg
+[2021-04-24T14:02:15.925] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:15.925] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:15.925] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:15.928] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:15.928] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:15.928] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:16.070] [DEBUG] cpptips - pos: 71 8
+[2021-04-24T14:02:16.070] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:16.070] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:16.070] [DEBUG] cpptips - linecode: regi
+[2021-04-24T14:02:16.070] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:16.070] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:16.071] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:16.074] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:16.074] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:16.074] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:19.646] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:19.646] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:19.646] [MARK] cpptips - Analyse
+[2021-04-24T14:02:19.649] [MARK] cpptips - Analyse
+[2021-04-24T14:02:19.649] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:19.649] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:19.649] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:19.649] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:19.649] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:19.649] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:19.771] [INFO] cpptips - 71 42
+[2021-04-24T14:02:19.771] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:19.771] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:19.772] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:20.381] [INFO] cpptips - 71 47
+[2021-04-24T14:02:20.381] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:20.381] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:20.383] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:20.792] [INFO] cpptips - 72 54
+[2021-04-24T14:02:20.792] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:20.792] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:20.793] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:21.683] [INFO] cpptips - 72 56
+[2021-04-24T14:02:21.683] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:21.683] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:21.684] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:22.945] [DEBUG] cpptips - pos: 72 5
+[2021-04-24T14:02:22.945] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:22.945] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:22.945] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:02:22.945] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:22.945] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:22.945] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:22.950] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:22.950] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:22.950] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.230] [DEBUG] cpptips - pos: 72 6
+[2021-04-24T14:02:23.230] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:23.230] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.230] [DEBUG] cpptips - linecode: re
+[2021-04-24T14:02:23.230] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:23.230] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.230] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.242] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.242] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.242] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.495] [DEBUG] cpptips - pos: 72 7
+[2021-04-24T14:02:23.495] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:23.495] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.495] [DEBUG] cpptips - linecode: res
+[2021-04-24T14:02:23.495] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:23.495] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.495] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.499] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.499] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.499] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.783] [DEBUG] cpptips - pos: 72 8
+[2021-04-24T14:02:23.783] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:23.783] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:23.783] [DEBUG] cpptips - linecode: resp
+[2021-04-24T14:02:23.783] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:23.783] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.783] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.786] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:23.786] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:23.786] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:26.485] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:26.485] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:26.485] [MARK] cpptips - Analyse
+[2021-04-24T14:02:26.486] [MARK] cpptips - Analyse
+[2021-04-24T14:02:26.486] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:26.486] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:26.486] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:26.486] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:26.486] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:26.486] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:28.697] [DEBUG] cpptips - pos: 72 13
+[2021-04-24T14:02:28.697] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T14:02:28.697] [MARK] cpptips - findWithOwner
+[2021-04-24T14:02:28.697] [DEBUG] cpptips - xxx通过归属找提醒 13
+[2021-04-24T14:02:28.697] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:02:28.697] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:28.698] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:28.699] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:28.699] [ERROR] cpptips - not find result. ids: []
+[2021-04-24T14:02:28.699] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:28.699] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:02:28.699] [MARK] cpptips - findWithOwner
+[2021-04-24T14:02:32.477] [DEBUG] cpptips - pos: 72 22
+[2021-04-24T14:02:32.477] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:32.477] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:32.477] [DEBUG] cpptips - linecode: l
+[2021-04-24T14:02:32.477] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:32.477] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:32.477] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:32.485] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:32.485] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:32.485] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.039] [DEBUG] cpptips - pos: 72 22
+[2021-04-24T14:02:33.039] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:33.039] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.039] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:02:33.039] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:33.039] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.040] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.046] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.046] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.046] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.233] [DEBUG] cpptips - pos: 72 23
+[2021-04-24T14:02:33.233] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:33.233] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.233] [DEBUG] cpptips - linecode: re
+[2021-04-24T14:02:33.233] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:33.233] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.234] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.237] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.237] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.237] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.828] [DEBUG] cpptips - pos: 72 24
+[2021-04-24T14:02:33.829] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:33.829] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.829] [DEBUG] cpptips - linecode: reg
+[2021-04-24T14:02:33.829] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:33.829] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.829] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.833] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:33.833] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:33.833] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:33.944] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T14:02:33.944] [MARK] cpptips - getShowTips
+[2021-04-24T14:02:33.944] [MARK] cpptips - getShowTips
+[2021-04-24T14:02:36.612] [DEBUG] cpptips - pos: 72 30
+[2021-04-24T14:02:36.613] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:36.613] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:36.613] [DEBUG] cpptips - linecode: register_
+[2021-04-24T14:02:36.613] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:36.613] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:36.613] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:36.616] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:36.616] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:36.616] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:39.264] [DEBUG] cpptips - pos: 72 39
+[2021-04-24T14:02:39.264] [DEBUG] cpptips - begin findWithOwner
+[2021-04-24T14:02:39.264] [MARK] cpptips - findWithOwner
+[2021-04-24T14:02:39.264] [DEBUG] cpptips - xxx通过归属找提醒 39
+[2021-04-24T14:02:39.264] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:02:39.265] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:39.266] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:39.266] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:39.266] [ERROR] cpptips - not find result. ids: []
+[2021-04-24T14:02:39.266] [MARK] cpptips - getByOwnerNameInNamespace
+[2021-04-24T14:02:39.266] [MARK] cpptips - _getAllNameByObj
+[2021-04-24T14:02:39.266] [MARK] cpptips - findWithOwner
+[2021-04-24T14:02:44.985] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:44.985] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:44.985] [MARK] cpptips - Analyse
+[2021-04-24T14:02:44.992] [MARK] cpptips - Analyse
+[2021-04-24T14:02:44.992] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:44.992] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:44.992] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:44.992] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:44.992] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:44.992] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:45.379] [DEBUG] cpptips - pos: 73 30
+[2021-04-24T14:02:45.380] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:45.380] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:45.380] [DEBUG] cpptips - linecode: r
+[2021-04-24T14:02:45.380] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:45.380] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:45.380] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:45.387] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:45.388] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:45.388] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:45.604] [DEBUG] cpptips - pos: 73 31
+[2021-04-24T14:02:45.605] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:45.605] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:45.605] [DEBUG] cpptips - linecode: re
+[2021-04-24T14:02:45.605] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:45.605] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:45.605] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:45.608] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:45.608] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:45.609] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:45.777] [INFO] cpptips - 73 37
+[2021-04-24T14:02:45.777] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:45.778] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:45.779] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:46.711] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T14:02:46.711] [INFO] cpptips - Set {}
+[2021-04-24T14:02:47.044] [DEBUG] cpptips - pos: 73 32
+[2021-04-24T14:02:47.044] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-24T14:02:47.044] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:47.044] [DEBUG] cpptips - linecode: reg
+[2021-04-24T14:02:47.044] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-24T14:02:47.044] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:47.045] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:47.048] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-24T14:02:47.048] [MARK] cpptips - searchKeyWord
+[2021-04-24T14:02:47.048] [MARK] cpptips - preKeyWordSearch
+[2021-04-24T14:02:47.150] [DEBUG] cpptips - begin getShowTips
+[2021-04-24T14:02:47.150] [MARK] cpptips - getShowTips
+[2021-04-24T14:02:47.150] [MARK] cpptips - getShowTips
+[2021-04-24T14:02:49.909] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:02:49.922] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:02:49.922] [INFO] cpptips - Set {}
+[2021-04-24T14:02:50.123] [DEBUG] cpptips - success
+[2021-04-24T14:02:50.123] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:02:50.592] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:50.593] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:50.593] [MARK] cpptips - Analyse
+[2021-04-24T14:02:50.594] [MARK] cpptips - Analyse
+[2021-04-24T14:02:50.594] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:50.594] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:50.594] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:50.594] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:50.594] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:50.594] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:51.855] [INFO] cpptips - 73 23
+[2021-04-24T14:02:51.855] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:51.855] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:51.856] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:02:51.857] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserService.pb.h
+[2021-04-24T14:02:51.858] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:52.632] [INFO] cpptips - 73 10
+[2021-04-24T14:02:52.632] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:52.632] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:52.633] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:02:52.633] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:02:52.633] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:52.951] [INFO] cpptips - 73 9
+[2021-04-24T14:02:52.951] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:02:52.951] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:52.951] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:02:52.951] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:02:52.951] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:02:55.405] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:02:55.405] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:55.405] [MARK] cpptips - Analyse
+[2021-04-24T14:02:55.407] [MARK] cpptips - Analyse
+[2021-04-24T14:02:55.407] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:55.407] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:02:55.407] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:02:55.407] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:02:55.407] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:02:55.407] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.189] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:01.189] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.189] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.191] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.191] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.191] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.191] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.191] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:01.191] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.192] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.729] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_ZooKeeperMatser.cpp","type":2}]}
+[2021-04-24T14:03:01.729] [INFO] cpptips - Set {}
+[2021-04-24T14:03:01.945] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:01.945] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.945] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.951] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.951] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.951] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.951] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.951] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:01.951] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.951] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.953] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:01.953] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.953] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.954] [MARK] cpptips - Analyse
+[2021-04-24T14:03:01.954] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.954] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:01.954] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:01.954] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:01.954] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:01.954] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:06.471] [INFO] cpptips - 72 29
+[2021-04-24T14:03:06.471] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:06.471] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:06.472] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:06.472] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:06.472] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:13.166] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:13.166] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:13.166] [MARK] cpptips - Analyse
+[2021-04-24T14:03:13.167] [MARK] cpptips - Analyse
+[2021-04-24T14:03:13.167] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:13.167] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:13.167] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:13.167] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:13.167] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:13.167] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:16.399] [INFO] cpptips - 49 0
+[2021-04-24T14:03:16.399] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:16.399] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:16.399] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:16.624] [DEBUG] cpptips - pos: 56 26
+[2021-04-24T14:03:16.624] [DEBUG] cpptips - line: while ((client_fd = master_.get_service()) == -1)
+[2021-04-24T14:03:16.624] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:16.624] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:16.625] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:16.625] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:16.625] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:16.880] [DEBUG] cpptips - pos: 56 26
+[2021-04-24T14:03:16.880] [DEBUG] cpptips - line: while ((client_fd = master_.get_service()) == -1)
+[2021-04-24T14:03:16.880] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:16.880] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:16.880] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:16.880] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:16.880] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:17.287] [DEBUG] cpptips - pos: 56 32
+[2021-04-24T14:03:17.287] [DEBUG] cpptips - line: while ((client_fd = master_.get_service()) == -1)
+[2021-04-24T14:03:17.287] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:17.287] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:17.287] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:17.287] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:17.287] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:22.352] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:22.352] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:22.352] [MARK] cpptips - Analyse
+[2021-04-24T14:03:22.355] [MARK] cpptips - Analyse
+[2021-04-24T14:03:22.355] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:22.355] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:22.355] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:22.355] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:22.355] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:22.355] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:22.401] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:03:22.401] [INFO] cpptips - Set {}
+[2021-04-24T14:03:22.469] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:03:23.142] [DEBUG] cpptips - success
+[2021-04-24T14:03:23.142] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:03:29.806] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:03:29.821] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:03:29.821] [INFO] cpptips - Set {}
+[2021-04-24T14:03:30.144] [DEBUG] cpptips - success
+[2021-04-24T14:03:30.144] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:03:30.767] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:30.767] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:30.767] [MARK] cpptips - Analyse
+[2021-04-24T14:03:30.777] [MARK] cpptips - Analyse
+[2021-04-24T14:03:30.777] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:30.777] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:30.777] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:30.777] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:30.777] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:30.777] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:31.084] [INFO] cpptips - 84 41
+[2021-04-24T14:03:31.084] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:31.084] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:31.085] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:31.786] [INFO] cpptips - 83 35
+[2021-04-24T14:03:31.787] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:31.787] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:31.787] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:31.787] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:31.787] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:32.817] [INFO] cpptips - 83 34
+[2021-04-24T14:03:32.817] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:32.817] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:32.818] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:32.818] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:32.818] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:33.474] [INFO] cpptips - 83 35
+[2021-04-24T14:03:33.474] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:33.474] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:33.474] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:33.474] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:33.474] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:35.138] [INFO] cpptips - 83 26
+[2021-04-24T14:03:35.138] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:35.138] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:35.139] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:03:35.139] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/UserServer.pb.h
+[2021-04-24T14:03:35.141] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:39.338] [INFO] cpptips - 83 30
+[2021-04-24T14:03:39.338] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:39.338] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:39.339] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:39.339] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:39.339] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:39.914] [INFO] cpptips - 83 30
+[2021-04-24T14:03:39.914] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:39.914] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:39.915] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:39.915] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:39.915] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:40.275] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:40.275] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:40.275] [MARK] cpptips - Analyse
+[2021-04-24T14:03:40.277] [MARK] cpptips - Analyse
+[2021-04-24T14:03:40.277] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:40.277] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:40.277] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:40.278] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:40.278] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:40.278] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:40.320] [INFO] cpptips - 83 34
+[2021-04-24T14:03:40.320] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:40.320] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:40.321] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:40.321] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:40.321] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:40.964] [INFO] cpptips - 83 33
+[2021-04-24T14:03:40.964] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:40.964] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:40.965] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:40.965] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:40.965] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:45.578] [INFO] cpptips - 84 35
+[2021-04-24T14:03:45.579] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:45.579] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:45.579] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.311] [DEBUG] cpptips - pos: 83 33
+[2021-04-24T14:03:46.311] [DEBUG] cpptips - line: ik_UserServer::Request loginout_request;
+[2021-04-24T14:03:46.311] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:46.311] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.312] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:46.312] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:46.312] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.351] [INFO] cpptips - 83 32
+[2021-04-24T14:03:46.352] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:46.352] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.352] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:46.352] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:46.352] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.424] [DEBUG] cpptips - pos: 84 32
+[2021-04-24T14:03:46.424] [DEBUG] cpptips - line: register_request.set_type("LoginOut");
+[2021-04-24T14:03:46.424] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:46.424] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.425] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.625] [DEBUG] cpptips - pos: 84 29
+[2021-04-24T14:03:46.625] [DEBUG] cpptips - line: register_request.set_type("LoginOut");
+[2021-04-24T14:03:46.625] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:46.625] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.626] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:46.727] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:46.727] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:46.728] [MARK] cpptips - Analyse
+[2021-04-24T14:03:46.729] [MARK] cpptips - Analyse
+[2021-04-24T14:03:46.729] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:46.730] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:46.730] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:46.730] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:46.730] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:46.730] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:48.012] [DEBUG] cpptips - pos: 84 14
+[2021-04-24T14:03:48.012] [DEBUG] cpptips - line: register_request.set_type("LoginOut");
+[2021-04-24T14:03:48.012] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:48.012] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:48.013] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:48.492] [INFO] cpptips - 85 14
+[2021-04-24T14:03:48.492] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:48.492] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:48.493] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:48.745] [INFO] cpptips - 85 14
+[2021-04-24T14:03:48.745] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:48.745] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:48.746] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:49.212] [DEBUG] cpptips - pos: 85 14
+[2021-04-24T14:03:49.212] [DEBUG] cpptips - line: register_request.set_request(request->SerializeAsString());
+[2021-04-24T14:03:49.212] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:49.212] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:49.213] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:50.288] [DEBUG] cpptips - pos: 87 29
+[2021-04-24T14:03:50.288] [DEBUG] cpptips - line: string send_str = loginout_request.SerializeAsString();
+[2021-04-24T14:03:50.288] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:03:50.288] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:50.288] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:50.288] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//src/UserService.cpp
+[2021-04-24T14:03:50.288] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:03:52.349] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:03:52.349] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:52.349] [MARK] cpptips - Analyse
+[2021-04-24T14:03:52.351] [MARK] cpptips - Analyse
+[2021-04-24T14:03:52.351] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:52.351] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:03:52.351] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:03:52.351] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:03:52.351] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:52.351] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:03:56.510] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/UserService.cpp","type":2}]}
+[2021-04-24T14:03:56.510] [INFO] cpptips - Set {}
+[2021-04-24T14:03:56.517] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:03:57.161] [DEBUG] cpptips - success
+[2021-04-24T14:03:57.161] [INFO] cpptips - true [ 3550 ]
+[2021-04-24T14:04:23.210] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:04:23.210] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:04:23.210] [MARK] cpptips - Analyse
+[2021-04-24T14:04:23.212] [MARK] cpptips - Analyse
+[2021-04-24T14:04:23.212] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:04:23.212] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:04:23.212] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:04:23.212] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:04:23.212] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:04:23.213] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:04:23.215] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:04:23.215] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:04:23.216] [MARK] cpptips - Analyse
+[2021-04-24T14:04:23.221] [MARK] cpptips - Analyse
+[2021-04-24T14:04:23.221] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:04:23.221] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:04:23.221] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:04:23.222] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:04:23.222] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:04:23.222] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:04:33.729] [INFO] cpptips - 126 0
+[2021-04-24T14:04:33.729] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:04:33.729] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:04:33.730] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:04:46.723] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_UserService.cpp","type":2}]}
+[2021-04-24T14:04:46.723] [INFO] cpptips - Set {}
+[2021-04-24T14:04:56.227] [INFO] cpptips - 136 31
+[2021-04-24T14:04:56.227] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:04:56.227] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:04:56.228] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:04:56.228] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:04:56.228] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:04:56.231] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:05:03.300] [INFO] cpptips - 140 51
+[2021-04-24T14:05:03.300] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:05:03.300] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:05:03.301] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:05:50.297] [INFO] cpptips - 140 67
+[2021-04-24T14:05:50.297] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T14:05:50.297] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:05:50.298] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:05:50.298] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:05:50.298] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//include/ZooKeeperMaster.hpp
+[2021-04-24T14:05:50.299] [MARK] cpptips - getDefinePoint
+[2021-04-24T14:05:52.112] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:05:52.112] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:52.112] [MARK] cpptips - Analyse
+[2021-04-24T14:05:52.118] [MARK] cpptips - Analyse
+[2021-04-24T14:05:52.118] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:52.118] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:52.118] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:52.118] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:05:52.118] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:05:52.118] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:05:52.735] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/4e7660626d6136481f17340114004f76_ZooKeeperMatser.cpp","type":2}]}
+[2021-04-24T14:05:52.736] [INFO] cpptips - Set {}
+[2021-04-24T14:05:55.273] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:05:55.273] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:55.273] [MARK] cpptips - Analyse
+[2021-04-24T14:05:55.276] [MARK] cpptips - Analyse
+[2021-04-24T14:05:55.276] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:55.276] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:55.276] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:55.276] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:05:55.276] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:05:55.276] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:05:59.187] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:05:59.187] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:59.187] [MARK] cpptips - Analyse
+[2021-04-24T14:05:59.189] [MARK] cpptips - Analyse
+[2021-04-24T14:05:59.189] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:59.190] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:05:59.190] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:05:59.190] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:05:59.190] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:05:59.190] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:06:00.335] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T14:06:00.335] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:06:00.335] [MARK] cpptips - Analyse
+[2021-04-24T14:06:00.337] [MARK] cpptips - Analyse
+[2021-04-24T14:06:00.337] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:06:00.338] [MARK] cpptips - getDocumentStruct
+[2021-04-24T14:06:00.338] [MARK] cpptips - getDocumentTree
+[2021-04-24T14:06:00.338] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T14:06:00.338] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:06:00.338] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T14:06:00.432] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp","type":2}]}
+[2021-04-24T14:06:00.432] [INFO] cpptips - Set {}
+[2021-04-24T14:06:00.524] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-24T14:06:01.281] [DEBUG] cpptips - success
+[2021-04-24T14:06:01.281] [INFO] cpptips - true [ 3588 ]

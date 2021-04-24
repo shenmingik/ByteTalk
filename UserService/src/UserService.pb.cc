@@ -24,15 +24,9 @@ namespace {
 const ::google::protobuf::Descriptor* LoginRequest_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
   LoginRequest_reflection_ = NULL;
-const ::google::protobuf::Descriptor* UserInfo_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  UserInfo_reflection_ = NULL;
 const ::google::protobuf::Descriptor* ErrorMsg_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
   ErrorMsg_reflection_ = NULL;
-const ::google::protobuf::Descriptor* GroupInfo_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  GroupInfo_reflection_ = NULL;
 const ::google::protobuf::Descriptor* LoginReponse_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
   LoginReponse_reflection_ = NULL;
@@ -73,23 +67,7 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(LoginRequest),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginRequest, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginRequest, _is_default_instance_));
-  UserInfo_descriptor_ = file->message_type(1);
-  static const int UserInfo_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, name_),
-  };
-  UserInfo_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      UserInfo_descriptor_,
-      UserInfo::default_instance_,
-      UserInfo_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(UserInfo),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UserInfo, _is_default_instance_));
-  ErrorMsg_descriptor_ = file->message_type(2);
+  ErrorMsg_descriptor_ = file->message_type(1);
   static const int ErrorMsg_offsets_[1] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ErrorMsg, message_),
   };
@@ -104,30 +82,10 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(ErrorMsg),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ErrorMsg, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ErrorMsg, _is_default_instance_));
-  GroupInfo_descriptor_ = file->message_type(3);
-  static const int GroupInfo_offsets_[3] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupInfo, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupInfo, name_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupInfo, users_),
-  };
-  GroupInfo_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      GroupInfo_descriptor_,
-      GroupInfo::default_instance_,
-      GroupInfo_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(GroupInfo),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupInfo, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupInfo, _is_default_instance_));
-  LoginReponse_descriptor_ = file->message_type(4);
-  static const int LoginReponse_offsets_[5] = {
+  LoginReponse_descriptor_ = file->message_type(2);
+  static const int LoginReponse_offsets_[2] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, is_success_),
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, msg_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, friends_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, offline_msg_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, groups_),
   };
   LoginReponse_reflection_ =
     ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
@@ -140,7 +98,7 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(LoginReponse),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginReponse, _is_default_instance_));
-  RegisterRequest_descriptor_ = file->message_type(5);
+  RegisterRequest_descriptor_ = file->message_type(3);
   static const int RegisterRequest_offsets_[2] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterRequest, name_),
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterRequest, password_),
@@ -156,7 +114,7 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(RegisterRequest),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterRequest, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterRequest, _is_default_instance_));
-  RegisterResponse_descriptor_ = file->message_type(6);
+  RegisterResponse_descriptor_ = file->message_type(4);
   static const int RegisterResponse_offsets_[2] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterResponse, is_success_),
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterResponse, id_),
@@ -172,7 +130,7 @@ void protobuf_AssignDesc_UserService_2eproto() {
       sizeof(RegisterResponse),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterResponse, _internal_metadata_),
       GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegisterResponse, _is_default_instance_));
-  LoginOutRequest_descriptor_ = file->message_type(7);
+  LoginOutRequest_descriptor_ = file->message_type(5);
   static const int LoginOutRequest_offsets_[1] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LoginOutRequest, id_),
   };
@@ -204,11 +162,7 @@ void protobuf_RegisterTypes(const ::std::string&) {
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
       LoginRequest_descriptor_, &LoginRequest::default_instance());
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      UserInfo_descriptor_, &UserInfo::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
       ErrorMsg_descriptor_, &ErrorMsg::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      GroupInfo_descriptor_, &GroupInfo::default_instance());
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
       LoginReponse_descriptor_, &LoginReponse::default_instance());
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
@@ -224,12 +178,8 @@ void protobuf_RegisterTypes(const ::std::string&) {
 void protobuf_ShutdownFile_UserService_2eproto() {
   delete LoginRequest::default_instance_;
   delete LoginRequest_reflection_;
-  delete UserInfo::default_instance_;
-  delete UserInfo_reflection_;
   delete ErrorMsg::default_instance_;
   delete ErrorMsg_reflection_;
-  delete GroupInfo::default_instance_;
-  delete GroupInfo_reflection_;
   delete LoginReponse::default_instance_;
   delete LoginReponse_reflection_;
   delete RegisterRequest::default_instance_;
@@ -251,39 +201,29 @@ void protobuf_AddDesc_UserService_2eproto() {
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
     "\n\021UserService.proto\022\016ik_UserService\032\033goo"
     "gle/protobuf/empty.proto\",\n\014LoginRequest"
-    "\022\n\n\002id\030\001 \001(\005\022\020\n\010password\030\002 \001(\014\"$\n\010UserIn"
-    "fo\022\n\n\002id\030\001 \001(\005\022\014\n\004name\030\002 \001(\014\"\033\n\010ErrorMsg"
-    "\022\017\n\007message\030\002 \001(\014\"N\n\tGroupInfo\022\n\n\002id\030\001 \001"
-    "(\005\022\014\n\004name\030\002 \001(\014\022\'\n\005users\030\003 \003(\0132\030.ik_Use"
-    "rService.UserInfo\"\264\001\n\014LoginReponse\022\022\n\nis"
-    "_success\030\001 \001(\010\022%\n\003msg\030\002 \001(\0132\030.ik_UserSer"
-    "vice.ErrorMsg\022)\n\007friends\030\003 \003(\0132\030.ik_User"
-    "Service.UserInfo\022\023\n\013offline_msg\030\004 \003(\014\022)\n"
-    "\006groups\030\005 \003(\0132\031.ik_UserService.GroupInfo"
-    "\"1\n\017RegisterRequest\022\014\n\004name\030\001 \001(\014\022\020\n\010pas"
-    "sword\030\002 \001(\014\"2\n\020RegisterResponse\022\022\n\nis_su"
-    "ccess\030\001 \001(\010\022\n\n\002id\030\002 \001(\005\"\035\n\017LoginOutReque"
-    "st\022\n\n\002id\030\001 \001(\0052\350\001\n\016UserServiceRpc\022C\n\005Log"
-    "in\022\034.ik_UserService.LoginRequest\032\034.ik_Us"
-    "erService.LoginReponse\022L\n\007Registe\022\037.ik_U"
-    "serService.RegisterRequest\032 .ik_UserServ"
-    "ice.RegisterResponse\022C\n\010LoginOut\022\037.ik_Us"
-    "erService.LoginOutRequest\032\026.google.proto"
-    "buf.EmptyB\003\200\001\001b\006proto3", 822);
+    "\022\n\n\002id\030\001 \001(\005\022\020\n\010password\030\002 \001(\014\"\033\n\010ErrorM"
+    "sg\022\017\n\007message\030\002 \001(\014\"I\n\014LoginReponse\022\022\n\ni"
+    "s_success\030\001 \001(\010\022%\n\003msg\030\002 \001(\0132\030.ik_UserSe"
+    "rvice.ErrorMsg\"1\n\017RegisterRequest\022\014\n\004nam"
+    "e\030\001 \001(\014\022\020\n\010password\030\002 \001(\014\"2\n\020RegisterRes"
+    "ponse\022\022\n\nis_success\030\001 \001(\010\022\n\n\002id\030\002 \001(\005\"\035\n"
+    "\017LoginOutRequest\022\n\n\002id\030\001 \001(\0052\350\001\n\016UserSer"
+    "viceRpc\022C\n\005Login\022\034.ik_UserService.LoginR"
+    "equest\032\034.ik_UserService.LoginReponse\022L\n\007"
+    "Registe\022\037.ik_UserService.RegisterRequest"
+    "\032 .ik_UserService.RegisterResponse\022C\n\010Lo"
+    "ginOut\022\037.ik_UserService.LoginOutRequest\032"
+    "\026.google.protobuf.EmptyB\003\200\001\001b\006proto3", 596);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "UserService.proto", &protobuf_RegisterTypes);
   LoginRequest::default_instance_ = new LoginRequest();
-  UserInfo::default_instance_ = new UserInfo();
   ErrorMsg::default_instance_ = new ErrorMsg();
-  GroupInfo::default_instance_ = new GroupInfo();
   LoginReponse::default_instance_ = new LoginReponse();
   RegisterRequest::default_instance_ = new RegisterRequest();
   RegisterResponse::default_instance_ = new RegisterResponse();
   LoginOutRequest::default_instance_ = new LoginOutRequest();
   LoginRequest::default_instance_->InitAsDefaultInstance();
-  UserInfo::default_instance_->InitAsDefaultInstance();
   ErrorMsg::default_instance_->InitAsDefaultInstance();
-  GroupInfo::default_instance_->InitAsDefaultInstance();
   LoginReponse::default_instance_->InitAsDefaultInstance();
   RegisterRequest::default_instance_->InitAsDefaultInstance();
   RegisterResponse::default_instance_->InitAsDefaultInstance();
@@ -626,331 +566,6 @@ void LoginRequest::clear_password() {
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int UserInfo::kIdFieldNumber;
-const int UserInfo::kNameFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-UserInfo::UserInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_UserService.UserInfo)
-}
-
-void UserInfo::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
-UserInfo::UserInfo(const UserInfo& from)
-  : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_UserService.UserInfo)
-}
-
-void UserInfo::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
-  id_ = 0;
-  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-UserInfo::~UserInfo() {
-  // @@protoc_insertion_point(destructor:ik_UserService.UserInfo)
-  SharedDtor();
-}
-
-void UserInfo::SharedDtor() {
-  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-  }
-}
-
-void UserInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* UserInfo::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return UserInfo_descriptor_;
-}
-
-const UserInfo& UserInfo::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_UserService_2eproto();
-  return *default_instance_;
-}
-
-UserInfo* UserInfo::default_instance_ = NULL;
-
-UserInfo* UserInfo::New(::google::protobuf::Arena* arena) const {
-  UserInfo* n = new UserInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void UserInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_UserService.UserInfo)
-  id_ = 0;
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-bool UserInfo::MergePartialFromCodedStream(
-    ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
-  ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_UserService.UserInfo)
-  for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
-    tag = p.first;
-    if (!p.second) goto handle_unusual;
-    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional int32 id = 1;
-      case 1: {
-        if (tag == 8) {
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
-                 input, &id_)));
-
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(18)) goto parse_name;
-        break;
-      }
-
-      // optional bytes name = 2;
-      case 2: {
-        if (tag == 18) {
-         parse_name:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadBytes(
-                input, this->mutable_name()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectAtEnd()) goto success;
-        break;
-      }
-
-      default: {
-      handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
-          goto success;
-        }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
-        break;
-      }
-    }
-  }
-success:
-  // @@protoc_insertion_point(parse_success:ik_UserService.UserInfo)
-  return true;
-failure:
-  // @@protoc_insertion_point(parse_failure:ik_UserService.UserInfo)
-  return false;
-#undef DO_
-}
-
-void UserInfo::SerializeWithCachedSizes(
-    ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_UserService.UserInfo)
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(
-      2, this->name(), output);
-  }
-
-  // @@protoc_insertion_point(serialize_end:ik_UserService.UserInfo)
-}
-
-::google::protobuf::uint8* UserInfo::InternalSerializeWithCachedSizesToArray(
-    bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.UserInfo)
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    target =
-      ::google::protobuf::internal::WireFormatLite::WriteBytesToArray(
-        2, this->name(), target);
-  }
-
-  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.UserInfo)
-  return target;
-}
-
-int UserInfo::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_UserService.UserInfo)
-  int total_size = 0;
-
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::Int32Size(
-        this->id());
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::BytesSize(
-        this->name());
-  }
-
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-  return total_size;
-}
-
-void UserInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.UserInfo)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const UserInfo* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const UserInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.UserInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.UserInfo)
-    MergeFrom(*source);
-  }
-}
-
-void UserInfo::MergeFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.UserInfo)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  if (from.id() != 0) {
-    set_id(from.id());
-  }
-  if (from.name().size() > 0) {
-
-    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
-  }
-}
-
-void UserInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.UserInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void UserInfo::CopyFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.UserInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool UserInfo::IsInitialized() const {
-
-  return true;
-}
-
-void UserInfo::Swap(UserInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void UserInfo::InternalSwap(UserInfo* other) {
-  std::swap(id_, other->id_);
-  name_.Swap(&other->name_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata UserInfo::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = UserInfo_descriptor_;
-  metadata.reflection = UserInfo_reflection_;
-  return metadata;
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// UserInfo
-
-// optional int32 id = 1;
-void UserInfo::clear_id() {
-  id_ = 0;
-}
- ::google::protobuf::int32 UserInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.id)
-  return id_;
-}
- void UserInfo::set_id(::google::protobuf::int32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.id)
-}
-
-// optional bytes name = 2;
-void UserInfo::clear_name() {
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- const ::std::string& UserInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- void UserInfo::set_name(const ::std::string& value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.name)
-}
- void UserInfo::set_name(const char* value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_UserService.UserInfo.name)
-}
- void UserInfo::set_name(const void* value, size_t size) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.UserInfo.name)
-}
- ::std::string* UserInfo::mutable_name() {
-  
-  // @@protoc_insertion_point(field_mutable:ik_UserService.UserInfo.name)
-  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- ::std::string* UserInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_UserService.UserInfo.name)
-  
-  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- void UserInfo::set_allocated_name(::std::string* name) {
-  if (name != NULL) {
-    
-  } else {
-    
-  }
-  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_UserService.UserInfo.name)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int ErrorMsg::kMessageFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
@@ -1223,408 +838,8 @@ void ErrorMsg::clear_message() {
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupInfo::kIdFieldNumber;
-const int GroupInfo::kNameFieldNumber;
-const int GroupInfo::kUsersFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupInfo::GroupInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_UserService.GroupInfo)
-}
-
-void GroupInfo::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
-GroupInfo::GroupInfo(const GroupInfo& from)
-  : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_UserService.GroupInfo)
-}
-
-void GroupInfo::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
-  id_ = 0;
-  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-GroupInfo::~GroupInfo() {
-  // @@protoc_insertion_point(destructor:ik_UserService.GroupInfo)
-  SharedDtor();
-}
-
-void GroupInfo::SharedDtor() {
-  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-  }
-}
-
-void GroupInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupInfo::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return GroupInfo_descriptor_;
-}
-
-const GroupInfo& GroupInfo::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_UserService_2eproto();
-  return *default_instance_;
-}
-
-GroupInfo* GroupInfo::default_instance_ = NULL;
-
-GroupInfo* GroupInfo::New(::google::protobuf::Arena* arena) const {
-  GroupInfo* n = new GroupInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_UserService.GroupInfo)
-  id_ = 0;
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  users_.Clear();
-}
-
-bool GroupInfo::MergePartialFromCodedStream(
-    ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
-  ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_UserService.GroupInfo)
-  for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
-    tag = p.first;
-    if (!p.second) goto handle_unusual;
-    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional int32 id = 1;
-      case 1: {
-        if (tag == 8) {
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
-                 input, &id_)));
-
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(18)) goto parse_name;
-        break;
-      }
-
-      // optional bytes name = 2;
-      case 2: {
-        if (tag == 18) {
-         parse_name:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadBytes(
-                input, this->mutable_name()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(26)) goto parse_users;
-        break;
-      }
-
-      // repeated .ik_UserService.UserInfo users = 3;
-      case 3: {
-        if (tag == 26) {
-         parse_users:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_users:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
-                input, add_users()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(26)) goto parse_loop_users;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
-        break;
-      }
-
-      default: {
-      handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
-          goto success;
-        }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
-        break;
-      }
-    }
-  }
-success:
-  // @@protoc_insertion_point(parse_success:ik_UserService.GroupInfo)
-  return true;
-failure:
-  // @@protoc_insertion_point(parse_failure:ik_UserService.GroupInfo)
-  return false;
-#undef DO_
-}
-
-void GroupInfo::SerializeWithCachedSizes(
-    ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_UserService.GroupInfo)
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(
-      2, this->name(), output);
-  }
-
-  // repeated .ik_UserService.UserInfo users = 3;
-  for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
-    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      3, this->users(i), output);
-  }
-
-  // @@protoc_insertion_point(serialize_end:ik_UserService.GroupInfo)
-}
-
-::google::protobuf::uint8* GroupInfo::InternalSerializeWithCachedSizesToArray(
-    bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_UserService.GroupInfo)
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    target =
-      ::google::protobuf::internal::WireFormatLite::WriteBytesToArray(
-        2, this->name(), target);
-  }
-
-  // repeated .ik_UserService.UserInfo users = 3;
-  for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      InternalWriteMessageNoVirtualToArray(
-        3, this->users(i), false, target);
-  }
-
-  // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.GroupInfo)
-  return target;
-}
-
-int GroupInfo::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_UserService.GroupInfo)
-  int total_size = 0;
-
-  // optional int32 id = 1;
-  if (this->id() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::Int32Size(
-        this->id());
-  }
-
-  // optional bytes name = 2;
-  if (this->name().size() > 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::BytesSize(
-        this->name());
-  }
-
-  // repeated .ik_UserService.UserInfo users = 3;
-  total_size += 1 * this->users_size();
-  for (int i = 0; i < this->users_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->users(i));
-  }
-
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-  return total_size;
-}
-
-void GroupInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_UserService.GroupInfo)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const GroupInfo* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_UserService.GroupInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_UserService.GroupInfo)
-    MergeFrom(*source);
-  }
-}
-
-void GroupInfo::MergeFrom(const GroupInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_UserService.GroupInfo)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  users_.MergeFrom(from.users_);
-  if (from.id() != 0) {
-    set_id(from.id());
-  }
-  if (from.name().size() > 0) {
-
-    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
-  }
-}
-
-void GroupInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_UserService.GroupInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupInfo::CopyFrom(const GroupInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_UserService.GroupInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupInfo::IsInitialized() const {
-
-  return true;
-}
-
-void GroupInfo::Swap(GroupInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupInfo::InternalSwap(GroupInfo* other) {
-  std::swap(id_, other->id_);
-  name_.Swap(&other->name_);
-  users_.UnsafeArenaSwap(&other->users_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupInfo::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = GroupInfo_descriptor_;
-  metadata.reflection = GroupInfo_reflection_;
-  return metadata;
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupInfo
-
-// optional int32 id = 1;
-void GroupInfo::clear_id() {
-  id_ = 0;
-}
- ::google::protobuf::int32 GroupInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.id)
-  return id_;
-}
- void GroupInfo::set_id(::google::protobuf::int32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.id)
-}
-
-// optional bytes name = 2;
-void GroupInfo::clear_name() {
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- const ::std::string& GroupInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- void GroupInfo::set_name(const ::std::string& value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.name)
-}
- void GroupInfo::set_name(const char* value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_UserService.GroupInfo.name)
-}
- void GroupInfo::set_name(const void* value, size_t size) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.GroupInfo.name)
-}
- ::std::string* GroupInfo::mutable_name() {
-  
-  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.name)
-  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- ::std::string* GroupInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_UserService.GroupInfo.name)
-  
-  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
- void GroupInfo::set_allocated_name(::std::string* name) {
-  if (name != NULL) {
-    
-  } else {
-    
-  }
-  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_UserService.GroupInfo.name)
-}
-
-// repeated .ik_UserService.UserInfo users = 3;
-int GroupInfo::users_size() const {
-  return users_.size();
-}
-void GroupInfo::clear_users() {
-  users_.Clear();
-}
-const ::ik_UserService::UserInfo& GroupInfo::users(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.users)
-  return users_.Get(index);
-}
-::ik_UserService::UserInfo* GroupInfo::mutable_users(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.users)
-  return users_.Mutable(index);
-}
-::ik_UserService::UserInfo* GroupInfo::add_users() {
-  // @@protoc_insertion_point(field_add:ik_UserService.GroupInfo.users)
-  return users_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-GroupInfo::mutable_users() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.GroupInfo.users)
-  return &users_;
-}
-const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-GroupInfo::users() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.GroupInfo.users)
-  return users_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int LoginReponse::kIsSuccessFieldNumber;
 const int LoginReponse::kMsgFieldNumber;
-const int LoginReponse::kFriendsFieldNumber;
-const int LoginReponse::kOfflineMsgFieldNumber;
-const int LoginReponse::kGroupsFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 LoginReponse::LoginReponse()
@@ -1648,7 +863,6 @@ LoginReponse::LoginReponse(const LoginReponse& from)
 
 void LoginReponse::SharedCtor() {
     _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
   _cached_size_ = 0;
   is_success_ = false;
   msg_ = NULL;
@@ -1695,9 +909,6 @@ void LoginReponse::Clear() {
   is_success_ = false;
   if (GetArenaNoVirtual() == NULL && msg_ != NULL) delete msg_;
   msg_ = NULL;
-  friends_.Clear();
-  offline_msg_.Clear();
-  groups_.Clear();
 }
 
 bool LoginReponse::MergePartialFromCodedStream(
@@ -1733,54 +944,6 @@ bool LoginReponse::MergePartialFromCodedStream(
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(26)) goto parse_friends;
-        break;
-      }
-
-      // repeated .ik_UserService.UserInfo friends = 3;
-      case 3: {
-        if (tag == 26) {
-         parse_friends:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_friends:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
-                input, add_friends()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(26)) goto parse_loop_friends;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectTag(34)) goto parse_offline_msg;
-        break;
-      }
-
-      // repeated bytes offline_msg = 4;
-      case 4: {
-        if (tag == 34) {
-         parse_offline_msg:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadBytes(
-                input, this->add_offline_msg()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(34)) goto parse_offline_msg;
-        if (input->ExpectTag(42)) goto parse_groups;
-        break;
-      }
-
-      // repeated .ik_UserService.GroupInfo groups = 5;
-      case 5: {
-        if (tag == 42) {
-         parse_groups:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_groups:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
-                input, add_groups()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(42)) goto parse_loop_groups;
-        input->UnsafeDecrementRecursionDepth();
         if (input->ExpectAtEnd()) goto success;
         break;
       }
@@ -1820,24 +983,6 @@ void LoginReponse::SerializeWithCachedSizes(
       2, *this->msg_, output);
   }
 
-  // repeated .ik_UserService.UserInfo friends = 3;
-  for (unsigned int i = 0, n = this->friends_size(); i < n; i++) {
-    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      3, this->friends(i), output);
-  }
-
-  // repeated bytes offline_msg = 4;
-  for (int i = 0; i < this->offline_msg_size(); i++) {
-    ::google::protobuf::internal::WireFormatLite::WriteBytes(
-      4, this->offline_msg(i), output);
-  }
-
-  // repeated .ik_UserService.GroupInfo groups = 5;
-  for (unsigned int i = 0, n = this->groups_size(); i < n; i++) {
-    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      5, this->groups(i), output);
-  }
-
   // @@protoc_insertion_point(serialize_end:ik_UserService.LoginReponse)
 }
 
@@ -1854,26 +999,6 @@ void LoginReponse::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
         2, *this->msg_, false, target);
-  }
-
-  // repeated .ik_UserService.UserInfo friends = 3;
-  for (unsigned int i = 0, n = this->friends_size(); i < n; i++) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      InternalWriteMessageNoVirtualToArray(
-        3, this->friends(i), false, target);
-  }
-
-  // repeated bytes offline_msg = 4;
-  for (int i = 0; i < this->offline_msg_size(); i++) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      WriteBytesToArray(4, this->offline_msg(i), target);
-  }
-
-  // repeated .ik_UserService.GroupInfo groups = 5;
-  for (unsigned int i = 0, n = this->groups_size(); i < n; i++) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      InternalWriteMessageNoVirtualToArray(
-        5, this->groups(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:ik_UserService.LoginReponse)
@@ -1894,29 +1019,6 @@ int LoginReponse::ByteSize() const {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->msg_);
-  }
-
-  // repeated .ik_UserService.UserInfo friends = 3;
-  total_size += 1 * this->friends_size();
-  for (int i = 0; i < this->friends_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->friends(i));
-  }
-
-  // repeated bytes offline_msg = 4;
-  total_size += 1 * this->offline_msg_size();
-  for (int i = 0; i < this->offline_msg_size(); i++) {
-    total_size += ::google::protobuf::internal::WireFormatLite::BytesSize(
-      this->offline_msg(i));
-  }
-
-  // repeated .ik_UserService.GroupInfo groups = 5;
-  total_size += 1 * this->groups_size();
-  for (int i = 0; i < this->groups_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->groups(i));
   }
 
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
@@ -1947,9 +1049,6 @@ void LoginReponse::MergeFrom(const LoginReponse& from) {
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
-  friends_.MergeFrom(from.friends_);
-  offline_msg_.MergeFrom(from.offline_msg_);
-  groups_.MergeFrom(from.groups_);
   if (from.is_success() != 0) {
     set_is_success(from.is_success());
   }
@@ -1984,9 +1083,6 @@ void LoginReponse::Swap(LoginReponse* other) {
 void LoginReponse::InternalSwap(LoginReponse* other) {
   std::swap(is_success_, other->is_success_);
   std::swap(msg_, other->msg_);
-  friends_.UnsafeArenaSwap(&other->friends_);
-  offline_msg_.UnsafeArenaSwap(&other->offline_msg_);
-  groups_.UnsafeArenaSwap(&other->groups_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
   std::swap(_cached_size_, other->_cached_size_);
 }
@@ -2052,121 +1148,6 @@ void LoginReponse::set_allocated_msg(::ik_UserService::ErrorMsg* msg) {
     
   }
   // @@protoc_insertion_point(field_set_allocated:ik_UserService.LoginReponse.msg)
-}
-
-// repeated .ik_UserService.UserInfo friends = 3;
-int LoginReponse::friends_size() const {
-  return friends_.size();
-}
-void LoginReponse::clear_friends() {
-  friends_.Clear();
-}
-const ::ik_UserService::UserInfo& LoginReponse::friends(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.friends)
-  return friends_.Get(index);
-}
-::ik_UserService::UserInfo* LoginReponse::mutable_friends(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.friends)
-  return friends_.Mutable(index);
-}
-::ik_UserService::UserInfo* LoginReponse::add_friends() {
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.friends)
-  return friends_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-LoginReponse::mutable_friends() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.friends)
-  return &friends_;
-}
-const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-LoginReponse::friends() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.friends)
-  return friends_;
-}
-
-// repeated bytes offline_msg = 4;
-int LoginReponse::offline_msg_size() const {
-  return offline_msg_.size();
-}
-void LoginReponse::clear_offline_msg() {
-  offline_msg_.Clear();
-}
- const ::std::string& LoginReponse::offline_msg(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Get(index);
-}
- ::std::string* LoginReponse::mutable_offline_msg(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Mutable(index);
-}
- void LoginReponse::set_offline_msg(int index, const ::std::string& value) {
-  // @@protoc_insertion_point(field_set:ik_UserService.LoginReponse.offline_msg)
-  offline_msg_.Mutable(index)->assign(value);
-}
- void LoginReponse::set_offline_msg(int index, const char* value) {
-  offline_msg_.Mutable(index)->assign(value);
-  // @@protoc_insertion_point(field_set_char:ik_UserService.LoginReponse.offline_msg)
-}
- void LoginReponse::set_offline_msg(int index, const void* value, size_t size) {
-  offline_msg_.Mutable(index)->assign(
-    reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.LoginReponse.offline_msg)
-}
- ::std::string* LoginReponse::add_offline_msg() {
-  // @@protoc_insertion_point(field_add_mutable:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Add();
-}
- void LoginReponse::add_offline_msg(const ::std::string& value) {
-  offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.offline_msg)
-}
- void LoginReponse::add_offline_msg(const char* value) {
-  offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add_char:ik_UserService.LoginReponse.offline_msg)
-}
- void LoginReponse::add_offline_msg(const void* value, size_t size) {
-  offline_msg_.Add()->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_add_pointer:ik_UserService.LoginReponse.offline_msg)
-}
- const ::google::protobuf::RepeatedPtrField< ::std::string>&
-LoginReponse::offline_msg() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_;
-}
- ::google::protobuf::RepeatedPtrField< ::std::string>*
-LoginReponse::mutable_offline_msg() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.offline_msg)
-  return &offline_msg_;
-}
-
-// repeated .ik_UserService.GroupInfo groups = 5;
-int LoginReponse::groups_size() const {
-  return groups_.size();
-}
-void LoginReponse::clear_groups() {
-  groups_.Clear();
-}
-const ::ik_UserService::GroupInfo& LoginReponse::groups(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.groups)
-  return groups_.Get(index);
-}
-::ik_UserService::GroupInfo* LoginReponse::mutable_groups(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.groups)
-  return groups_.Mutable(index);
-}
-::ik_UserService::GroupInfo* LoginReponse::add_groups() {
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.groups)
-  return groups_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >*
-LoginReponse::mutable_groups() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.groups)
-  return &groups_;
-}
-const ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >&
-LoginReponse::groups() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.groups)
-  return groups_;
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS

@@ -39,13 +39,11 @@ void protobuf_AssignDesc_UserService_2eproto();
 void protobuf_ShutdownFile_UserService_2eproto();
 
 class ErrorMsg;
-class GroupInfo;
 class LoginOutRequest;
 class LoginReponse;
 class LoginRequest;
 class RegisterRequest;
 class RegisterResponse;
-class UserInfo;
 
 // ===================================================================
 
@@ -143,100 +141,6 @@ class LoginRequest : public ::google::protobuf::Message /* @@protoc_insertion_po
 };
 // -------------------------------------------------------------------
 
-class UserInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_UserService.UserInfo) */ {
- public:
-  UserInfo();
-  virtual ~UserInfo();
-
-  UserInfo(const UserInfo& from);
-
-  inline UserInfo& operator=(const UserInfo& from) {
-    CopyFrom(from);
-    return *this;
-  }
-
-  static const ::google::protobuf::Descriptor* descriptor();
-  static const UserInfo& default_instance();
-
-  void Swap(UserInfo* other);
-
-  // implements Message ----------------------------------------------
-
-  inline UserInfo* New() const { return New(NULL); }
-
-  UserInfo* New(::google::protobuf::Arena* arena) const;
-  void CopyFrom(const ::google::protobuf::Message& from);
-  void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const UserInfo& from);
-  void MergeFrom(const UserInfo& from);
-  void Clear();
-  bool IsInitialized() const;
-
-  int ByteSize() const;
-  bool MergePartialFromCodedStream(
-      ::google::protobuf::io::CodedInputStream* input);
-  void SerializeWithCachedSizes(
-      ::google::protobuf::io::CodedOutputStream* output) const;
-  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
-      bool deterministic, ::google::protobuf::uint8* output) const;
-  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
-    return InternalSerializeWithCachedSizesToArray(false, output);
-  }
-  int GetCachedSize() const { return _cached_size_; }
-  private:
-  void SharedCtor();
-  void SharedDtor();
-  void SetCachedSize(int size) const;
-  void InternalSwap(UserInfo* other);
-  private:
-  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
-    return _internal_metadata_.arena();
-  }
-  inline void* MaybeArenaPtr() const {
-    return _internal_metadata_.raw_arena_ptr();
-  }
-  public:
-
-  ::google::protobuf::Metadata GetMetadata() const;
-
-  // nested types ----------------------------------------------------
-
-  // accessors -------------------------------------------------------
-
-  // optional int32 id = 1;
-  void clear_id();
-  static const int kIdFieldNumber = 1;
-  ::google::protobuf::int32 id() const;
-  void set_id(::google::protobuf::int32 value);
-
-  // optional bytes name = 2;
-  void clear_name();
-  static const int kNameFieldNumber = 2;
-  const ::std::string& name() const;
-  void set_name(const ::std::string& value);
-  void set_name(const char* value);
-  void set_name(const void* value, size_t size);
-  ::std::string* mutable_name();
-  ::std::string* release_name();
-  void set_allocated_name(::std::string* name);
-
-  // @@protoc_insertion_point(class_scope:ik_UserService.UserInfo)
- private:
-
-  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
-  bool _is_default_instance_;
-  ::google::protobuf::internal::ArenaStringPtr name_;
-  ::google::protobuf::int32 id_;
-  mutable int _cached_size_;
-  friend void  protobuf_AddDesc_UserService_2eproto();
-  friend void protobuf_AssignDesc_UserService_2eproto();
-  friend void protobuf_ShutdownFile_UserService_2eproto();
-
-  void InitAsDefaultInstance();
-  static UserInfo* default_instance_;
-};
-// -------------------------------------------------------------------
-
 class ErrorMsg : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_UserService.ErrorMsg) */ {
  public:
   ErrorMsg();
@@ -324,113 +228,6 @@ class ErrorMsg : public ::google::protobuf::Message /* @@protoc_insertion_point(
 };
 // -------------------------------------------------------------------
 
-class GroupInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_UserService.GroupInfo) */ {
- public:
-  GroupInfo();
-  virtual ~GroupInfo();
-
-  GroupInfo(const GroupInfo& from);
-
-  inline GroupInfo& operator=(const GroupInfo& from) {
-    CopyFrom(from);
-    return *this;
-  }
-
-  static const ::google::protobuf::Descriptor* descriptor();
-  static const GroupInfo& default_instance();
-
-  void Swap(GroupInfo* other);
-
-  // implements Message ----------------------------------------------
-
-  inline GroupInfo* New() const { return New(NULL); }
-
-  GroupInfo* New(::google::protobuf::Arena* arena) const;
-  void CopyFrom(const ::google::protobuf::Message& from);
-  void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const GroupInfo& from);
-  void MergeFrom(const GroupInfo& from);
-  void Clear();
-  bool IsInitialized() const;
-
-  int ByteSize() const;
-  bool MergePartialFromCodedStream(
-      ::google::protobuf::io::CodedInputStream* input);
-  void SerializeWithCachedSizes(
-      ::google::protobuf::io::CodedOutputStream* output) const;
-  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
-      bool deterministic, ::google::protobuf::uint8* output) const;
-  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
-    return InternalSerializeWithCachedSizesToArray(false, output);
-  }
-  int GetCachedSize() const { return _cached_size_; }
-  private:
-  void SharedCtor();
-  void SharedDtor();
-  void SetCachedSize(int size) const;
-  void InternalSwap(GroupInfo* other);
-  private:
-  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
-    return _internal_metadata_.arena();
-  }
-  inline void* MaybeArenaPtr() const {
-    return _internal_metadata_.raw_arena_ptr();
-  }
-  public:
-
-  ::google::protobuf::Metadata GetMetadata() const;
-
-  // nested types ----------------------------------------------------
-
-  // accessors -------------------------------------------------------
-
-  // optional int32 id = 1;
-  void clear_id();
-  static const int kIdFieldNumber = 1;
-  ::google::protobuf::int32 id() const;
-  void set_id(::google::protobuf::int32 value);
-
-  // optional bytes name = 2;
-  void clear_name();
-  static const int kNameFieldNumber = 2;
-  const ::std::string& name() const;
-  void set_name(const ::std::string& value);
-  void set_name(const char* value);
-  void set_name(const void* value, size_t size);
-  ::std::string* mutable_name();
-  ::std::string* release_name();
-  void set_allocated_name(::std::string* name);
-
-  // repeated .ik_UserService.UserInfo users = 3;
-  int users_size() const;
-  void clear_users();
-  static const int kUsersFieldNumber = 3;
-  const ::ik_UserService::UserInfo& users(int index) const;
-  ::ik_UserService::UserInfo* mutable_users(int index);
-  ::ik_UserService::UserInfo* add_users();
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-      mutable_users();
-  const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-      users() const;
-
-  // @@protoc_insertion_point(class_scope:ik_UserService.GroupInfo)
- private:
-
-  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
-  bool _is_default_instance_;
-  ::google::protobuf::internal::ArenaStringPtr name_;
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo > users_;
-  ::google::protobuf::int32 id_;
-  mutable int _cached_size_;
-  friend void  protobuf_AddDesc_UserService_2eproto();
-  friend void protobuf_AssignDesc_UserService_2eproto();
-  friend void protobuf_ShutdownFile_UserService_2eproto();
-
-  void InitAsDefaultInstance();
-  static GroupInfo* default_instance_;
-};
-// -------------------------------------------------------------------
-
 class LoginReponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_UserService.LoginReponse) */ {
  public:
   LoginReponse();
@@ -506,55 +303,12 @@ class LoginReponse : public ::google::protobuf::Message /* @@protoc_insertion_po
   ::ik_UserService::ErrorMsg* release_msg();
   void set_allocated_msg(::ik_UserService::ErrorMsg* msg);
 
-  // repeated .ik_UserService.UserInfo friends = 3;
-  int friends_size() const;
-  void clear_friends();
-  static const int kFriendsFieldNumber = 3;
-  const ::ik_UserService::UserInfo& friends(int index) const;
-  ::ik_UserService::UserInfo* mutable_friends(int index);
-  ::ik_UserService::UserInfo* add_friends();
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-      mutable_friends();
-  const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-      friends() const;
-
-  // repeated bytes offline_msg = 4;
-  int offline_msg_size() const;
-  void clear_offline_msg();
-  static const int kOfflineMsgFieldNumber = 4;
-  const ::std::string& offline_msg(int index) const;
-  ::std::string* mutable_offline_msg(int index);
-  void set_offline_msg(int index, const ::std::string& value);
-  void set_offline_msg(int index, const char* value);
-  void set_offline_msg(int index, const void* value, size_t size);
-  ::std::string* add_offline_msg();
-  void add_offline_msg(const ::std::string& value);
-  void add_offline_msg(const char* value);
-  void add_offline_msg(const void* value, size_t size);
-  const ::google::protobuf::RepeatedPtrField< ::std::string>& offline_msg() const;
-  ::google::protobuf::RepeatedPtrField< ::std::string>* mutable_offline_msg();
-
-  // repeated .ik_UserService.GroupInfo groups = 5;
-  int groups_size() const;
-  void clear_groups();
-  static const int kGroupsFieldNumber = 5;
-  const ::ik_UserService::GroupInfo& groups(int index) const;
-  ::ik_UserService::GroupInfo* mutable_groups(int index);
-  ::ik_UserService::GroupInfo* add_groups();
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >*
-      mutable_groups();
-  const ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >&
-      groups() const;
-
   // @@protoc_insertion_point(class_scope:ik_UserService.LoginReponse)
  private:
 
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
   bool _is_default_instance_;
   ::ik_UserService::ErrorMsg* msg_;
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo > friends_;
-  ::google::protobuf::RepeatedPtrField< ::std::string> offline_msg_;
-  ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo > groups_;
   bool is_success_;
   mutable int _cached_size_;
   friend void  protobuf_AddDesc_UserService_2eproto();
@@ -977,68 +731,6 @@ inline void LoginRequest::set_allocated_password(::std::string* password) {
 
 // -------------------------------------------------------------------
 
-// UserInfo
-
-// optional int32 id = 1;
-inline void UserInfo::clear_id() {
-  id_ = 0;
-}
-inline ::google::protobuf::int32 UserInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.id)
-  return id_;
-}
-inline void UserInfo::set_id(::google::protobuf::int32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.id)
-}
-
-// optional bytes name = 2;
-inline void UserInfo::clear_name() {
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline const ::std::string& UserInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.UserInfo.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline void UserInfo::set_name(const ::std::string& value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_UserService.UserInfo.name)
-}
-inline void UserInfo::set_name(const char* value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_UserService.UserInfo.name)
-}
-inline void UserInfo::set_name(const void* value, size_t size) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.UserInfo.name)
-}
-inline ::std::string* UserInfo::mutable_name() {
-  
-  // @@protoc_insertion_point(field_mutable:ik_UserService.UserInfo.name)
-  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline ::std::string* UserInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_UserService.UserInfo.name)
-  
-  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline void UserInfo::set_allocated_name(::std::string* name) {
-  if (name != NULL) {
-    
-  } else {
-    
-  }
-  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_UserService.UserInfo.name)
-}
-
-// -------------------------------------------------------------------
-
 // ErrorMsg
 
 // optional bytes message = 2;
@@ -1083,98 +775,6 @@ inline void ErrorMsg::set_allocated_message(::std::string* message) {
   }
   message_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), message);
   // @@protoc_insertion_point(field_set_allocated:ik_UserService.ErrorMsg.message)
-}
-
-// -------------------------------------------------------------------
-
-// GroupInfo
-
-// optional int32 id = 1;
-inline void GroupInfo::clear_id() {
-  id_ = 0;
-}
-inline ::google::protobuf::int32 GroupInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.id)
-  return id_;
-}
-inline void GroupInfo::set_id(::google::protobuf::int32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.id)
-}
-
-// optional bytes name = 2;
-inline void GroupInfo::clear_name() {
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline const ::std::string& GroupInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline void GroupInfo::set_name(const ::std::string& value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_UserService.GroupInfo.name)
-}
-inline void GroupInfo::set_name(const char* value) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_UserService.GroupInfo.name)
-}
-inline void GroupInfo::set_name(const void* value, size_t size) {
-  
-  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.GroupInfo.name)
-}
-inline ::std::string* GroupInfo::mutable_name() {
-  
-  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.name)
-  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline ::std::string* GroupInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_UserService.GroupInfo.name)
-  
-  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-inline void GroupInfo::set_allocated_name(::std::string* name) {
-  if (name != NULL) {
-    
-  } else {
-    
-  }
-  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_UserService.GroupInfo.name)
-}
-
-// repeated .ik_UserService.UserInfo users = 3;
-inline int GroupInfo::users_size() const {
-  return users_.size();
-}
-inline void GroupInfo::clear_users() {
-  users_.Clear();
-}
-inline const ::ik_UserService::UserInfo& GroupInfo::users(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.GroupInfo.users)
-  return users_.Get(index);
-}
-inline ::ik_UserService::UserInfo* GroupInfo::mutable_users(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.GroupInfo.users)
-  return users_.Mutable(index);
-}
-inline ::ik_UserService::UserInfo* GroupInfo::add_users() {
-  // @@protoc_insertion_point(field_add:ik_UserService.GroupInfo.users)
-  return users_.Add();
-}
-inline ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-GroupInfo::mutable_users() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.GroupInfo.users)
-  return &users_;
-}
-inline const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-GroupInfo::users() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.GroupInfo.users)
-  return users_;
 }
 
 // -------------------------------------------------------------------
@@ -1231,121 +831,6 @@ inline void LoginReponse::set_allocated_msg(::ik_UserService::ErrorMsg* msg) {
     
   }
   // @@protoc_insertion_point(field_set_allocated:ik_UserService.LoginReponse.msg)
-}
-
-// repeated .ik_UserService.UserInfo friends = 3;
-inline int LoginReponse::friends_size() const {
-  return friends_.size();
-}
-inline void LoginReponse::clear_friends() {
-  friends_.Clear();
-}
-inline const ::ik_UserService::UserInfo& LoginReponse::friends(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.friends)
-  return friends_.Get(index);
-}
-inline ::ik_UserService::UserInfo* LoginReponse::mutable_friends(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.friends)
-  return friends_.Mutable(index);
-}
-inline ::ik_UserService::UserInfo* LoginReponse::add_friends() {
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.friends)
-  return friends_.Add();
-}
-inline ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >*
-LoginReponse::mutable_friends() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.friends)
-  return &friends_;
-}
-inline const ::google::protobuf::RepeatedPtrField< ::ik_UserService::UserInfo >&
-LoginReponse::friends() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.friends)
-  return friends_;
-}
-
-// repeated bytes offline_msg = 4;
-inline int LoginReponse::offline_msg_size() const {
-  return offline_msg_.size();
-}
-inline void LoginReponse::clear_offline_msg() {
-  offline_msg_.Clear();
-}
-inline const ::std::string& LoginReponse::offline_msg(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Get(index);
-}
-inline ::std::string* LoginReponse::mutable_offline_msg(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Mutable(index);
-}
-inline void LoginReponse::set_offline_msg(int index, const ::std::string& value) {
-  // @@protoc_insertion_point(field_set:ik_UserService.LoginReponse.offline_msg)
-  offline_msg_.Mutable(index)->assign(value);
-}
-inline void LoginReponse::set_offline_msg(int index, const char* value) {
-  offline_msg_.Mutable(index)->assign(value);
-  // @@protoc_insertion_point(field_set_char:ik_UserService.LoginReponse.offline_msg)
-}
-inline void LoginReponse::set_offline_msg(int index, const void* value, size_t size) {
-  offline_msg_.Mutable(index)->assign(
-    reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:ik_UserService.LoginReponse.offline_msg)
-}
-inline ::std::string* LoginReponse::add_offline_msg() {
-  // @@protoc_insertion_point(field_add_mutable:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_.Add();
-}
-inline void LoginReponse::add_offline_msg(const ::std::string& value) {
-  offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.offline_msg)
-}
-inline void LoginReponse::add_offline_msg(const char* value) {
-  offline_msg_.Add()->assign(value);
-  // @@protoc_insertion_point(field_add_char:ik_UserService.LoginReponse.offline_msg)
-}
-inline void LoginReponse::add_offline_msg(const void* value, size_t size) {
-  offline_msg_.Add()->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_add_pointer:ik_UserService.LoginReponse.offline_msg)
-}
-inline const ::google::protobuf::RepeatedPtrField< ::std::string>&
-LoginReponse::offline_msg() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.offline_msg)
-  return offline_msg_;
-}
-inline ::google::protobuf::RepeatedPtrField< ::std::string>*
-LoginReponse::mutable_offline_msg() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.offline_msg)
-  return &offline_msg_;
-}
-
-// repeated .ik_UserService.GroupInfo groups = 5;
-inline int LoginReponse::groups_size() const {
-  return groups_.size();
-}
-inline void LoginReponse::clear_groups() {
-  groups_.Clear();
-}
-inline const ::ik_UserService::GroupInfo& LoginReponse::groups(int index) const {
-  // @@protoc_insertion_point(field_get:ik_UserService.LoginReponse.groups)
-  return groups_.Get(index);
-}
-inline ::ik_UserService::GroupInfo* LoginReponse::mutable_groups(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_UserService.LoginReponse.groups)
-  return groups_.Mutable(index);
-}
-inline ::ik_UserService::GroupInfo* LoginReponse::add_groups() {
-  // @@protoc_insertion_point(field_add:ik_UserService.LoginReponse.groups)
-  return groups_.Add();
-}
-inline ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >*
-LoginReponse::mutable_groups() {
-  // @@protoc_insertion_point(field_mutable_list:ik_UserService.LoginReponse.groups)
-  return &groups_;
-}
-inline const ::google::protobuf::RepeatedPtrField< ::ik_UserService::GroupInfo >&
-LoginReponse::groups() const {
-  // @@protoc_insertion_point(field_list:ik_UserService.LoginReponse.groups)
-  return groups_;
 }
 
 // -------------------------------------------------------------------
@@ -1491,10 +976,6 @@ inline void LoginOutRequest::set_id(::google::protobuf::int32 value) {
 }
 
 #endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
-// -------------------------------------------------------------------
-
-// -------------------------------------------------------------------
-
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------

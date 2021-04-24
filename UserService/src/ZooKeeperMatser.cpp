@@ -138,7 +138,7 @@ int ZKMatser::get_service()
         {
             it++;
         }
-        current_service_ = (current_service_ + 1) % total_services_;
+        current_service_ = (current_service_ + 1) % (total_services_ + 1);
 
         host_data = it->second;
     }

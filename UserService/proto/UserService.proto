@@ -12,31 +12,15 @@ message LoginRequest
     bytes password = 2;
 }
 
-message UserInfo
-{
-    int32 id = 1;
-    bytes name = 2;
-}
-
 message ErrorMsg
 {
     bytes message = 2;
-}
-
-message GroupInfo
-{
-    int32 id = 1;
-    bytes name = 2;
-    repeated UserInfo users = 3;
 }
 
 message LoginReponse
 {
     bool is_success = 1;
     ErrorMsg msg = 2;
-    repeated UserInfo friends = 3;
-    repeated bytes offline_msg = 4;
-    repeated GroupInfo groups = 5;
 }
 
 // 有关注册
