@@ -30578,3 +30578,73 @@
 [2021-04-24T21:11:12.279] [MARK] cpptips - getDefinePoint
 [2021-04-24T21:11:12.280] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//example/UserService.pb.h
 [2021-04-24T21:11:12.280] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:04.247] [INFO] cpptips - 10 3
+[2021-04-24T21:45:04.248] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:04.248] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:04.248] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:05.609] [INFO] cpptips - 10 2
+[2021-04-24T21:45:05.610] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:05.610] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:05.610] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:05.837] [INFO] cpptips - 10 1
+[2021-04-24T21:45:05.837] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:05.837] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:05.838] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:06.252] [INFO] cpptips - 9 0
+[2021-04-24T21:45:06.252] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:06.252] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:06.252] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:07.394] [INFO] cpptips - 10 0
+[2021-04-24T21:45:07.394] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:07.394] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:07.394] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:16.998] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T21:45:16.998] [MARK] cpptips - getDocumentTree
+[2021-04-24T21:45:16.998] [MARK] cpptips - Analyse
+[2021-04-24T21:45:16.999] [MARK] cpptips - Analyse
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDocumentStruct
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDocumentStruct
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDocumentTree
+[2021-04-24T21:45:16.999] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T21:45:16.999] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-24T21:45:16.999] [MARK] cpptips - getDocumentTree
+[2021-04-24T21:45:16.999] [MARK] cpptips - Analyse
+[2021-04-24T21:45:17.011] [MARK] cpptips - Analyse
+[2021-04-24T21:45:17.011] [MARK] cpptips - getDocumentStruct
+[2021-04-24T21:45:17.012] [MARK] cpptips - getDocumentStruct
+[2021-04-24T21:45:17.012] [MARK] cpptips - getDocumentTree
+[2021-04-24T21:45:17.012] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-24T21:45:17.012] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T21:45:17.012] [MARK] cpptips - getDepsInDefineJson
+[2021-04-24T21:45:17.789] [INFO] cpptips - 186 42
+[2021-04-24T21:45:17.789] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:17.789] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:17.791] [INFO] cpptips - filepath: /home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14/data/usr/include/mysql/mysql.h
+[2021-04-24T21:45:17.791] [INFO] cpptips - filepath: /home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14/data/usr/include/mysql/mysql.h
+[2021-04-24T21:45:17.792] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:17.828] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/UserService/.vscode/.git/a46a8330e72075b78fd22e4c8ba2c928_UserServer.cpp","type":2}]}
+[2021-04-24T21:45:17.828] [INFO] cpptips - Set {}
+[2021-04-24T21:45:27.617] [INFO] cpptips - 171 2
+[2021-04-24T21:45:27.617] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:27.617] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:27.618] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:33.819] [INFO] cpptips - 85 44
+[2021-04-24T21:45:33.819] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:33.819] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:33.820] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:35.758] [INFO] cpptips - 106 35
+[2021-04-24T21:45:35.758] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:35.758] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:35.759] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T21:45:35.759] [INFO] cpptips - _filename: /home/ubuntu/ByteTalk/UserService//auxiliary_process/UserService_Sub/src/UserServer.cpp
+[2021-04-24T21:45:35.759] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:42.480] [INFO] cpptips - 32 21
+[2021-04-24T21:45:42.480] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:42.480] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:42.481] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:56.753] [INFO] cpptips - 16 21
+[2021-04-24T21:45:56.754] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-24T21:45:56.754] [MARK] cpptips - getDefinePoint
+[2021-04-24T21:45:56.755] [MARK] cpptips - getDefinePoint
