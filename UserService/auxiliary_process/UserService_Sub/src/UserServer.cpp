@@ -20,12 +20,14 @@ UserServer::UserServer(string ip, int port) : stub_(new RpcChannel())
 
 void UserServer::run()
 {
+    //初始化网络层
     muduo::net::InetAddress address(ip_.c_str(), port_);
     muduo::net::TcpServer server(&loop_, address, "UserServer");
 
     server.setMessageCallback(bind(&UserServer::msg_callback, this, _1, _2, _3));
     server.setConnectionCallback(bind(&UserServer::conn_callback, this, _1));
 
+    //注册zookeeper节点
     ZKClient zk_client;
     zk_client.start();
     string server_path = "/UserService/server";
@@ -51,6 +53,7 @@ void UserServer::run()
         google::protobuf::Empty response;
         stub_.Log_ERROR(nullptr, &request, &response, nullptr);
     }
+    //开启事件循环
     server.setThreadNum(4);
     server.start();
     loop_.loop();
@@ -59,6 +62,7 @@ void UserServer::run()
 //连接事件回调函数
 void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::net::Buffer *buffer, muduo::Timestamp stamp)
 {
+    //反序列化由UserService传过来的序列化数据
     string message = buffer->retrieveAllAsString();
     ik_UserServer::Request request;
     request.ParseFromString(message);
@@ -66,11 +70,13 @@ void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::n
     //登录业务
     if (request.type() == "Login")
     {
+        // 反序列化数据得到 id、password
         ik_UserServer::LoginRequest login_request;
         login_request.ParseFromString(request.request());
         int id = login_request.id();
         string password = login_request.password();
 
+        //执行具体的Login方法，执行成功is_success被设置为true
         ik_UserServer::LoginReponse login_response;
         if (Login(id, password) == true)
         {
@@ -82,10 +88,11 @@ void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::n
             ik_UserServer::ErrorMsg *msg = login_response.mutable_msg();
             msg->set_message("login error");
         }
+        //序列化结果 并将结果返回
         string send = login_response.SerializeAsString();
         conn->send(send.c_str(), send.size());
     }
-    else if (request.type() == "Register")
+    else if (request.type() == "Register")  //注册业务
     {
         ik_UserServer::RegisterRequest register_request;
         register_request.ParseFromString(request.request());
@@ -106,7 +113,7 @@ void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::n
         string send = register_response.SerializeAsString();
         conn->send(send.c_str(), send.size());
     }
-    else if (request.type() == "LoginOut")
+    else if (request.type() == "LoginOut")  //注销业务
     {
         ik_UserServer::LoginOutRequest out_request;
         out_request.ParseFromString(request.request());
@@ -114,7 +121,7 @@ void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::n
 
         LoginOut(id);
     }
-    else //
+    else //其他业务，这里是没有，所以向LogServer服务器打印一条日志信息
     {
         ik::LogRequest request;
         request.set_name("UserServer");
