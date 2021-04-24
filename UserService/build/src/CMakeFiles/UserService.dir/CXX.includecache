@@ -59,9 +59,11 @@ LogServer.pb.h
 ../include/LogServer.pb.h
 UserService.pb.h
 ../include/UserService.pb.h
+UserServer.pb.h
+../include/UserServer.pb.h
+ZooKeeperMaster.hpp
+../include/ZooKeeperMaster.hpp
 mysql/mysql.h
--
-SQL_pool/connect_pool.hpp
 -
 rpc/RpcChannel.hpp
 -
@@ -225,8 +227,12 @@ arpa/inet.h
 -
 
 /home/ubuntu/ByteTalk/UserService/src/run.cpp
-ZooKeeperMaster.hpp
-/home/ubuntu/ByteTalk/UserService/src/ZooKeeperMaster.hpp
+UserService.hpp
+/home/ubuntu/ByteTalk/UserService/src/UserService.hpp
+rpc/RpcProvider.hpp
+-
+rpc/RpcApplication.hpp
+-
 string
 -
 unistd.h

@@ -91,7 +91,7 @@ void UserServer::msg_callback(const muduo::net::TcpConnectionPtr &conn, muduo::n
         register_request.ParseFromString(request.request());
         string name = register_request.name();
         string password = register_request.password();
-
+        //cout<<name<<" "<<password<<endl;
         ik_UserServer::RegisterResponse register_response;
         int id = Register(name, password);
         if (id < 0)
@@ -184,7 +184,8 @@ int UserServer::Register(string name, string password)
 {
     shared_ptr<Connect> conn = pool_->get_connect();
     char sql[BUFF_SIZE] = {0};
-    sprintf(sql, "insert into User(name,password) values('%s','%s)", name.c_str(), password.c_str());
+    sprintf(sql, "insert into User(name,password) values('%s','%s')", name.c_str(), password.c_str());
+    //cout << sql << endl;
     if (false == conn->update(sql))
     {
         ik::LogRequest request;

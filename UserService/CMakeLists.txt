@@ -15,3 +15,4 @@ include_directories(${PROJECT_SOURCE_DIR}/auxiliary_process/UserService_Sub/incl
 # 加载子目录
 add_subdirectory(src)
 add_subdirectory(auxiliary_process)
+add_subdirectory(example)

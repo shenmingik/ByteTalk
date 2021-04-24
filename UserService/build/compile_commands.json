@@ -53,5 +53,15 @@
   "directory": "/home/ubuntu/ByteTalk/UserService/build/auxiliary_process/UserService_Sub/src",
   "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/UserServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp",
   "file": "/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/src/run.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/example",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/callee.dir/UserService.pb.cc.o -c /home/ubuntu/ByteTalk/UserService/example/UserService.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/UserService/example/UserService.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/UserService/build/example",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/UserService/include -I/home/ubuntu/ByteTalk/UserService/auxiliary_process/UserService_Sub/include  -g -g   -o CMakeFiles/callee.dir/main.cpp.o -c /home/ubuntu/ByteTalk/UserService/example/main.cpp",
+  "file": "/home/ubuntu/ByteTalk/UserService/example/main.cpp"
 }
 ]

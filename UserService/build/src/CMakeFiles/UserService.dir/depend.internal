@@ -9,8 +9,10 @@ src/CMakeFiles/UserService.dir/UserServer.pb.cc.o
  /home/ubuntu/ByteTalk/UserService/src/UserServer.pb.cc
 src/CMakeFiles/UserService.dir/UserService.cpp.o
  ../include/LogServer.pb.h
+ ../include/UserServer.pb.h
  ../include/UserService.hpp
  ../include/UserService.pb.h
+ ../include/ZooKeeperMaster.hpp
  /home/ubuntu/ByteTalk/UserService/src/UserService.cpp
 src/CMakeFiles/UserService.dir/UserService.pb.cc.o
  ../include/UserService.pb.h
@@ -19,5 +21,9 @@ src/CMakeFiles/UserService.dir/ZooKeeperMatser.cpp.o
  ../include/ZooKeeperMaster.hpp
  /home/ubuntu/ByteTalk/UserService/src/ZooKeeperMatser.cpp
 src/CMakeFiles/UserService.dir/run.cpp.o
+ ../include/LogServer.pb.h
+ ../include/UserServer.pb.h
+ ../include/UserService.hpp
+ ../include/UserService.pb.h
  ../include/ZooKeeperMaster.hpp
  /home/ubuntu/ByteTalk/UserService/src/run.cpp

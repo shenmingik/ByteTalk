@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/callee.dir/UserService.pb.cc.o CMakeFiles/callee.dir/main.cpp.o  -o ../../bin/callee -lprotobuf -lrpc -lmuduo_base -lmuduo_net -lpthread -lzookeeper_mt 

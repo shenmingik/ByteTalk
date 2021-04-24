@@ -136,6 +136,19 @@ UserServer/fast:
 	$(MAKE) -f auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build.make auxiliary_process/UserService_Sub/src/CMakeFiles/UserServer.dir/build
 .PHONY : UserServer/fast
 
+#=============================================================================
+# Target rules for targets named callee
+
+# Build rule for target.
+callee: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 callee
+.PHONY : callee
+
+# fast build rule for target.
+callee/fast:
+	$(MAKE) -f example/CMakeFiles/callee.dir/build.make example/CMakeFiles/callee.dir/build
+.PHONY : callee/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... UserService"
 	@echo "... UserServer"
+	@echo "... callee"
 .PHONY : help
 
 

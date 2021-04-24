@@ -15,6 +15,7 @@ void UserService::Login(::google::protobuf::RpcController *controller,
                         ::ik_UserService::LoginReponse *response,
                         ::google::protobuf::Closure *done)
 {
+    master_.get_follow();
     ik_UserServer::Request login_request;
     login_request.set_type("Login");
     login_request.set_request(request->SerializeAsString());
@@ -47,6 +48,7 @@ void UserService::Registe(::google::protobuf::RpcController *controller,
                           ::ik_UserService::RegisterResponse *response,
                           ::google::protobuf::Closure *done)
 {
+    master_.get_follow();
     ik_UserServer::Request register_request;
     register_request.set_type("Register");
     register_request.set_request(request->SerializeAsString());
@@ -81,6 +83,7 @@ void UserService::LoginOut(::google::protobuf::RpcController *controller,
                            ::google::protobuf::Empty *response,
                            ::google::protobuf::Closure *done)
 {
+    master_.get_follow();
     ik_UserServer::Request loginout_request;
     loginout_request.set_type("LoginOut");
     loginout_request.set_request(request->SerializeAsString());
