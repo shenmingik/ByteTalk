@@ -12,3 +12,4 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # 设置子目录
 add_subdirectory(src)
+add_subdirectory(auxiliary_process)
