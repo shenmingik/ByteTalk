@@ -8,6 +8,17 @@ message Request
     bytes request  = 2;
 }
 
+message UserInfoRequest
+{
+    int32 id = 1;
+}
+
+message UserInfoReponse
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
 message FriendListRequest
 {
     int32 id = 1;
