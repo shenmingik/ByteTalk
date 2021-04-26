@@ -206,6 +206,33 @@ ZooKeeperFow.cpp.s:
 	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/ZooKeeperFow.cpp.s
 .PHONY : ZooKeeperFow.cpp.s
 
+run.o: run.cpp.o
+
+.PHONY : run.o
+
+# target to build an object file
+run.cpp.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/run.cpp.o
+.PHONY : run.cpp.o
+
+run.i: run.cpp.i
+
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cpp.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/run.cpp.i
+.PHONY : run.cpp.i
+
+run.s: run.cpp.s
+
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cpp.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/run.cpp.s
+.PHONY : run.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,6 +251,9 @@ help:
 	@echo "... ZooKeeperFow.o"
 	@echo "... ZooKeeperFow.i"
 	@echo "... ZooKeeperFow.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
 .PHONY : help
 
 

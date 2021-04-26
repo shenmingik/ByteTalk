@@ -84,7 +84,7 @@ src/preinstall:
 src/CMakeFiles/FriendService.dir/all:
 	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/depend
 	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=5,6 "Built target FriendService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=6,7 "Built target FriendService"
 .PHONY : src/CMakeFiles/FriendService.dir/all
 
 # Include target in all.
@@ -175,7 +175,7 @@ auxiliary_process/FriendServer/src/preinstall:
 auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/all:
 	$(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/depend
 	$(MAKE) -f auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build.make auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=1,2,3,4 "Built target FriendServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target FriendServer"
 .PHONY : auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/all
 
 # Include target in all.
@@ -185,7 +185,7 @@ all: auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/all
 
 # Build rule for subdir invocation for target.
 auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 0
 .PHONY : auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/rule

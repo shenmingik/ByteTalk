@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp" "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/FriendServer.cpp.o"
   "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.pb.cc" "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/FriendServer.pb.cc.o"
   "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/ZooKeeperFow.cpp" "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/ZooKeeperFow.cpp.o"
+  "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/run.cpp" "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/run.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
