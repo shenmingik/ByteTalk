@@ -61,11 +61,46 @@ void FriendServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::n
         string send = response.SerializeAsString();
         conn->send(send);
     }
+    else if (request.type() == "GetUserInfo")
+    {
+        //反序列化
+        ik_FriendServer::UserInfoRequest user_request;
+        user_request.ParseFromString(request.request());
+        //序列化
+        User user = get_userinfo(user_request.id());
+        ik_FriendServer::FriendInfo info;
+        info.set_id(user.get_id());
+        info.set_name(user.get_name());
+        //信息发送
+        string send = info.SerializeAsString();
+        conn->send(send);
+    }
+    else if (request.type() == "AddFriend")
+    {
+        //反序列化
+        ik_FriendServer::AddFriendRequest add_request;
+        add_request.ParseFromString(request.request());
+
+        add_friend(add_request.myid(), add_request.friendid());
+    }
+    else if (request.type() == "DeleteFriend")
+    {
+        //反序列化
+        ik_FriendServer::DeleteFriendRequest del_request;
+        del_request.ParseFromString(request.request());
+
+        delete_friend(del_request.myid(), del_request.friendid());
+    }
 }
 
 //连接事件回调函数
 void FriendServer::on_connect(const muduo::net::TcpConnectionPtr &conn)
 {
+    //断开连接
+    if (!conn->connected())
+    {
+        conn->shutdown();
+    }
 }
 
 //获取userid 用户的好友列表

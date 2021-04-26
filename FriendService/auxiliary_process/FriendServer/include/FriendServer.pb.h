@@ -42,6 +42,8 @@ class FriendInfo;
 class FriendListRequest;
 class FriendListResponse;
 class Request;
+class UserInfoReponse;
+class UserInfoRequest;
 
 // ===================================================================
 
@@ -141,6 +143,182 @@ class Request : public ::google::protobuf::Message /* @@protoc_insertion_point(c
 
   void InitAsDefaultInstance();
   static Request* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class UserInfoRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_FriendServer.UserInfoRequest) */ {
+ public:
+  UserInfoRequest();
+  virtual ~UserInfoRequest();
+
+  UserInfoRequest(const UserInfoRequest& from);
+
+  inline UserInfoRequest& operator=(const UserInfoRequest& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const UserInfoRequest& default_instance();
+
+  void Swap(UserInfoRequest* other);
+
+  // implements Message ----------------------------------------------
+
+  inline UserInfoRequest* New() const { return New(NULL); }
+
+  UserInfoRequest* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const UserInfoRequest& from);
+  void MergeFrom(const UserInfoRequest& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(UserInfoRequest* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::google::protobuf::int32 id() const;
+  void set_id(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:ik_FriendServer.UserInfoRequest)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::int32 id_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_FriendServer_2eproto();
+  friend void protobuf_AssignDesc_FriendServer_2eproto();
+  friend void protobuf_ShutdownFile_FriendServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static UserInfoRequest* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class UserInfoReponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_FriendServer.UserInfoReponse) */ {
+ public:
+  UserInfoReponse();
+  virtual ~UserInfoReponse();
+
+  UserInfoReponse(const UserInfoReponse& from);
+
+  inline UserInfoReponse& operator=(const UserInfoReponse& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const UserInfoReponse& default_instance();
+
+  void Swap(UserInfoReponse* other);
+
+  // implements Message ----------------------------------------------
+
+  inline UserInfoReponse* New() const { return New(NULL); }
+
+  UserInfoReponse* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const UserInfoReponse& from);
+  void MergeFrom(const UserInfoReponse& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(UserInfoReponse* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::google::protobuf::int32 id() const;
+  void set_id(::google::protobuf::int32 value);
+
+  // optional bytes name = 2;
+  void clear_name();
+  static const int kNameFieldNumber = 2;
+  const ::std::string& name() const;
+  void set_name(const ::std::string& value);
+  void set_name(const char* value);
+  void set_name(const void* value, size_t size);
+  ::std::string* mutable_name();
+  ::std::string* release_name();
+  void set_allocated_name(::std::string* name);
+
+  // @@protoc_insertion_point(class_scope:ik_FriendServer.UserInfoReponse)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::internal::ArenaStringPtr name_;
+  ::google::protobuf::int32 id_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_FriendServer_2eproto();
+  friend void protobuf_AssignDesc_FriendServer_2eproto();
+  friend void protobuf_ShutdownFile_FriendServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static UserInfoReponse* default_instance_;
 };
 // -------------------------------------------------------------------
 
@@ -689,6 +867,86 @@ inline void Request::set_allocated_request(::std::string* request) {
 
 // -------------------------------------------------------------------
 
+// UserInfoRequest
+
+// optional int32 id = 1;
+inline void UserInfoRequest::clear_id() {
+  id_ = 0;
+}
+inline ::google::protobuf::int32 UserInfoRequest::id() const {
+  // @@protoc_insertion_point(field_get:ik_FriendServer.UserInfoRequest.id)
+  return id_;
+}
+inline void UserInfoRequest::set_id(::google::protobuf::int32 value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:ik_FriendServer.UserInfoRequest.id)
+}
+
+// -------------------------------------------------------------------
+
+// UserInfoReponse
+
+// optional int32 id = 1;
+inline void UserInfoReponse::clear_id() {
+  id_ = 0;
+}
+inline ::google::protobuf::int32 UserInfoReponse::id() const {
+  // @@protoc_insertion_point(field_get:ik_FriendServer.UserInfoReponse.id)
+  return id_;
+}
+inline void UserInfoReponse::set_id(::google::protobuf::int32 value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:ik_FriendServer.UserInfoReponse.id)
+}
+
+// optional bytes name = 2;
+inline void UserInfoReponse::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& UserInfoReponse::name() const {
+  // @@protoc_insertion_point(field_get:ik_FriendServer.UserInfoReponse.name)
+  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void UserInfoReponse::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:ik_FriendServer.UserInfoReponse.name)
+}
+inline void UserInfoReponse::set_name(const char* value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:ik_FriendServer.UserInfoReponse.name)
+}
+inline void UserInfoReponse::set_name(const void* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:ik_FriendServer.UserInfoReponse.name)
+}
+inline ::std::string* UserInfoReponse::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:ik_FriendServer.UserInfoReponse.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* UserInfoReponse::release_name() {
+  // @@protoc_insertion_point(field_release:ik_FriendServer.UserInfoReponse.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void UserInfoReponse::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:ik_FriendServer.UserInfoReponse.name)
+}
+
+// -------------------------------------------------------------------
+
 // FriendListRequest
 
 // optional int32 id = 1;
@@ -880,6 +1138,10 @@ inline void DeleteFriendRequest::set_friendid(::google::protobuf::int32 value) {
 }
 
 #endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
