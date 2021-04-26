@@ -1,5 +1,6 @@
 #pragma once
 #include "ZooKeeperFow.hpp"
+#include "FriendServer.pb.h"
 #include "User.hpp"
 
 #include <muduo/net/EventLoop.h>

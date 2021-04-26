@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendService.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/FriendService/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendServer.dir/FriendServer.cpp.o -c /home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp",
+  "file": "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendServer.dir/FriendServer.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendServer.dir/ZooKeeperFow.cpp.o -c /home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/ZooKeeperFow.cpp",
+  "file": "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/ZooKeeperFow.cpp"
+}
+]

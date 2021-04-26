@@ -2,6 +2,8 @@
 
 #define BUFF_SIZE 128
 
+using namespace placeholders;
+
 FriendServer::FriendServer(string ip, int port)
 {
     ip_ = ip;
@@ -13,11 +15,52 @@ FriendServer::FriendServer(string ip, int port)
 //服务器运行
 void FriendServer::run()
 {
+    muduo::net::InetAddress address(ip_, port_);
+    muduo::net::TcpServer server(&loop_, address, "FriendServer");
+
+    // 注册zookeeper节点
+    ZKClient client;
+    client.start();
+    string server_path = "/FriendService/server";
+    char data[BUFF_SIZE] = {0};
+    sprintf(data, "%s:%d", ip_.c_str(), port_);
+    client.create(server_path, data, strlen(data));
+
+    //绑定回调函数
+    server.setMessageCallback(bind(&FriendServer::on_message, this, _1, _2, _3));
+    server.setConnectionCallback(bind(&FriendServer::on_connect, this, _1));
+
+    server.setThreadNum(4);
+    server.start();
+    loop_.loop();
 }
 
 //读写事件回调函数
 void FriendServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::net::Buffer *buffer, muduo::Timestamp stamp)
 {
+    string recv = buffer->retrieveAllAsString();
+    ik_FriendServer::Request request;
+    request.ParseFromString(recv);
+    if (request.type() == "GetFriendList")
+    {
+        //反序列化
+        ik_FriendServer::FriendListRequest friendList_request;
+        friendList_request.ParseFromString(request.request());
+        int userid = friendList_request.id();
+        //获取好友列表信息
+        vector<User> users = get_friendlist(userid);
+        //组织返回消息
+        ik_FriendServer::FriendListResponse response;
+        for (int i = 0; i < users.size(); ++i)
+        {
+            ik_FriendServer::FriendInfo *info = response.add_friends();
+            info->set_id(users[i].get_id());
+            info->set_name(users[i].get_name());
+        }
+
+        string send = response.SerializeAsString();
+        conn->send(send);
+    }
 }
 
 //连接事件回调函数
