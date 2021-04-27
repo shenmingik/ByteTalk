@@ -1,0 +1,7 @@
+19:16:12=>[INFO]: zookeeper init success
+19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc
+19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/DeleteFriend
+19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/AddFriend
+19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/GetFriendList
+19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/GetUserInfo
+19:16:12=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6021]
