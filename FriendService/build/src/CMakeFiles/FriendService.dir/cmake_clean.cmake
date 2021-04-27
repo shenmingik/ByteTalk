@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FriendService.dir/FriendServer.pb.cc.o"
+  "CMakeFiles/FriendService.dir/FriendService.cpp.o"
+  "CMakeFiles/FriendService.dir/FriendService.pb.cc.o"
   "CMakeFiles/FriendService.dir/LogServer.pb.cc.o"
+  "CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o"
   "../../bin/FriendService.pdb"
   "../../bin/FriendService"
 )

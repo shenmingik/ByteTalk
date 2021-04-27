@@ -5,7 +5,21 @@
 #include "FriendService.pb.h"
 #include "ZooKeeperMaster.hpp"
 
-class FriendService
+#include <google/protobuf/empty.pb.h>
+#include <google/protobuf/service.h>
+#include <rpc/RpcChannel.hpp>
+
+#include <unistd.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+
+#include <string>
+
+using namespace std;
+
+class FriendService : public google::protobuf::Service
 {
 public:
     FriendService();

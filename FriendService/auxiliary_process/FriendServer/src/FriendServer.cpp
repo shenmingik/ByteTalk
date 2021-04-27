@@ -51,6 +51,7 @@ void FriendServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::n
         vector<User> users = get_friendlist(userid);
         //组织返回消息
         ik_FriendServer::FriendListResponse response;
+        response.set_is_success(true);
         for (int i = 0; i < users.size(); ++i)
         {
             ik_FriendServer::FriendInfo *info = response.add_friends();
@@ -133,7 +134,7 @@ User FriendServer::get_userinfo(int userid)
     char sql[BUFF_SIZE] = {0};
     sprintf(sql, "select name from User where id=%d", userid);
     MYSQL_RES *res = conn->query(sql);
-    if(res == nullptr)
+    if (res == nullptr)
     {
         //没有的话返回id = -1
         User user;

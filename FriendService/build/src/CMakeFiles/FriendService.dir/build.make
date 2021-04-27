@@ -57,9 +57,81 @@ include src/CMakeFiles/FriendService.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/FriendService.dir/flags.make
 
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o: src/CMakeFiles/FriendService.dir/flags.make
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o: ../src/FriendServer.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FriendService.dir/FriendServer.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/src/FriendServer.pb.cc
+
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FriendService.dir/FriendServer.pb.cc.i"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/FriendService/src/FriendServer.pb.cc > CMakeFiles/FriendService.dir/FriendServer.pb.cc.i
+
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FriendService.dir/FriendServer.pb.cc.s"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/FriendService/src/FriendServer.pb.cc -o CMakeFiles/FriendService.dir/FriendServer.pb.cc.s
+
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.requires:
+
+.PHONY : src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.requires
+
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.provides: src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.provides.build
+.PHONY : src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.provides
+
+src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.provides.build: src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o
+
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.o: src/CMakeFiles/FriendService.dir/flags.make
+src/CMakeFiles/FriendService.dir/FriendService.cpp.o: ../src/FriendService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/FriendService.dir/FriendService.cpp.o"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FriendService.dir/FriendService.cpp.o -c /home/ubuntu/ByteTalk/FriendService/src/FriendService.cpp
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FriendService.dir/FriendService.cpp.i"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/FriendService/src/FriendService.cpp > CMakeFiles/FriendService.dir/FriendService.cpp.i
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FriendService.dir/FriendService.cpp.s"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/FriendService/src/FriendService.cpp -o CMakeFiles/FriendService.dir/FriendService.cpp.s
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/FriendService.dir/FriendService.cpp.o.requires
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.o.provides: src/CMakeFiles/FriendService.dir/FriendService.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.cpp.o.provides.build
+.PHONY : src/CMakeFiles/FriendService.dir/FriendService.cpp.o.provides
+
+src/CMakeFiles/FriendService.dir/FriendService.cpp.o.provides.build: src/CMakeFiles/FriendService.dir/FriendService.cpp.o
+
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o: src/CMakeFiles/FriendService.dir/flags.make
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o: ../src/FriendService.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FriendService.dir/FriendService.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/src/FriendService.pb.cc
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FriendService.dir/FriendService.pb.cc.i"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/FriendService/src/FriendService.pb.cc > CMakeFiles/FriendService.dir/FriendService.pb.cc.i
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FriendService.dir/FriendService.pb.cc.s"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/FriendService/src/FriendService.pb.cc -o CMakeFiles/FriendService.dir/FriendService.pb.cc.s
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.requires:
+
+.PHONY : src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.requires
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.provides: src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.provides.build
+.PHONY : src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.provides
+
+src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.provides.build: src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o
+
+
 src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o: src/CMakeFiles/FriendService.dir/flags.make
 src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o: ../src/LogServer.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o"
 	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FriendService.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/src/LogServer.pb.cc
 
 src/CMakeFiles/FriendService.dir/LogServer.pb.cc.i: cmake_force
@@ -81,17 +153,49 @@ src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o.provides: src/CMakeFiles/Frie
 src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o.provides.build: src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o
 
 
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o: src/CMakeFiles/FriendService.dir/flags.make
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o: ../src/ZooKeeperMatser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o -c /home/ubuntu/ByteTalk/FriendService/src/ZooKeeperMatser.cpp
+
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.i"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ByteTalk/FriendService/src/ZooKeeperMatser.cpp > CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.i
+
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.s"
+	cd /home/ubuntu/ByteTalk/FriendService/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ByteTalk/FriendService/src/ZooKeeperMatser.cpp -o CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.s
+
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.requires
+
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.provides: src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.provides.build
+.PHONY : src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.provides
+
+src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.provides.build: src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o
+
+
 # Object files for target FriendService
 FriendService_OBJECTS = \
-"CMakeFiles/FriendService.dir/LogServer.pb.cc.o"
+"CMakeFiles/FriendService.dir/FriendServer.pb.cc.o" \
+"CMakeFiles/FriendService.dir/FriendService.cpp.o" \
+"CMakeFiles/FriendService.dir/FriendService.pb.cc.o" \
+"CMakeFiles/FriendService.dir/LogServer.pb.cc.o" \
+"CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o"
 
 # External object files for target FriendService
 FriendService_EXTERNAL_OBJECTS =
 
+../bin/FriendService: src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o
+../bin/FriendService: src/CMakeFiles/FriendService.dir/FriendService.cpp.o
+../bin/FriendService: src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o
 ../bin/FriendService: src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o
+../bin/FriendService: src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o
 ../bin/FriendService: src/CMakeFiles/FriendService.dir/build.make
 ../bin/FriendService: src/CMakeFiles/FriendService.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/FriendService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../bin/FriendService"
 	cd /home/ubuntu/ByteTalk/FriendService/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FriendService.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +203,11 @@ src/CMakeFiles/FriendService.dir/build: ../bin/FriendService
 
 .PHONY : src/CMakeFiles/FriendService.dir/build
 
+src/CMakeFiles/FriendService.dir/requires: src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o.requires
+src/CMakeFiles/FriendService.dir/requires: src/CMakeFiles/FriendService.dir/FriendService.cpp.o.requires
+src/CMakeFiles/FriendService.dir/requires: src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o.requires
 src/CMakeFiles/FriendService.dir/requires: src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o.requires
+src/CMakeFiles/FriendService.dir/requires: src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o.requires
 
 .PHONY : src/CMakeFiles/FriendService.dir/requires
 

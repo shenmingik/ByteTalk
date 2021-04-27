@@ -84,7 +84,7 @@ src/preinstall:
 src/CMakeFiles/FriendService.dir/all:
 	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/depend
 	$(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=6,7 "Built target FriendService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=6,7,8,9,10,11 "Built target FriendService"
 .PHONY : src/CMakeFiles/FriendService.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: src/CMakeFiles/FriendService.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/FriendService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/FriendService.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/FriendService.dir/rule

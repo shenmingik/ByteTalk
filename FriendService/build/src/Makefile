@@ -125,6 +125,87 @@ FriendService/fast:
 	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/build
 .PHONY : FriendService/fast
 
+FriendServer.pb.o: FriendServer.pb.cc.o
+
+.PHONY : FriendServer.pb.o
+
+# target to build an object file
+FriendServer.pb.cc.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.o
+.PHONY : FriendServer.pb.cc.o
+
+FriendServer.pb.i: FriendServer.pb.cc.i
+
+.PHONY : FriendServer.pb.i
+
+# target to preprocess a source file
+FriendServer.pb.cc.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.i
+.PHONY : FriendServer.pb.cc.i
+
+FriendServer.pb.s: FriendServer.pb.cc.s
+
+.PHONY : FriendServer.pb.s
+
+# target to generate assembly for a file
+FriendServer.pb.cc.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendServer.pb.cc.s
+.PHONY : FriendServer.pb.cc.s
+
+FriendService.o: FriendService.cpp.o
+
+.PHONY : FriendService.o
+
+# target to build an object file
+FriendService.cpp.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.cpp.o
+.PHONY : FriendService.cpp.o
+
+FriendService.i: FriendService.cpp.i
+
+.PHONY : FriendService.i
+
+# target to preprocess a source file
+FriendService.cpp.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.cpp.i
+.PHONY : FriendService.cpp.i
+
+FriendService.s: FriendService.cpp.s
+
+.PHONY : FriendService.s
+
+# target to generate assembly for a file
+FriendService.cpp.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.cpp.s
+.PHONY : FriendService.cpp.s
+
+FriendService.pb.o: FriendService.pb.cc.o
+
+.PHONY : FriendService.pb.o
+
+# target to build an object file
+FriendService.pb.cc.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o
+.PHONY : FriendService.pb.cc.o
+
+FriendService.pb.i: FriendService.pb.cc.i
+
+.PHONY : FriendService.pb.i
+
+# target to preprocess a source file
+FriendService.pb.cc.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.pb.cc.i
+.PHONY : FriendService.pb.cc.i
+
+FriendService.pb.s: FriendService.pb.cc.s
+
+.PHONY : FriendService.pb.s
+
+# target to generate assembly for a file
+FriendService.pb.cc.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/FriendService.pb.cc.s
+.PHONY : FriendService.pb.cc.s
+
 LogServer.pb.o: LogServer.pb.cc.o
 
 .PHONY : LogServer.pb.o
@@ -152,6 +233,33 @@ LogServer.pb.cc.s:
 	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/LogServer.pb.cc.s
 .PHONY : LogServer.pb.cc.s
 
+ZooKeeperMatser.o: ZooKeeperMatser.cpp.o
+
+.PHONY : ZooKeeperMatser.o
+
+# target to build an object file
+ZooKeeperMatser.cpp.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o
+.PHONY : ZooKeeperMatser.cpp.o
+
+ZooKeeperMatser.i: ZooKeeperMatser.cpp.i
+
+.PHONY : ZooKeeperMatser.i
+
+# target to preprocess a source file
+ZooKeeperMatser.cpp.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.i
+.PHONY : ZooKeeperMatser.cpp.i
+
+ZooKeeperMatser.s: ZooKeeperMatser.cpp.s
+
+.PHONY : ZooKeeperMatser.s
+
+# target to generate assembly for a file
+ZooKeeperMatser.cpp.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.s
+.PHONY : ZooKeeperMatser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,9 +269,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... FriendService"
 	@echo "... edit_cache"
+	@echo "... FriendServer.pb.o"
+	@echo "... FriendServer.pb.i"
+	@echo "... FriendServer.pb.s"
+	@echo "... FriendService.o"
+	@echo "... FriendService.i"
+	@echo "... FriendService.s"
+	@echo "... FriendService.pb.o"
+	@echo "... FriendService.pb.i"
+	@echo "... FriendService.pb.s"
 	@echo "... LogServer.pb.o"
 	@echo "... LogServer.pb.i"
 	@echo "... LogServer.pb.s"
+	@echo "... ZooKeeperMatser.o"
+	@echo "... ZooKeeperMatser.i"
+	@echo "... ZooKeeperMatser.s"
 .PHONY : help
 
 
