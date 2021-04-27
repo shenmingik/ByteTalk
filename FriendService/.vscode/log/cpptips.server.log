@@ -15278,3 +15278,31 @@
 [2021-04-27T19:02:40.513] [DEBUG] cpptips - begin getDepsInDefineJson
 [2021-04-27T19:02:40.513] [MARK] cpptips - getDepsInDefineJson
 [2021-04-27T19:02:40.513] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T19:03:31.399] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:03:31.400] [INFO] cpptips - Set {}
+[2021-04-27T19:05:34.406] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:05:34.406] [INFO] cpptips - Set {}
+[2021-04-27T19:07:34.434] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:07:34.434] [INFO] cpptips - Set {}
+[2021-04-27T19:09:34.450] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:09:34.450] [INFO] cpptips - Set {}
+[2021-04-27T19:11:34.474] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:11:34.474] [INFO] cpptips - Set {}
+[2021-04-27T19:11:59.294] [INFO] cpptips - 21 59
+[2021-04-27T19:11:59.294] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T19:11:59.294] [MARK] cpptips - getDefinePoint
+[2021-04-27T19:11:59.295] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/FriendService//include/FriendService.pb.h
+[2021-04-27T19:11:59.295] [INFO] cpptips - filepath: /home/ubuntu/ByteTalk/FriendService//include/FriendService.pb.h
+[2021-04-27T19:11:59.296] [MARK] cpptips - getDefinePoint
+[2021-04-27T19:12:59.602] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T19:12:59.602] [MARK] cpptips - getDocumentTree
+[2021-04-27T19:12:59.602] [MARK] cpptips - Analyse
+[2021-04-27T19:12:59.604] [MARK] cpptips - Analyse
+[2021-04-27T19:12:59.604] [MARK] cpptips - getDocumentStruct
+[2021-04-27T19:12:59.604] [MARK] cpptips - getDocumentStruct
+[2021-04-27T19:12:59.604] [MARK] cpptips - getDocumentTree
+[2021-04-27T19:12:59.604] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T19:12:59.604] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T19:12:59.604] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T19:13:37.484] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cf995d0b8611fd1a0a271c94781b042d_run.cpp","type":2}]}
+[2021-04-27T19:13:37.484] [INFO] cpptips - Set {}
