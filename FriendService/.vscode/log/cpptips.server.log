@@ -108,3 +108,581 @@
 [2021-04-27T12:39:19.867] [DEBUG] cpptips - begin getDepsInDefineJson
 [2021-04-27T12:39:19.867] [MARK] cpptips - getDepsInDefineJson
 [2021-04-27T12:39:19.885] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:36:58.898] [DEBUG] cpptips - root path /home/ubuntu/ByteTalk/FriendService
+[2021-04-27T17:36:59.005] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-04-27T17:36:59.006] [INFO] cpptips - config: {
+  basedir: '/home/ubuntu/ByteTalk/FriendService/',
+  dbpath: '/home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: '/home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-04-27T17:36:59.007] [INFO] cpptips - db path! /home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db /home/ubuntu/ByteTalk/FriendService//.vscode/db
+[2021-04-27T17:36:59.007] [INFO] cpptips - KeyWordStore in constructor
+[2021-04-27T17:36:59.007] [INFO] cpptips - databasepath: /home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db
+[2021-04-27T17:36:59.033] [INFO] cpptips - FileIndexStore in constructor
+[2021-04-27T17:36:59.034] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-04-27T17:36:59.325] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-04-27T17:36:59.333] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"/home/ubuntu/ByteTalk/FriendService/","dbpath":"/home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-04-27T17:37:02.929] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:37:02.929] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:37:03.176] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:37:08.296] [INFO] cpptips - Set {}
+[2021-04-27T17:37:17.387] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:37:17.387] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:37:17.498] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:38:31.059] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:38:31.059] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:38:31.169] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:39:14.096] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:39:14.096] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:39:14.208] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:39:30.880] [INFO] cpptips - auxiliary_process/FriendServer/src/FriendServer.cpp
+[2021-04-27T17:39:30.880] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp /home/ubuntu/ByteTalk/FriendService/ auxiliary_process/FriendServer/src/FriendServer.cpp
+[2021-04-27T17:39:30.881] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:39:30.881] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:30.882] [MARK] cpptips - Analyse
+[2021-04-27T17:39:30.892] [MARK] cpptips - Analyse
+[2021-04-27T17:39:30.892] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:30.894] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:30.894] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:30.894] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:39:30.894] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:30.897] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:31.126] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:39:31.126] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:31.126] [MARK] cpptips - Analyse
+[2021-04-27T17:39:31.130] [MARK] cpptips - Analyse
+[2021-04-27T17:39:31.130] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:31.130] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:31.130] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:31.130] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:39:31.130] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:31.131] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:32.283] [DEBUG] cpptips - success
+[2021-04-27T17:39:32.284] [ERROR] cpptips - not find t_keyword, create table now
+[2021-04-27T17:39:32.531] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/63f8197d850b7651e082b732d50857b8_FriendServer.cpp","type":2}]}
+[2021-04-27T17:39:32.531] [INFO] cpptips - Set {}
+[2021-04-27T17:39:34.900] [INFO] cpptips - 151 1
+[2021-04-27T17:39:34.901] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:34.901] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:34.905] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:35.115] [INFO] cpptips - 152 1
+[2021-04-27T17:39:35.116] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:35.116] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:35.119] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:35.434] [INFO] cpptips - 152 1
+[2021-04-27T17:39:35.434] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:35.434] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:35.435] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:37.008] [INFO] cpptips - 163 19
+[2021-04-27T17:39:37.009] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:37.009] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:37.010] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:37.663] [DEBUG] cpptips - pos: 152 1
+[2021-04-27T17:39:37.664] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:37.664] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:37.664] [DEBUG] cpptips - linecode: B
+[2021-04-27T17:39:37.664] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:37.664] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:37.667] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:37.670] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:37.670] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:37.671] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:38.915] [DEBUG] cpptips - pos: 152 3
+[2021-04-27T17:39:38.915] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:38.915] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:38.915] [DEBUG] cpptips - linecode: BOO
+[2021-04-27T17:39:38.916] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:38.916] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:38.916] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:38.919] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:38.919] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:38.919] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:39.015] [DEBUG] cpptips - pos: 152 2
+[2021-04-27T17:39:39.015] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:39.015] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:39.015] [DEBUG] cpptips - linecode: BO
+[2021-04-27T17:39:39.015] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:39.015] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:39.015] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:39.017] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:39.018] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:39.018] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:39.172] [DEBUG] cpptips - pos: 152 1
+[2021-04-27T17:39:39.172] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:39.172] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:39.172] [DEBUG] cpptips - linecode: B
+[2021-04-27T17:39:39.172] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:39.172] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:39.173] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:39.176] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:39.176] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:39.176] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:40.375] [DEBUG] cpptips - pos: 152 1
+[2021-04-27T17:39:40.375] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:40.375] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:40.375] [DEBUG] cpptips - linecode: b
+[2021-04-27T17:39:40.376] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:40.376] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:40.376] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:40.378] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:40.378] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:40.378] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.432] [DEBUG] cpptips - pos: 152 2
+[2021-04-27T17:39:41.432] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:41.432] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.432] [DEBUG] cpptips - linecode: bo
+[2021-04-27T17:39:41.433] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:41.433] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.433] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.436] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.436] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.436] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.643] [DEBUG] cpptips - pos: 152 3
+[2021-04-27T17:39:41.643] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:41.644] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.644] [DEBUG] cpptips - linecode: boo
+[2021-04-27T17:39:41.644] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:41.644] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.644] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.646] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.646] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.646] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.906] [DEBUG] cpptips - pos: 152 4
+[2021-04-27T17:39:41.906] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:41.906] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:41.906] [DEBUG] cpptips - linecode: bool
+[2021-04-27T17:39:41.906] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:41.906] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.906] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.908] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:41.909] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:41.909] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:43.333] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:39:43.333] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:43.333] [MARK] cpptips - Analyse
+[2021-04-27T17:39:43.337] [MARK] cpptips - Analyse
+[2021-04-27T17:39:43.337] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:43.338] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:43.338] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:43.338] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:39:43.338] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:43.343] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:44.416] [INFO] cpptips - 152 4
+[2021-04-27T17:39:44.416] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:44.416] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:44.418] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:44.828] [INFO] cpptips - 152 4
+[2021-04-27T17:39:44.828] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:44.828] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:44.829] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:45.380] [INFO] cpptips - 162 3
+[2021-04-27T17:39:45.380] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:45.380] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:45.380] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:45.854] [INFO] cpptips - 162 3
+[2021-04-27T17:39:45.855] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:45.855] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:45.855] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:46.071] [INFO] cpptips - 163 5
+[2021-04-27T17:39:46.071] [DEBUG] cpptips - begin getDefinePoint
+[2021-04-27T17:39:46.071] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:46.073] [MARK] cpptips - getDefinePoint
+[2021-04-27T17:39:52.207] [DEBUG] cpptips - pos: 152 1
+[2021-04-27T17:39:52.207] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:52.207] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:52.207] [DEBUG] cpptips - linecode: v
+[2021-04-27T17:39:52.207] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:52.207] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:52.208] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:52.210] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:52.210] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:52.210] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:52.822] [DEBUG] cpptips - pos: 152 2
+[2021-04-27T17:39:52.822] [DEBUG] cpptips - begin preKeyWordSearch
+[2021-04-27T17:39:52.823] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:52.823] [DEBUG] cpptips - linecode: vo
+[2021-04-27T17:39:52.823] [DEBUG] cpptips - begin searchKeyWord
+[2021-04-27T17:39:52.823] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:52.823] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:52.825] [MARK] cpptips - freezFindAllByPreKeyword
+[2021-04-27T17:39:52.825] [MARK] cpptips - searchKeyWord
+[2021-04-27T17:39:52.825] [MARK] cpptips - preKeyWordSearch
+[2021-04-27T17:39:54.486] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:39:54.517] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp","type":2}]}
+[2021-04-27T17:39:54.517] [INFO] cpptips - Set {}
+[2021-04-27T17:39:54.563] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:39:54.563] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:54.563] [MARK] cpptips - Analyse
+[2021-04-27T17:39:54.567] [MARK] cpptips - Analyse
+[2021-04-27T17:39:54.567] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:54.567] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:54.567] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:54.567] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:39:54.567] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:54.567] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:55.363] [DEBUG] cpptips - success
+[2021-04-27T17:39:55.363] [INFO] cpptips - true [ 3556 ]
+[2021-04-27T17:39:58.203] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:39:58.203] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:58.203] [MARK] cpptips - Analyse
+[2021-04-27T17:39:58.207] [MARK] cpptips - Analyse
+[2021-04-27T17:39:58.207] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:58.207] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:39:58.207] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:39:58.207] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:39:58.207] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:58.207] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:39:58.209] [INFO] cpptips - auxiliary_process/FriendServer/src/FriendServer.cpp
+[2021-04-27T17:39:59.149] [INFO] cpptips - 
+[2021-04-27T17:40:12.132] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:40:12.132] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:40:12.244] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:40:25.728] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:40:25.728] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:40:25.838] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:41:02.610] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:41:02.610] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:41:02.725] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:41:30.934] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:41:30.934] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:41:31.045] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:41:39.614] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:41:39.615] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:41:39.727] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:42:04.618] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:42:04.618] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:42:04.729] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:43:15.669] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:43:15.669] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:43:15.938] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:43:24.415] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:43:24.415] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:43:24.527] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:43:31.210] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:43:31.211] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:43:31.324] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:44:00.680] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:44:00.680] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:44:00.796] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:44:54.992] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:44:54.992] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:44:55.105] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:45:43.764] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:45:43.764] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:45:43.874] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:46:07.367] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto","type":2}]}
+[2021-04-27T17:46:07.367] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.proto'
+}
+[2021-04-27T17:46:07.478] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:47:14.744] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h","type":1}]}
+[2021-04-27T17:47:14.745] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h'
+}
+[2021-04-27T17:47:14.894] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:47:31.241] [INFO] cpptips - proto/FriendService.pb.h
+[2021-04-27T17:47:31.241] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h /home/ubuntu/ByteTalk/FriendService/ proto/FriendService.pb.h
+[2021-04-27T17:47:31.241] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:31.241] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:31.242] [MARK] cpptips - Analyse
+[2021-04-27T17:47:31.335] [MARK] cpptips - Analyse
+[2021-04-27T17:47:31.335] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:31.369] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:31.369] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:31.369] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:31.369] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:31.377] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:32.294] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/0fe4eee6da947c213ecfa5daea5edd1f_FriendService.pb.h","type":1}]}
+[2021-04-27T17:47:32.294] [INFO] cpptips - Set {}
+[2021-04-27T17:47:33.077] [DEBUG] cpptips - root path /home/ubuntu/ByteTalk/FriendService
+[2021-04-27T17:47:33.086] [INFO] cpptips - proto/FriendService.pb.h
+[2021-04-27T17:47:33.086] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h /home/ubuntu/ByteTalk/FriendService/ proto/FriendService.pb.h
+[2021-04-27T17:47:33.090] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-04-27T17:47:33.090] [INFO] cpptips - config: {
+  basedir: '/home/ubuntu/ByteTalk/FriendService/',
+  dbpath: '/home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: '/home/ubuntu/.vscode-server/extensions/widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-04-27T17:47:33.091] [INFO] cpptips - db path! /home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db /home/ubuntu/ByteTalk/FriendService//.vscode/db
+[2021-04-27T17:47:33.091] [INFO] cpptips - KeyWordStore in constructor
+[2021-04-27T17:47:33.091] [INFO] cpptips - databasepath: /home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db
+[2021-04-27T17:47:33.093] [INFO] cpptips - FileIndexStore in constructor
+[2021-04-27T17:47:33.094] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-04-27T17:47:33.259] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-04-27T17:47:33.281] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"/home/ubuntu/ByteTalk/FriendService/","dbpath":"/home/ubuntu/ByteTalk/FriendService//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-04-27T17:47:33.283] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:33.283] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:33.284] [MARK] cpptips - Analyse
+[2021-04-27T17:47:33.367] [MARK] cpptips - Analyse
+[2021-04-27T17:47:33.368] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:33.402] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:33.402] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:33.402] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:33.402] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:33.413] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:34.342] [DEBUG] cpptips - success
+[2021-04-27T17:47:34.343] [ERROR] cpptips - not find t_keyword, create table now
+[2021-04-27T17:47:35.717] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:35.718] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:35.718] [MARK] cpptips - Analyse
+[2021-04-27T17:47:35.782] [MARK] cpptips - Analyse
+[2021-04-27T17:47:35.782] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:35.815] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:35.816] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:35.816] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:35.816] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:35.830] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:40.736] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:40.736] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:40.736] [MARK] cpptips - Analyse
+[2021-04-27T17:47:40.778] [MARK] cpptips - Analyse
+[2021-04-27T17:47:40.778] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:40.815] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:40.815] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:40.815] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:40.815] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:40.816] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:40.819] [INFO] cpptips - proto/FriendService.pb.h
+[2021-04-27T17:47:40.884] [INFO] cpptips - include/FriendService.pb.h
+[2021-04-27T17:47:40.884] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/include/FriendService.pb.h /home/ubuntu/ByteTalk/FriendService/ include/FriendService.pb.h
+[2021-04-27T17:47:40.884] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:40.884] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:40.884] [MARK] cpptips - Analyse
+[2021-04-27T17:47:40.915] [MARK] cpptips - Analyse
+[2021-04-27T17:47:40.915] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:40.952] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:40.952] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:40.952] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:40.952] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:40.953] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:41.096] [INFO] cpptips - 
+[2021-04-27T17:47:41.142] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/include/FriendService.pb.h","type":1},{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h","type":3}]}
+[2021-04-27T17:47:41.142] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendService.pb.h'
+}
+[2021-04-27T17:47:41.919] [INFO] cpptips - Set {}
+[2021-04-27T17:47:41.986] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:41.986] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:41.986] [MARK] cpptips - Analyse
+[2021-04-27T17:47:42.058] [MARK] cpptips - Analyse
+[2021-04-27T17:47:42.058] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:42.083] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:47:42.083] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:42.083] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:47:42.083] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:42.084] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:47:42.098] [INFO] cpptips - include/FriendService.pb.h
+[2021-04-27T17:47:42.339] [INFO] cpptips - include/FriendService.pb.cc
+[2021-04-27T17:47:42.339] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/include/FriendService.pb.cc /home/ubuntu/ByteTalk/FriendService/ include/FriendService.pb.cc
+[2021-04-27T17:47:42.339] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:42.339] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:42.339] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:47:42.339] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:42.839] [DEBUG] cpptips - fileerror
+[2021-04-27T17:47:42.926] [DEBUG] cpptips - success
+[2021-04-27T17:47:43.099] [INFO] cpptips - 
+[2021-04-27T17:47:46.944] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cc52b87645f7c7d1c86f51ce0ca8b39b_FriendService.pb.h","type":1}]}
+[2021-04-27T17:47:46.944] [INFO] cpptips - Set {}
+[2021-04-27T17:47:50.833] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:50.833] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:50.833] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:47:50.833] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:50.833] [INFO] cpptips - include/FriendService.pb.cc
+[2021-04-27T17:47:50.834] [DEBUG] cpptips - fileerror
+[2021-04-27T17:47:50.926] [INFO] cpptips - src/FriendService.pb.cc
+[2021-04-27T17:47:50.926] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/src/FriendService.pb.cc /home/ubuntu/ByteTalk/FriendService/ src/FriendService.pb.cc
+[2021-04-27T17:47:50.926] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:50.926] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:50.926] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:47:50.926] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:51.426] [DEBUG] cpptips - fileerror
+[2021-04-27T17:47:54.467] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:47:54.467] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:54.468] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:47:54.468] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:47:54.469] [INFO] cpptips - src/FriendService.pb.cc
+[2021-04-27T17:47:54.469] [DEBUG] cpptips - fileerror
+[2021-04-27T17:47:59.465] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.proto","type":1}]}
+[2021-04-27T17:47:59.465] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.proto'
+}
+[2021-04-27T17:47:59.605] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:48:26.482] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.h","type":1}]}
+[2021-04-27T17:48:26.482] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.h'
+}
+[2021-04-27T17:48:26.596] [DEBUG] cpptips - reloadOneIncludeFileCallBack: success
+[2021-04-27T17:48:29.681] [INFO] cpptips - proto/FriendServer.pb.cc
+[2021-04-27T17:48:29.681] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.cc /home/ubuntu/ByteTalk/FriendService/ proto/FriendServer.pb.cc
+[2021-04-27T17:48:29.682] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:29.682] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:29.682] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:48:29.682] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:30.183] [DEBUG] cpptips - fileerror
+[2021-04-27T17:48:32.895] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:32.895] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:32.895] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:48:32.895] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:32.898] [INFO] cpptips - proto/FriendServer.pb.cc
+[2021-04-27T17:48:32.898] [DEBUG] cpptips - fileerror
+[2021-04-27T17:48:33.056] [INFO] cpptips - src/FriendServer.pb.cc
+[2021-04-27T17:48:33.056] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/src/FriendServer.pb.cc /home/ubuntu/ByteTalk/FriendService/ src/FriendServer.pb.cc
+[2021-04-27T17:48:33.056] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:33.056] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:33.056] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-04-27T17:48:33.056] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:33.557] [DEBUG] cpptips - fileerror
+[2021-04-27T17:48:35.170] [INFO] cpptips - src/FriendServer.pb.cc
+[2021-04-27T17:48:35.170] [DEBUG] cpptips - fileerror
+[2021-04-27T17:48:35.251] [INFO] cpptips - proto/FriendServer.pb.h
+[2021-04-27T17:48:35.251] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.h /home/ubuntu/ByteTalk/FriendService/ proto/FriendServer.pb.h
+[2021-04-27T17:48:35.252] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:35.252] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:35.252] [MARK] cpptips - Analyse
+[2021-04-27T17:48:35.421] [MARK] cpptips - Analyse
+[2021-04-27T17:48:35.421] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:35.488] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:35.489] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:35.489] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:48:35.489] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:35.502] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:36.632] [DEBUG] cpptips - success
+[2021-04-27T17:48:37.021] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:37.021] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:37.021] [MARK] cpptips - Analyse
+[2021-04-27T17:48:37.095] [MARK] cpptips - Analyse
+[2021-04-27T17:48:37.096] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:37.131] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:37.131] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:37.131] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:48:37.131] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:37.132] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:37.139] [INFO] cpptips - proto/FriendServer.pb.h
+[2021-04-27T17:48:37.169] [INFO] cpptips - include/FriendServer.pb.h
+[2021-04-27T17:48:37.169] [DEBUG] cpptips - debug: file:///home/ubuntu/ByteTalk/FriendService/include/FriendServer.pb.h /home/ubuntu/ByteTalk/FriendService/ include/FriendServer.pb.h
+[2021-04-27T17:48:37.170] [DEBUG] cpptips - begin getDocumentTree
+[2021-04-27T17:48:37.170] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:37.170] [MARK] cpptips - Analyse
+[2021-04-27T17:48:37.223] [MARK] cpptips - Analyse
+[2021-04-27T17:48:37.223] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:37.288] [MARK] cpptips - getDocumentStruct
+[2021-04-27T17:48:37.288] [MARK] cpptips - getDocumentTree
+[2021-04-27T17:48:37.288] [DEBUG] cpptips - begin getDepsInDefineJson
+[2021-04-27T17:48:37.288] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:37.290] [MARK] cpptips - getDepsInDefineJson
+[2021-04-27T17:48:37.315] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/include/FriendServer.pb.h","type":1},{"uri":"file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.h","type":3}]}
+[2021-04-27T17:48:37.315] [INFO] cpptips - Set {
+  'file:///home/ubuntu/ByteTalk/FriendService/proto/FriendServer.pb.h'
+}
+[2021-04-27T17:48:38.139] [INFO] cpptips - 
+[2021-04-27T17:48:39.304] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/cc52b87645f7c7d1c86f51ce0ca8b39b_FriendServer.pb.h","type":1}]}
+[2021-04-27T17:48:39.304] [INFO] cpptips - Set {}
+[2021-04-27T17:48:39.519] [DEBUG] cpptips - success
+[2021-04-27T17:48:42.226] [INFO] cpptips - {"changes":[{"uri":"file:///home/ubuntu/ByteTalk/FriendService/.vscode/.git/0fe4eee6da947c213ecfa5daea5edd1f_FriendServer.pb.h","type":1}]}
+[2021-04-27T17:48:42.226] [INFO] cpptips - Set {}

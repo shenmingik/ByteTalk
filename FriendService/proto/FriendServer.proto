@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package ik_FriendServer;
+
+message Request
+{
+    bytes type = 1;
+    bytes request  = 2;
+}
+
+message UserInfoRequest
+{
+    int32 id = 1;
+}
+
+message UserInfoReponse
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
+message FriendListRequest
+{
+    int32 id = 1;
+}
+
+message FriendInfo
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
+message FriendListResponse
+{
+    bool is_success = 1;
+    repeated FriendInfo friends = 2;
+}
+
+message AddFriendRequest
+{
+    int32 myid = 1;
+    int32 friendid = 2;
+}
+
+message DeleteFriendRequest
+{
+    int32 myid = 1;
+    int32 friendid = 2;
+}

@@ -135,6 +135,7 @@ User FriendServer::get_userinfo(int userid)
     MYSQL_RES *res = conn->query(sql);
     if(res == nullptr)
     {
+        //没有的话返回id = -1
         User user;
         user.set_id(-1);
         return user;
