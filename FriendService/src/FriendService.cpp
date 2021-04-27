@@ -97,7 +97,7 @@ void FriendService::GetUserInfo(::google::protobuf::RpcController *controller,
         google::protobuf::Empty em_response;
         log_stub_.Log_ERROR(nullptr, &log_request, &em_response, nullptr);
 
-        response->set_is_success(false);
+        controller->SetFailed("send error");
         done->Run();
         return;
     }
@@ -113,7 +113,7 @@ void FriendService::GetUserInfo(::google::protobuf::RpcController *controller,
         google::protobuf::Empty em_response;
         log_stub_.Log_ERROR(nullptr, &log_request, &em_response, nullptr);
 
-        response->set_is_success(false);
+        controller->SetFailed("recv error");
         done->Run();
         return;
     }

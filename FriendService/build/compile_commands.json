@@ -25,6 +25,11 @@
   "file": "/home/ubuntu/ByteTalk/FriendService/src/ZooKeeperMatser.cpp"
 },
 {
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendService.dir/run.cpp.o -c /home/ubuntu/ByteTalk/FriendService/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/FriendService/src/run.cpp"
+},
+{
   "directory": "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src",
   "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendServer.dir/FriendServer.cpp.o -c /home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp",
   "file": "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/FriendServer.cpp"

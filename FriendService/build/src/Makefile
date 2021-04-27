@@ -260,6 +260,33 @@ ZooKeeperMatser.cpp.s:
 	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.s
 .PHONY : ZooKeeperMatser.cpp.s
 
+run.o: run.cpp.o
+
+.PHONY : run.o
+
+# target to build an object file
+run.cpp.o:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/run.cpp.o
+.PHONY : run.cpp.o
+
+run.i: run.cpp.i
+
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cpp.i:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/run.cpp.i
+.PHONY : run.cpp.i
+
+run.s: run.cpp.s
+
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cpp.s:
+	cd /home/ubuntu/ByteTalk/FriendService/build && $(MAKE) -f src/CMakeFiles/FriendService.dir/build.make src/CMakeFiles/FriendService.dir/run.cpp.s
+.PHONY : run.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -284,6 +311,9 @@ help:
 	@echo "... ZooKeeperMatser.o"
 	@echo "... ZooKeeperMatser.i"
 	@echo "... ZooKeeperMatser.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
 .PHONY : help
 
 

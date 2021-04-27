@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/ByteTalk/FriendService/src/FriendService.pb.cc" "/home/ubuntu/ByteTalk/FriendService/build/src/CMakeFiles/FriendService.dir/FriendService.pb.cc.o"
   "/home/ubuntu/ByteTalk/FriendService/src/LogServer.pb.cc" "/home/ubuntu/ByteTalk/FriendService/build/src/CMakeFiles/FriendService.dir/LogServer.pb.cc.o"
   "/home/ubuntu/ByteTalk/FriendService/src/ZooKeeperMatser.cpp" "/home/ubuntu/ByteTalk/FriendService/build/src/CMakeFiles/FriendService.dir/ZooKeeperMatser.cpp.o"
+  "/home/ubuntu/ByteTalk/FriendService/src/run.cpp" "/home/ubuntu/ByteTalk/FriendService/build/src/CMakeFiles/FriendService.dir/run.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

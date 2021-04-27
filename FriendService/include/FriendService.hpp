@@ -19,7 +19,7 @@
 
 using namespace std;
 
-class FriendService : public google::protobuf::Service
+class FriendService : public ik_FriendService::FriendServiceRpc
 {
 public:
     FriendService();
