@@ -133,6 +133,12 @@ User FriendServer::get_userinfo(int userid)
     char sql[BUFF_SIZE] = {0};
     sprintf(sql, "select name from User where id=%d", userid);
     MYSQL_RES *res = conn->query(sql);
+    if(res == nullptr)
+    {
+        User user;
+        user.set_id(-1);
+        return user;
+    }
     User user;
     MYSQL_ROW row = mysql_fetch_row(res);
     user.set_id(userid);
