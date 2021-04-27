@@ -24,7 +24,7 @@ void FriendServer::run()
     string server_path = "/FriendService/server";
     char data[BUFF_SIZE] = {0};
     sprintf(data, "%s:%d", ip_.c_str(), port_);
-    client.create(server_path, data, strlen(data));
+    client.create(server_path, data, strlen(data),ZOO_EPHEMERAL);
 
     //绑定回调函数
     server.setMessageCallback(bind(&FriendServer::on_message, this, _1, _2, _3));

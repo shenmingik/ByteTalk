@@ -48,5 +48,15 @@
   "directory": "/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src",
   "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/FriendServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/run.cpp",
   "file": "/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/src/run.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/example",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/callee.dir/FriendService.pb.cc.o -c /home/ubuntu/ByteTalk/FriendService/example/FriendService.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/FriendService/example/FriendService.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/FriendService/build/example",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/FriendService/include -I/home/ubuntu/ByteTalk/FriendService/auxiliary_process/FriendServer/include  -g -g   -o CMakeFiles/callee.dir/main.cpp.o -c /home/ubuntu/ByteTalk/FriendService/example/main.cpp",
+  "file": "/home/ubuntu/ByteTalk/FriendService/example/main.cpp"
 }
 ]

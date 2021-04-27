@@ -5,3 +5,33 @@
 19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/GetFriendList
 19:16:12=>[INFO]: znode create  success...path: /FriendServiceRpc/GetUserInfo
 19:16:12=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6021]
+19:28:45=>[INFO]: zookeeper init success
+19:28:45=>[INFO]: znode create  success...path: /FriendServiceRpc/DeleteFriend
+19:28:45=>[INFO]: znode create  success...path: /FriendServiceRpc/AddFriend
+19:28:46=>[INFO]: znode create  success...path: /FriendServiceRpc/GetFriendList
+19:28:46=>[INFO]: znode create  success...path: /FriendServiceRpc/GetUserInfo
+19:28:46=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6021]
+19:31:57=>[INFO]: zookeeper init success
+19:28:46=>[INFO]: header size: 35
+19:31:57=>[INFO]: <------------------------------------------------>
+19:31:57=>[INFO]: rpc header str: 
+FriendServiceRpcGetFriendList
+19:31:57=>[INFO]: service name: FriendServiceRpc
+19:31:57=>[INFO]: method name: GetFriendList
+19:31:57=>[INFO]: args: 
+19:31:57=>[INFO]: <------------------------------------------------>
+19:36:37=>[INFO]: zookeeper init success
+19:36:37=>[INFO]: znode create  success...path: /FriendServiceRpc/DeleteFriend
+19:36:37=>[INFO]: znode create  success...path: /FriendServiceRpc/AddFriend
+19:36:37=>[INFO]: znode create  success...path: /FriendServiceRpc/GetFriendList
+19:36:37=>[INFO]: znode create  success...path: /FriendServiceRpc/GetUserInfo
+19:36:37=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6021]
+19:36:37=>[INFO]: header size: 31
+19:40:37=>[INFO]: <------------------------------------------------>
+19:40:37=>[INFO]: rpc header str: 
+FriendServiceRpc	AddFriend
+19:40:37=>[INFO]: service name: FriendServiceRpc
+19:40:37=>[INFO]: method name: AddFriend
+19:40:37=>[INFO]: args: 
+19:40:37=>[INFO]: <------------------------------------------------>
+19:40:37=>[INFO]: zookeeper init success

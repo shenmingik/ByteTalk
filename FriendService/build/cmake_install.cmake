@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/ByteTalk/FriendService/build/src/cmake_install.cmake")
   include("/home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/cmake_install.cmake")
+  include("/home/ubuntu/ByteTalk/FriendService/build/example/cmake_install.cmake")
 
 endif()
 

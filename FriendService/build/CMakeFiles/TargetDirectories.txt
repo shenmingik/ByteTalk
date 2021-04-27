@@ -10,3 +10,6 @@
 /home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/rebuild_cache.dir
 /home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir
 /home/ubuntu/ByteTalk/FriendService/build/auxiliary_process/FriendServer/src/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/FriendService/build/example/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/FriendService/build/example/CMakeFiles/callee.dir
+/home/ubuntu/ByteTalk/FriendService/build/example/CMakeFiles/edit_cache.dir

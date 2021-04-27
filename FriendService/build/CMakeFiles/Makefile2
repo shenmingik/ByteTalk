@@ -206,6 +206,61 @@ clean: auxiliary_process/FriendServer/src/CMakeFiles/FriendServer.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory example
+
+# Convenience name for "all" pass in the directory.
+example/all: example/CMakeFiles/callee.dir/all
+
+.PHONY : example/all
+
+# Convenience name for "clean" pass in the directory.
+example/clean: example/CMakeFiles/callee.dir/clean
+
+.PHONY : example/clean
+
+# Convenience name for "preinstall" pass in the directory.
+example/preinstall:
+
+.PHONY : example/preinstall
+
+#=============================================================================
+# Target rules for target example/CMakeFiles/callee.dir
+
+# All Build rule for target.
+example/CMakeFiles/callee.dir/all:
+	$(MAKE) -f example/CMakeFiles/callee.dir/build.make example/CMakeFiles/callee.dir/depend
+	$(MAKE) -f example/CMakeFiles/callee.dir/build.make example/CMakeFiles/callee.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/ByteTalk/FriendService/build/CMakeFiles --progress-num=13,14,15 "Built target callee"
+.PHONY : example/CMakeFiles/callee.dir/all
+
+# Include target in all.
+all: example/CMakeFiles/callee.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+example/CMakeFiles/callee.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/callee.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ByteTalk/FriendService/build/CMakeFiles 0
+.PHONY : example/CMakeFiles/callee.dir/rule
+
+# Convenience name for target.
+callee: example/CMakeFiles/callee.dir/rule
+
+.PHONY : callee
+
+# clean rule for target.
+example/CMakeFiles/callee.dir/clean:
+	$(MAKE) -f example/CMakeFiles/callee.dir/build.make example/CMakeFiles/callee.dir/clean
+.PHONY : example/CMakeFiles/callee.dir/clean
+
+# clean rule for target.
+clean: example/CMakeFiles/callee.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
