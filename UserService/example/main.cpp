@@ -9,9 +9,10 @@ int main(int argc, char **argv)
 {
     RpcApplication::init(argc, argv);
     ik_UserService::UserServiceRpc_Stub stub(new RpcChannel);
-    ik_UserService::LoginOutRequest request;
+    ik_UserService::LoginRequest request;
     request.set_id(1);
+    request.set_password("123456");
 
-    google::protobuf::Empty empty;
-    stub.LoginOut(nullptr, &request, &empty, nullptr);
+    ik_UserService::LoginReponse response;
+    stub.Login(nullptr, &request, &response, nullptr);
 }
