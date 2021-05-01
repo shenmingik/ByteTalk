@@ -12,5 +12,5 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 加载子目录
 add_subdirectory(src)
-add_subdirectory(auxiliary_process)
-add_subdirectory(example)
+#add_subdirectory(auxiliary_process)
+#add_subdirectory(example)

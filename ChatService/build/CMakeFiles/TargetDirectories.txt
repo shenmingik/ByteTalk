@@ -1,0 +1,5 @@
+/home/ubuntu/ByteTalk/ChatService/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/ChatService/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/ChatService/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/ChatService/build/src/CMakeFiles/ChatService.dir
+/home/ubuntu/ByteTalk/ChatService/build/src/CMakeFiles/edit_cache.dir

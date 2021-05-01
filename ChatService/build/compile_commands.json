@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ubuntu/ByteTalk/ChatService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/ChatService/include  -g -g   -o CMakeFiles/ChatService.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/ChatService/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/ChatService/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/ChatService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/ChatService/include  -g -g   -o CMakeFiles/ChatService.dir/Redis.cpp.o -c /home/ubuntu/ByteTalk/ChatService/src/Redis.cpp",
+  "file": "/home/ubuntu/ByteTalk/ChatService/src/Redis.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/ChatService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/ChatService/include  -g -g   -o CMakeFiles/ChatService.dir/run.cpp.o -c /home/ubuntu/ByteTalk/ChatService/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/ChatService/src/run.cpp"
+}
+]

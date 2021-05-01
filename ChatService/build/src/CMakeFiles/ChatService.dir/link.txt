@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/ChatService.dir/LogServer.pb.cc.o CMakeFiles/ChatService.dir/Redis.cpp.o CMakeFiles/ChatService.dir/run.cpp.o  -o ../../bin/ChatService -lprotobuf -lrpc -lhiredis -lmuduo_base -lmuduo_net -lpthread -lPool -lmysqlclient 
