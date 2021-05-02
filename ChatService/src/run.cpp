@@ -1,10 +1,16 @@
-#include "Redis.hpp"
-#include <iostream>
+#include "ChatServer.hpp"
+#include <rpc/RpcApplication.hpp>
+#include <rpc/RpcConfigure.hpp>
 
-using namespace std;
-int main()
+int main(int argc, char **argv)
 {
-    RedisCli client("127.0.0.1", 6379);
-    client.connect();
-    client.set_host(1, "127.0.0.1:6004");
+    RpcApplication::init(argc, argv);
+    RpcConfigure configure = RpcApplication::get_instance().get_configure();
+    string redis_ip = configure.find_load("redis_ip");
+    int redis_port = atoi(configure.find_load("redis_port").c_str());
+    string ip = configure.find_load("server_ip");
+    int port = atoi(configure.find_load("server_port").c_str());
+
+    ChatServer server(redis_ip, redis_port);
+    server.run(ip, port);
 }
