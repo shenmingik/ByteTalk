@@ -38,7 +38,10 @@ void protobuf_ShutdownFile_GroupServer_2eproto();
 
 class AddGroupRequest;
 class CreateGroupRequest;
+class GetGroupUsersRequest;
+class GetGroupUsersResponse;
 class Request;
+class UserInfo;
 
 // ===================================================================
 
@@ -322,6 +325,270 @@ class CreateGroupRequest : public ::google::protobuf::Message /* @@protoc_insert
   void InitAsDefaultInstance();
   static CreateGroupRequest* default_instance_;
 };
+// -------------------------------------------------------------------
+
+class GetGroupUsersRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_ChatServer.GetGroupUsersRequest) */ {
+ public:
+  GetGroupUsersRequest();
+  virtual ~GetGroupUsersRequest();
+
+  GetGroupUsersRequest(const GetGroupUsersRequest& from);
+
+  inline GetGroupUsersRequest& operator=(const GetGroupUsersRequest& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const GetGroupUsersRequest& default_instance();
+
+  void Swap(GetGroupUsersRequest* other);
+
+  // implements Message ----------------------------------------------
+
+  inline GetGroupUsersRequest* New() const { return New(NULL); }
+
+  GetGroupUsersRequest* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const GetGroupUsersRequest& from);
+  void MergeFrom(const GetGroupUsersRequest& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(GetGroupUsersRequest* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 group_id = 1;
+  void clear_group_id();
+  static const int kGroupIdFieldNumber = 1;
+  ::google::protobuf::int32 group_id() const;
+  void set_group_id(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:ik_ChatServer.GetGroupUsersRequest)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::int32 group_id_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_GroupServer_2eproto();
+  friend void protobuf_AssignDesc_GroupServer_2eproto();
+  friend void protobuf_ShutdownFile_GroupServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static GetGroupUsersRequest* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class UserInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_ChatServer.UserInfo) */ {
+ public:
+  UserInfo();
+  virtual ~UserInfo();
+
+  UserInfo(const UserInfo& from);
+
+  inline UserInfo& operator=(const UserInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const UserInfo& default_instance();
+
+  void Swap(UserInfo* other);
+
+  // implements Message ----------------------------------------------
+
+  inline UserInfo* New() const { return New(NULL); }
+
+  UserInfo* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const UserInfo& from);
+  void MergeFrom(const UserInfo& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(UserInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::google::protobuf::int32 id() const;
+  void set_id(::google::protobuf::int32 value);
+
+  // optional bytes name = 2;
+  void clear_name();
+  static const int kNameFieldNumber = 2;
+  const ::std::string& name() const;
+  void set_name(const ::std::string& value);
+  void set_name(const char* value);
+  void set_name(const void* value, size_t size);
+  ::std::string* mutable_name();
+  ::std::string* release_name();
+  void set_allocated_name(::std::string* name);
+
+  // @@protoc_insertion_point(class_scope:ik_ChatServer.UserInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::internal::ArenaStringPtr name_;
+  ::google::protobuf::int32 id_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_GroupServer_2eproto();
+  friend void protobuf_AssignDesc_GroupServer_2eproto();
+  friend void protobuf_ShutdownFile_GroupServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static UserInfo* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class GetGroupUsersResponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_ChatServer.GetGroupUsersResponse) */ {
+ public:
+  GetGroupUsersResponse();
+  virtual ~GetGroupUsersResponse();
+
+  GetGroupUsersResponse(const GetGroupUsersResponse& from);
+
+  inline GetGroupUsersResponse& operator=(const GetGroupUsersResponse& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const GetGroupUsersResponse& default_instance();
+
+  void Swap(GetGroupUsersResponse* other);
+
+  // implements Message ----------------------------------------------
+
+  inline GetGroupUsersResponse* New() const { return New(NULL); }
+
+  GetGroupUsersResponse* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const GetGroupUsersResponse& from);
+  void MergeFrom(const GetGroupUsersResponse& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(GetGroupUsersResponse* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .ik_ChatServer.UserInfo users = 2;
+  int users_size() const;
+  void clear_users();
+  static const int kUsersFieldNumber = 2;
+  const ::ik_ChatServer::UserInfo& users(int index) const;
+  ::ik_ChatServer::UserInfo* mutable_users(int index);
+  ::ik_ChatServer::UserInfo* add_users();
+  ::google::protobuf::RepeatedPtrField< ::ik_ChatServer::UserInfo >*
+      mutable_users();
+  const ::google::protobuf::RepeatedPtrField< ::ik_ChatServer::UserInfo >&
+      users() const;
+
+  // @@protoc_insertion_point(class_scope:ik_ChatServer.GetGroupUsersResponse)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::RepeatedPtrField< ::ik_ChatServer::UserInfo > users_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_GroupServer_2eproto();
+  friend void protobuf_AssignDesc_GroupServer_2eproto();
+  friend void protobuf_ShutdownFile_GroupServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static GetGroupUsersResponse* default_instance_;
+};
 // ===================================================================
 
 
@@ -512,7 +779,127 @@ inline void CreateGroupRequest::set_allocated_group_name(::std::string* group_na
   // @@protoc_insertion_point(field_set_allocated:ik_ChatServer.CreateGroupRequest.group_name)
 }
 
+// -------------------------------------------------------------------
+
+// GetGroupUsersRequest
+
+// optional int32 group_id = 1;
+inline void GetGroupUsersRequest::clear_group_id() {
+  group_id_ = 0;
+}
+inline ::google::protobuf::int32 GetGroupUsersRequest::group_id() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.GetGroupUsersRequest.group_id)
+  return group_id_;
+}
+inline void GetGroupUsersRequest::set_group_id(::google::protobuf::int32 value) {
+  
+  group_id_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.GetGroupUsersRequest.group_id)
+}
+
+// -------------------------------------------------------------------
+
+// UserInfo
+
+// optional int32 id = 1;
+inline void UserInfo::clear_id() {
+  id_ = 0;
+}
+inline ::google::protobuf::int32 UserInfo::id() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.UserInfo.id)
+  return id_;
+}
+inline void UserInfo::set_id(::google::protobuf::int32 value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.UserInfo.id)
+}
+
+// optional bytes name = 2;
+inline void UserInfo::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& UserInfo::name() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.UserInfo.name)
+  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void UserInfo::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:ik_ChatServer.UserInfo.name)
+}
+inline void UserInfo::set_name(const char* value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:ik_ChatServer.UserInfo.name)
+}
+inline void UserInfo::set_name(const void* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:ik_ChatServer.UserInfo.name)
+}
+inline ::std::string* UserInfo::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:ik_ChatServer.UserInfo.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* UserInfo::release_name() {
+  // @@protoc_insertion_point(field_release:ik_ChatServer.UserInfo.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void UserInfo::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:ik_ChatServer.UserInfo.name)
+}
+
+// -------------------------------------------------------------------
+
+// GetGroupUsersResponse
+
+// repeated .ik_ChatServer.UserInfo users = 2;
+inline int GetGroupUsersResponse::users_size() const {
+  return users_.size();
+}
+inline void GetGroupUsersResponse::clear_users() {
+  users_.Clear();
+}
+inline const ::ik_ChatServer::UserInfo& GetGroupUsersResponse::users(int index) const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.GetGroupUsersResponse.users)
+  return users_.Get(index);
+}
+inline ::ik_ChatServer::UserInfo* GetGroupUsersResponse::mutable_users(int index) {
+  // @@protoc_insertion_point(field_mutable:ik_ChatServer.GetGroupUsersResponse.users)
+  return users_.Mutable(index);
+}
+inline ::ik_ChatServer::UserInfo* GetGroupUsersResponse::add_users() {
+  // @@protoc_insertion_point(field_add:ik_ChatServer.GetGroupUsersResponse.users)
+  return users_.Add();
+}
+inline ::google::protobuf::RepeatedPtrField< ::ik_ChatServer::UserInfo >*
+GetGroupUsersResponse::mutable_users() {
+  // @@protoc_insertion_point(field_mutable_list:ik_ChatServer.GetGroupUsersResponse.users)
+  return &users_;
+}
+inline const ::google::protobuf::RepeatedPtrField< ::ik_ChatServer::UserInfo >&
+GetGroupUsersResponse::users() const {
+  // @@protoc_insertion_point(field_list:ik_ChatServer.GetGroupUsersResponse.users)
+  return users_;
+}
+
 #endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
