@@ -20,6 +20,19 @@ using namespace std;
 class GroupServer
 {
 public:
+    //初始化server信息
+    GroupServer(string ip, int port);
+
+    //开始运行服务
+    void run();
+
+    //绑定连接事件
+    void on_connet(const muduo::net::TcpConnectionPtr &conn);
+
+    //绑定连接读写事件
+    void on_message(const muduo::net::TcpConnectionPtr &conn, muduo::net::Buffer *buffer, muduo::Timestamp stamp);
+
+public:
     //将userid所代表的用户添加到groupid的群里
     bool add_group(int userid, int groupid);
 
@@ -33,7 +46,12 @@ public:
     vector<User> get_group_users(int groupid);
 
 private:
-    ZKClient zk_client_;
+    string ip_; //IP地址
+    int port_;  //端口号
 
-    Connect_pool *pool_;
+    muduo::net::EventLoop loop_; //muduo事件循环
+
+    ZKClient zk_client_; //和zookeeper的连接句柄
+
+    Connect_pool *pool_; //指向连接池的指针
 };

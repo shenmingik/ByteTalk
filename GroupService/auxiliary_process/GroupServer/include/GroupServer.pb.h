@@ -38,8 +38,10 @@ void protobuf_ShutdownFile_GroupServer_2eproto();
 
 class AddGroupRequest;
 class CreateGroupRequest;
+class CreateGroupResponse;
 class GetGroupUsersRequest;
 class GetGroupUsersResponse;
+class QuitGroupRequest;
 class Request;
 class UserInfo;
 
@@ -204,11 +206,11 @@ class AddGroupRequest : public ::google::protobuf::Message /* @@protoc_insertion
 
   // accessors -------------------------------------------------------
 
-  // optional int32 myid = 1;
-  void clear_myid();
-  static const int kMyidFieldNumber = 1;
-  ::google::protobuf::int32 myid() const;
-  void set_myid(::google::protobuf::int32 value);
+  // optional int32 userid = 1;
+  void clear_userid();
+  static const int kUseridFieldNumber = 1;
+  ::google::protobuf::int32 userid() const;
+  void set_userid(::google::protobuf::int32 value);
 
   // optional int32 group_id = 2;
   void clear_group_id();
@@ -221,7 +223,7 @@ class AddGroupRequest : public ::google::protobuf::Message /* @@protoc_insertion
 
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
   bool _is_default_instance_;
-  ::google::protobuf::int32 myid_;
+  ::google::protobuf::int32 userid_;
   ::google::protobuf::int32 group_id_;
   mutable int _cached_size_;
   friend void  protobuf_AddDesc_GroupServer_2eproto();
@@ -293,11 +295,11 @@ class CreateGroupRequest : public ::google::protobuf::Message /* @@protoc_insert
 
   // accessors -------------------------------------------------------
 
-  // optional int32 myid = 1;
-  void clear_myid();
-  static const int kMyidFieldNumber = 1;
-  ::google::protobuf::int32 myid() const;
-  void set_myid(::google::protobuf::int32 value);
+  // optional int32 userid = 1;
+  void clear_userid();
+  static const int kUseridFieldNumber = 1;
+  ::google::protobuf::int32 userid() const;
+  void set_userid(::google::protobuf::int32 value);
 
   // optional bytes group_name = 2;
   void clear_group_name();
@@ -316,7 +318,7 @@ class CreateGroupRequest : public ::google::protobuf::Message /* @@protoc_insert
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
   bool _is_default_instance_;
   ::google::protobuf::internal::ArenaStringPtr group_name_;
-  ::google::protobuf::int32 myid_;
+  ::google::protobuf::int32 userid_;
   mutable int _cached_size_;
   friend void  protobuf_AddDesc_GroupServer_2eproto();
   friend void protobuf_AssignDesc_GroupServer_2eproto();
@@ -324,6 +326,177 @@ class CreateGroupRequest : public ::google::protobuf::Message /* @@protoc_insert
 
   void InitAsDefaultInstance();
   static CreateGroupRequest* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class CreateGroupResponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_ChatServer.CreateGroupResponse) */ {
+ public:
+  CreateGroupResponse();
+  virtual ~CreateGroupResponse();
+
+  CreateGroupResponse(const CreateGroupResponse& from);
+
+  inline CreateGroupResponse& operator=(const CreateGroupResponse& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const CreateGroupResponse& default_instance();
+
+  void Swap(CreateGroupResponse* other);
+
+  // implements Message ----------------------------------------------
+
+  inline CreateGroupResponse* New() const { return New(NULL); }
+
+  CreateGroupResponse* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const CreateGroupResponse& from);
+  void MergeFrom(const CreateGroupResponse& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(CreateGroupResponse* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 grouid = 1;
+  void clear_grouid();
+  static const int kGrouidFieldNumber = 1;
+  ::google::protobuf::int32 grouid() const;
+  void set_grouid(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:ik_ChatServer.CreateGroupResponse)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::int32 grouid_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_GroupServer_2eproto();
+  friend void protobuf_AssignDesc_GroupServer_2eproto();
+  friend void protobuf_ShutdownFile_GroupServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static CreateGroupResponse* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class QuitGroupRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ik_ChatServer.QuitGroupRequest) */ {
+ public:
+  QuitGroupRequest();
+  virtual ~QuitGroupRequest();
+
+  QuitGroupRequest(const QuitGroupRequest& from);
+
+  inline QuitGroupRequest& operator=(const QuitGroupRequest& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const QuitGroupRequest& default_instance();
+
+  void Swap(QuitGroupRequest* other);
+
+  // implements Message ----------------------------------------------
+
+  inline QuitGroupRequest* New() const { return New(NULL); }
+
+  QuitGroupRequest* New(::google::protobuf::Arena* arena) const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const QuitGroupRequest& from);
+  void MergeFrom(const QuitGroupRequest& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {
+    return InternalSerializeWithCachedSizesToArray(false, output);
+  }
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  void InternalSwap(QuitGroupRequest* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return _internal_metadata_.arena();
+  }
+  inline void* MaybeArenaPtr() const {
+    return _internal_metadata_.raw_arena_ptr();
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 userid = 1;
+  void clear_userid();
+  static const int kUseridFieldNumber = 1;
+  ::google::protobuf::int32 userid() const;
+  void set_userid(::google::protobuf::int32 value);
+
+  // optional int32 groupid = 2;
+  void clear_groupid();
+  static const int kGroupidFieldNumber = 2;
+  ::google::protobuf::int32 groupid() const;
+  void set_groupid(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:ik_ChatServer.QuitGroupRequest)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool _is_default_instance_;
+  ::google::protobuf::int32 userid_;
+  ::google::protobuf::int32 groupid_;
+  mutable int _cached_size_;
+  friend void  protobuf_AddDesc_GroupServer_2eproto();
+  friend void protobuf_AssignDesc_GroupServer_2eproto();
+  friend void protobuf_ShutdownFile_GroupServer_2eproto();
+
+  void InitAsDefaultInstance();
+  static QuitGroupRequest* default_instance_;
 };
 // -------------------------------------------------------------------
 
@@ -563,10 +736,10 @@ class GetGroupUsersResponse : public ::google::protobuf::Message /* @@protoc_ins
 
   // accessors -------------------------------------------------------
 
-  // repeated .ik_ChatServer.UserInfo users = 2;
+  // repeated .ik_ChatServer.UserInfo users = 1;
   int users_size() const;
   void clear_users();
-  static const int kUsersFieldNumber = 2;
+  static const int kUsersFieldNumber = 1;
   const ::ik_ChatServer::UserInfo& users(int index) const;
   ::ik_ChatServer::UserInfo* mutable_users(int index);
   ::ik_ChatServer::UserInfo* add_users();
@@ -689,18 +862,18 @@ inline void Request::set_allocated_request_msg(::std::string* request_msg) {
 
 // AddGroupRequest
 
-// optional int32 myid = 1;
-inline void AddGroupRequest::clear_myid() {
-  myid_ = 0;
+// optional int32 userid = 1;
+inline void AddGroupRequest::clear_userid() {
+  userid_ = 0;
 }
-inline ::google::protobuf::int32 AddGroupRequest::myid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatServer.AddGroupRequest.myid)
-  return myid_;
+inline ::google::protobuf::int32 AddGroupRequest::userid() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.AddGroupRequest.userid)
+  return userid_;
 }
-inline void AddGroupRequest::set_myid(::google::protobuf::int32 value) {
+inline void AddGroupRequest::set_userid(::google::protobuf::int32 value) {
   
-  myid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatServer.AddGroupRequest.myid)
+  userid_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.AddGroupRequest.userid)
 }
 
 // optional int32 group_id = 2;
@@ -721,18 +894,18 @@ inline void AddGroupRequest::set_group_id(::google::protobuf::int32 value) {
 
 // CreateGroupRequest
 
-// optional int32 myid = 1;
-inline void CreateGroupRequest::clear_myid() {
-  myid_ = 0;
+// optional int32 userid = 1;
+inline void CreateGroupRequest::clear_userid() {
+  userid_ = 0;
 }
-inline ::google::protobuf::int32 CreateGroupRequest::myid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatServer.CreateGroupRequest.myid)
-  return myid_;
+inline ::google::protobuf::int32 CreateGroupRequest::userid() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.CreateGroupRequest.userid)
+  return userid_;
 }
-inline void CreateGroupRequest::set_myid(::google::protobuf::int32 value) {
+inline void CreateGroupRequest::set_userid(::google::protobuf::int32 value) {
   
-  myid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatServer.CreateGroupRequest.myid)
+  userid_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.CreateGroupRequest.userid)
 }
 
 // optional bytes group_name = 2;
@@ -777,6 +950,56 @@ inline void CreateGroupRequest::set_allocated_group_name(::std::string* group_na
   }
   group_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), group_name);
   // @@protoc_insertion_point(field_set_allocated:ik_ChatServer.CreateGroupRequest.group_name)
+}
+
+// -------------------------------------------------------------------
+
+// CreateGroupResponse
+
+// optional int32 grouid = 1;
+inline void CreateGroupResponse::clear_grouid() {
+  grouid_ = 0;
+}
+inline ::google::protobuf::int32 CreateGroupResponse::grouid() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.CreateGroupResponse.grouid)
+  return grouid_;
+}
+inline void CreateGroupResponse::set_grouid(::google::protobuf::int32 value) {
+  
+  grouid_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.CreateGroupResponse.grouid)
+}
+
+// -------------------------------------------------------------------
+
+// QuitGroupRequest
+
+// optional int32 userid = 1;
+inline void QuitGroupRequest::clear_userid() {
+  userid_ = 0;
+}
+inline ::google::protobuf::int32 QuitGroupRequest::userid() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.QuitGroupRequest.userid)
+  return userid_;
+}
+inline void QuitGroupRequest::set_userid(::google::protobuf::int32 value) {
+  
+  userid_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.QuitGroupRequest.userid)
+}
+
+// optional int32 groupid = 2;
+inline void QuitGroupRequest::clear_groupid() {
+  groupid_ = 0;
+}
+inline ::google::protobuf::int32 QuitGroupRequest::groupid() const {
+  // @@protoc_insertion_point(field_get:ik_ChatServer.QuitGroupRequest.groupid)
+  return groupid_;
+}
+inline void QuitGroupRequest::set_groupid(::google::protobuf::int32 value) {
+  
+  groupid_ = value;
+  // @@protoc_insertion_point(field_set:ik_ChatServer.QuitGroupRequest.groupid)
 }
 
 // -------------------------------------------------------------------
@@ -863,7 +1086,7 @@ inline void UserInfo::set_allocated_name(::std::string* name) {
 
 // GetGroupUsersResponse
 
-// repeated .ik_ChatServer.UserInfo users = 2;
+// repeated .ik_ChatServer.UserInfo users = 1;
 inline int GetGroupUsersResponse::users_size() const {
   return users_.size();
 }
@@ -894,6 +1117,10 @@ GetGroupUsersResponse::users() const {
 }
 
 #endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------

@@ -20,6 +20,11 @@ message CreateGroupRequest
     bytes group_name = 2;
 }
 
+message CreateGroupResponse
+{
+    int32 grouid = 1;
+}
+
 message QuitGroupRequest
 {
     int32 userid = 1;
