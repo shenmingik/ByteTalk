@@ -50,7 +50,6 @@ void GroupServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::ne
     request.ParseFromString(recv_str);
 
     //判断业务逻辑
-    bool flag;
     if (request.type() == "AddGroup")
     {
         ik_ChatServer::AddGroupRequest add_request;
@@ -58,7 +57,7 @@ void GroupServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::ne
         int userid = add_request.userid();
         int groupid = add_request.group_id();
 
-        flag = add_group(userid, groupid);
+        add_group(userid, groupid);
     }
     else if (request.type() == "QuitGroup")
     {
@@ -67,7 +66,7 @@ void GroupServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::ne
         int userid = quit_request.userid();
         int groupid = quit_request.groupid();
 
-        flag = quit_group(userid, groupid);
+        quit_group(userid, groupid);
     }
     else if (request.type() == "CreateGroup")
     {
@@ -79,14 +78,10 @@ void GroupServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::ne
         int groupid = create_group(userid, group_name);
         if (groupid != -1)
         {
-            flag = add_group(userid, groupid);
+            add_group(userid, groupid);
             ik_ChatServer::CreateGroupResponse response;
             response.set_grouid(groupid);
             conn->send(response.SerializeAsString());
-        }
-        else
-        {
-            flag = false;
         }
     }
     else if (request.type() == "GetGroupUsers")
