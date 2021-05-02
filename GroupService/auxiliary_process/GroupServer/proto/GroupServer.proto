@@ -10,14 +10,20 @@ message Request
 
 message AddGroupRequest
 {
-    int32 myid = 1;
+    int32 userid = 1;
     int32 group_id = 2;
 }
 
 message CreateGroupRequest
 {
-    int32 myid = 1;
+    int32 userid = 1;
     bytes group_name = 2;
+}
+
+message QuitGroupRequest
+{
+    int32 userid = 1;
+    int32 groupid = 2;
 }
 
 message GetGroupUsersRequest
@@ -33,5 +39,5 @@ message  UserInfo
 
 message GetGroupUsersResponse
 {
-    repeated UserInfo users = 2;
+    repeated UserInfo users = 1;
 }
