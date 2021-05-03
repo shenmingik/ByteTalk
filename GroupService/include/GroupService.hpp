@@ -15,6 +15,9 @@ using namespace std;
 class GroupService : public ik_ChatService::GroupServiceRpc
 {
 public:
+    GroupService();
+
+public:
     void AddGroup(::google::protobuf::RpcController *controller,
                   const ::ik_ChatService::AddGroupRequest *request,
                   ::google::protobuf::Empty *response,
