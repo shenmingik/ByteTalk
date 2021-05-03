@@ -1,5 +1,16 @@
+#include "LogServer.pb.h"
 #include "GroupServer.pb.h"
 #include "GroupService.pb.h"
+
+#include "ZooKeeperMaster.hpp"
+
+#include <google/protobuf/service.h>
+#include <rpc/RpcChannel.hpp>
+#include <rpc/RpcControl.hpp>
+
+#include <string>
+
+using namespace std;
 
 class GroupService : public ik_ChatService::GroupServiceRpc
 {
@@ -22,4 +33,7 @@ public:
                        ::google::protobuf::Closure *done);
 
 private:
+    ik::LogServerRpc_Stub stub_;
+
+    ZKMatser master_;
 };
