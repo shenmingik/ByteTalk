@@ -12,6 +12,7 @@
 
 #include <string>
 #include <vector>
+#include <memory>
 using namespace std;
 
 class OfflineServer
@@ -27,6 +28,7 @@ public:
     void on_message(const muduo::net::TcpConnectionPtr &conn, muduo::net::Buffer *buffer, muduo::Timestamp stamp);
 
     //连接事件回调函数
+    void on_connect(const muduo::net::TcpConnectionPtr &conn);
 
 public:
     //写离线消息
