@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package ik_OfflineServer;
+
+message Request
+{
+    bytes type = 1;
+    bytes request_msg = 2;
+}
+
+message WriteOfflineRequest
+{
+    int32 friend_id = 1;
+    bytes msg = 2;
+}
+
+message ReadOfflineRequest
+{
+    int32 myid = 1;
+}
+
+message ReadOfflineResponse
+{
+    repeated bytes msg = 1;
+}
