@@ -123,7 +123,7 @@ int GroupServer::create_group(int userid, string group_name)
 
     //组织并执行sql语句
     char sql[BUFF_SIZE] = {0};
-    sprintf(sql, "insert into AllGroup(groupname) values('%s')", group_name);
+    sprintf(sql, "insert into AllGroup(groupname) values('%s')", group_name.c_str());
     conn->update(sql);
 
     return mysql_insert_id(conn->get_connection());
