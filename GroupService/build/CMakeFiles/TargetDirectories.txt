@@ -1,0 +1,12 @@
+/home/ubuntu/ByteTalk/GroupService/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/src/CMakeFiles/GroupService.dir
+/home/ubuntu/ByteTalk/GroupService/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/CMakeFiles/edit_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src/CMakeFiles/GroupServer.dir
+/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src/CMakeFiles/edit_cache.dir

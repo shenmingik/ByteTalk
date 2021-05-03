@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/GroupServer.dir/GroupServer.cpp.o CMakeFiles/GroupServer.dir/GroupServer.pb.cc.o CMakeFiles/GroupServer.dir/ZooKeeperFow.cpp.o CMakeFiles/GroupServer.dir/run.cpp.o  -o ../../../../bin/GroupServer -lprotobuf -lrpc -lzookeeper_mt -lmuduo_net -lmuduo_base -lPool -lmysqlclient -lpthread 

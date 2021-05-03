@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/GroupServer.pb.cc.o -c /home/ubuntu/ByteTalk/GroupService/src/GroupServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/GroupServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/GroupService.cpp.o -c /home/ubuntu/ByteTalk/GroupService/src/GroupService.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/GroupService.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/GroupService.pb.cc.o -c /home/ubuntu/ByteTalk/GroupService/src/GroupService.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/GroupService.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/LogServer.pb.cc.o -c /home/ubuntu/ByteTalk/GroupService/src/LogServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/LogServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/ZooKeeperMatser.cpp.o -c /home/ubuntu/ByteTalk/GroupService/src/ZooKeeperMatser.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/ZooKeeperMatser.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupService.dir/run.cpp.o -c /home/ubuntu/ByteTalk/GroupService/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/src/run.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupServer.dir/GroupServer.cpp.o -c /home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/GroupServer.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/GroupServer.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupServer.dir/GroupServer.pb.cc.o -c /home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/GroupServer.pb.cc",
+  "file": "/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/GroupServer.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupServer.dir/ZooKeeperFow.cpp.o -c /home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/ZooKeeperFow.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/ZooKeeperFow.cpp"
+},
+{
+  "directory": "/home/ubuntu/ByteTalk/GroupService/build/auxiliary_process/GroupServer/src",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/ByteTalk/GroupService/include -I/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/include  -g -g   -o CMakeFiles/GroupServer.dir/run.cpp.o -c /home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/run.cpp",
+  "file": "/home/ubuntu/ByteTalk/GroupService/auxiliary_process/GroupServer/src/run.cpp"
+}
+]
