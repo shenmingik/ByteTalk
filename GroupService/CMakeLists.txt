@@ -9,6 +9,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 配置头文件搜索路径
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/auxiliary_process/GroupServer/include)
 
 add_subdirectory(src)
 add_subdirectory(auxiliary_process)
