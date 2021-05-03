@@ -29,6 +29,9 @@ void GroupServer::run()
     string server_path = "/GroupService/server";
     string host = ip_ + ":" + to_string(port_);
     zk_client_.create(server_path, host.c_str(), host.size(), ZOO_EPHEMERAL);
+
+    server.start();
+    loop_.loop();
 }
 
 //绑定连接事件

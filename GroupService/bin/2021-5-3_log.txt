@@ -1,0 +1,7 @@
+13:42: 2=>[INFO]: zookeeper init success
+13:42: 2=>[INFO]: znode create  success...path: /GroupServiceRpc
+13:42: 2=>[INFO]: znode create  success...path: /GroupServiceRpc/GetGroupUsers
+13:42: 2=>[INFO]: znode create  success...path: /GroupServiceRpc/QuitGroup
+13:42: 2=>[INFO]: znode create  success...path: /GroupServiceRpc/AddGroup
+13:42: 2=>[INFO]: znode create  success...path: /GroupServiceRpc/CreateGroup
+13:42: 2=>[INFO]: server RpcProvider [ip: 172.17.0.2][port: 6011]

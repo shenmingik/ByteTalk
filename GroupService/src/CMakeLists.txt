@@ -1,7 +1,7 @@
 # 添加SRC_LIST
 aux_source_directory(. SRC_LIST)
 
-# 添加编译加入录音
+# 添加编译加入路径
 add_executable(GroupService ${SRC_LIST})
 
 # 链接库
