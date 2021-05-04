@@ -4,9 +4,12 @@
 #include "Redis.hpp"
 #include "LogServer.pb.h"
 #include "ChatServer.pb.h"
+#include "ProxyServer.pb.h"
+#include "OfflineService.pb.h"
 
 #include <google/protobuf/empty.pb.h>
 #include <rpc/RpcChannel.hpp>
+#include <rpc/RpcControl.hpp>
 
 #include <muduo/net/EventLoop.h>
 #include <muduo/net/Buffer.h>
@@ -52,4 +55,5 @@ private:
     unordered_map<string, int> channel_map_;
 
     ik::LogServerRpc_Stub stub_;
+    ik_OfflineService::OfflineServiceRpc_Stub offline_stub_;
 };

@@ -6,7 +6,8 @@ using namespace placeholders;
 #define BUFF_SIZE 128
 
 ChatServer::ChatServer(string redis_ip, int redis_port) : redis_client_(redis_ip, redis_port),
-                                                          stub_(new RpcChannel)
+                                                          stub_(new RpcChannel),
+                                                          offline_stub_(new RpcChannel)
 {
 }
 
@@ -46,6 +47,18 @@ void ChatServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::net
 
     //得到用户登录的ip地址
     string host = redis_client_.get_host(request.id());
+    //如果当前用户没登陆,写入离线消息
+    if (host == "")
+    {
+        ik_OfflineService::WriteOfflineRequest write_request;
+        write_request.set_friend_id(request.id());
+        write_request.set_msg(request.msg());
+        google::protobuf::Empty em;
+        RpcControl controller;
+        offline_stub_.WriteOffline(&controller, &write_request, &em, nullptr);
+        return;
+    }
+
     auto it = channel_map_.find(host);
     if (it == channel_map_.end()) //记录里面没有这个链接
     {
@@ -53,10 +66,16 @@ void ChatServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::net
         channel_map_[host] = cliend_fd;
     }
 
+    //序列化
+    ik_Proxy::PoxryMessage poxry_request;
+    poxry_request.set_type("ConveyMsg");
+    poxry_request.set_request_msg(recv_str);
+
+    string send_str = poxry_request.SerializeAsString();
     //转发此信息
     auto channel = channel_map_.find(host);
     int fd = channel->second;
-    if (send(fd, recv_str.c_str(), recv_str.size(), 0) == -1)
+    if (send(fd, send_str.c_str(), send_str.size(), 0) == -1)
     {
         //打印错误日志
         ik::LogRequest log_request;
