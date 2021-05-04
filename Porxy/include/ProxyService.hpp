@@ -105,7 +105,7 @@ private:
 private:
     RedisCli redis_client_; //连接redis服务器
 
-    ZKMatser matser_; //连接zookeeper服务器
+    ZKMatser master_; //连接zookeeper服务器
 private:
     ik_GroupService::GroupServiceRpc_Stub group_stub_;
     ik_UserService::UserServiceRpc_Stub user_stub_;

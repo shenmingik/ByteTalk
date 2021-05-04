@@ -2,26 +2,28 @@
 
 using namespace placeholders;
 
-ProxyService::ProxyService() : matser_("/ChatService"),
+ProxyService::ProxyService() : master_("/ChatService"),
                                log_stub_(new RpcChannel),
                                friend_stub_(new RpcChannel),
                                user_stub_(new RpcChannel),
                                offline_stub_(new RpcChannel),
                                group_stub_(new RpcChannel)
 {
-    msg_handler_map_.insert({"Login", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"Regist", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"LoginOut", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"AddFriend", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"DelteFriend", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"GetUserInfo", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"GetFriendList", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"ReadOfflineMsg", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"CreateGroup", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"QuitGroup", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"AddGroup", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"ConveyMsg", bind(ProxyService::login, this, _1, _2, _3)});
-    msg_handler_map_.insert({"ChatMsg", bind(ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"Login", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"Regist", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"LoginOut", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"AddFriend", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"DelteFriend", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"GetUserInfo", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"GetFriendList", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"ReadOfflineMsg", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"CreateGroup", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"QuitGroup", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"AddGroup", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"ConveyMsg", bind(&ProxyService::login, this, _1, _2, _3)});
+    msg_handler_map_.insert({"ChatMsg", bind(&ProxyService::login, this, _1, _2, _3)});
+
+    master_.start();
 }
 
 //登录
@@ -270,12 +272,12 @@ void ProxyService::chat_msg(const muduo::net::TcpConnectionPtr &conn, string &re
     if (it == use_connection_map_.end())
     {
         //刷新服务器连接
-        matser_.get_follow();
+        master_.get_follow();
         //获取一个与转发服务器交互的可以连接
         int client_fd;
-        while ((client_fd == matser_.get_service()) == -1)
+        while ((client_fd == master_.get_service()) == -1)
         {
-            matser_.get_follow();
+            master_.get_follow();
             sleep(1);
         }
 

@@ -41,10 +41,11 @@ void ProxyServer::on_message(const muduo::net::TcpConnectionPtr &conn, muduo::ne
 {
     //反序列化
     string recv_str = buffer->retrieveAllAsString();
-    ik_Proxy::PoxryMessage request_msg;
-    request_msg.ParseFromString(recv_str);
+    ik_Proxy::PoxryMessage request;
+    request.ParseFromString(recv_str);
 
     //获取对应的处理器并执行
-    auto msg_handler = ProxyService::get_instance().get_handler(request_msg.type());
-    msg_handler(conn, request_msg.request_msg(), stamp);
+    auto msg_handler = ProxyService::get_instance().get_handler(request.type());
+    string str = request.request_msg();
+    msg_handler(conn, str, stamp);
 }

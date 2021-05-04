@@ -22,6 +22,9 @@ int main(int argc, char **argv)
 
     signal(SIGINT, reset_handler);
 
+    //初始化zookeeper的连接
+    ProxyService::get_instance();
+    
     muduo::net::EventLoop loop;
     muduo::net::InetAddress addr(ip, port);
     ProxyServer server(loop, addr, "ProxyServer");
