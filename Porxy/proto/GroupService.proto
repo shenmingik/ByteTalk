@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package ik_ChatService;
+package ik_GroupService;
 
 import "google/protobuf/empty.proto";
 

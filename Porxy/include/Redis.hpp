@@ -1,5 +1,8 @@
 #pragma once
 
+#include <rpc/RpcApplication.hpp>
+#include <rpc/RpcConfigure.hpp>
+
 #include <hiredis/hiredis.h>
 
 #include <string>
@@ -10,7 +13,7 @@ class RedisCli
 {
 public:
     //初始化redis连接信息
-    RedisCli(string ip,int port);
+    RedisCli();
 
     //释放连接
     ~RedisCli();
@@ -25,10 +28,13 @@ public:
     string get_host(int id);
 
     //设置账户及其登录的服务器
-    bool set_host(int id,string host);
+    bool set_host(int id, string host);
+
+    //删除用户的信息
+    bool del_host(int id);
 private:
-    redisContext* get_channel_;
-    redisContext* set_channel_;
+    redisContext *get_channel_;
+    redisContext *set_channel_;
 
     string ip_;
     int port_;

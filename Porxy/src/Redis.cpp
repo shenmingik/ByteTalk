@@ -3,10 +3,11 @@
 #include <iostream>
 
 //初始化redis连接信息
-RedisCli::RedisCli(string ip, int port)
+RedisCli::RedisCli()
 {
-    ip_ = ip;
-    port_ = port;
+    RpcConfigure configure = RpcApplication::get_configure();
+    ip_ = configure.find_load("redis_ip");
+    port_ = atoi(configure.find_load("redis_port").c_str());
 }
 
 //释放连接
@@ -65,6 +66,17 @@ string RedisCli::get_host(int id)
 bool RedisCli::set_host(int id, string host)
 {
     redisReply *reply = (redisReply *)redisCommand(set_channel_, "set %d %s", id, host.c_str());
+    if (reply == nullptr)
+    {
+        return false;
+    }
+    return true;
+}
+
+//删除用户的信息
+bool RedisCli::del_host(int id)
+{
+    redisReply *reply = (redisReply *)redisCommand(set_channel_, "del %d",id);
     if (reply == nullptr)
     {
         return false;

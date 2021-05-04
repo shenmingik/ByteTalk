@@ -17,7 +17,7 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 
-namespace ik_ChatService {
+namespace ik_GroupService {
 
 namespace {
 
@@ -221,26 +221,26 @@ void protobuf_AddDesc_GroupService_2eproto() {
 
   ::google::protobuf::protobuf_AddDesc_google_2fprotobuf_2fempty_2eproto();
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\022GroupService.proto\022\016ik_ChatService\032\033go"
-    "ogle/protobuf/empty.proto\"3\n\017AddGroupReq"
-    "uest\022\016\n\006userid\030\001 \001(\005\022\020\n\010group_id\030\002 \001(\005\"8"
-    "\n\022CreateGroupRequest\022\016\n\006userid\030\001 \001(\005\022\022\n\n"
-    "group_name\030\002 \001(\014\"%\n\023CreateGroupResponse\022"
-    "\016\n\006grouid\030\001 \001(\005\"3\n\020QuitGroupRequest\022\016\n\006u"
-    "serid\030\001 \001(\005\022\017\n\007groupid\030\002 \001(\005\"(\n\024GetGroup"
-    "UsersRequest\022\020\n\010group_id\030\001 \001(\005\"$\n\010UserIn"
-    "fo\022\n\n\002id\030\001 \001(\005\022\014\n\004name\030\002 \001(\014\"@\n\025GetGroup"
-    "UsersResponse\022\'\n\005users\030\001 \003(\0132\030.ik_ChatSe"
-    "rvice.UserInfo2\323\002\n\017GroupServiceRpc\022C\n\010Ad"
-    "dGroup\022\037.ik_ChatService.AddGroupRequest\032"
-    "\026.google.protobuf.Empty\022V\n\013CreateGroup\022\""
-    ".ik_ChatService.CreateGroupRequest\032#.ik_"
-    "ChatService.CreateGroupResponse\022E\n\tQuitG"
-    "roup\022 .ik_ChatService.QuitGroupRequest\032\026"
-    ".google.protobuf.Empty\022\\\n\rGetGroupUsers\022"
-    "$.ik_ChatService.GetGroupUsersRequest\032%."
-    "ik_ChatService.GetGroupUsersResponseB\003\200\001"
-    "\001b\006proto3", 769);
+    "\n\022GroupService.proto\022\017ik_GroupService\032\033g"
+    "oogle/protobuf/empty.proto\"3\n\017AddGroupRe"
+    "quest\022\016\n\006userid\030\001 \001(\005\022\020\n\010group_id\030\002 \001(\005\""
+    "8\n\022CreateGroupRequest\022\016\n\006userid\030\001 \001(\005\022\022\n"
+    "\ngroup_name\030\002 \001(\014\"%\n\023CreateGroupResponse"
+    "\022\016\n\006grouid\030\001 \001(\005\"3\n\020QuitGroupRequest\022\016\n\006"
+    "userid\030\001 \001(\005\022\017\n\007groupid\030\002 \001(\005\"(\n\024GetGrou"
+    "pUsersRequest\022\020\n\010group_id\030\001 \001(\005\"$\n\010UserI"
+    "nfo\022\n\n\002id\030\001 \001(\005\022\014\n\004name\030\002 \001(\014\"A\n\025GetGrou"
+    "pUsersResponse\022(\n\005users\030\001 \003(\0132\031.ik_Group"
+    "Service.UserInfo2\331\002\n\017GroupServiceRpc\022D\n\010"
+    "AddGroup\022 .ik_GroupService.AddGroupReque"
+    "st\032\026.google.protobuf.Empty\022X\n\013CreateGrou"
+    "p\022#.ik_GroupService.CreateGroupRequest\032$"
+    ".ik_GroupService.CreateGroupResponse\022F\n\t"
+    "QuitGroup\022!.ik_GroupService.QuitGroupReq"
+    "uest\032\026.google.protobuf.Empty\022^\n\rGetGroup"
+    "Users\022%.ik_GroupService.GetGroupUsersReq"
+    "uest\032&.ik_GroupService.GetGroupUsersResp"
+    "onseB\003\200\001\001b\006proto3", 777);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "GroupService.proto", &protobuf_RegisterTypes);
   AddGroupRequest::default_instance_ = new AddGroupRequest();
@@ -277,7 +277,7 @@ const int AddGroupRequest::kGroupIdFieldNumber;
 AddGroupRequest::AddGroupRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(constructor:ik_GroupService.AddGroupRequest)
 }
 
 void AddGroupRequest::InitAsDefaultInstance() {
@@ -289,7 +289,7 @@ AddGroupRequest::AddGroupRequest(const AddGroupRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.AddGroupRequest)
 }
 
 void AddGroupRequest::SharedCtor() {
@@ -300,7 +300,7 @@ void AddGroupRequest::SharedCtor() {
 }
 
 AddGroupRequest::~AddGroupRequest() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(destructor:ik_GroupService.AddGroupRequest)
   SharedDtor();
 }
 
@@ -335,7 +335,7 @@ AddGroupRequest* AddGroupRequest::New(::google::protobuf::Arena* arena) const {
 }
 
 void AddGroupRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.AddGroupRequest)
 #if defined(__clang__)
 #define ZR_HELPER_(f) \
   _Pragma("clang diagnostic push") \
@@ -363,7 +363,7 @@ bool AddGroupRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.AddGroupRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -411,17 +411,17 @@ bool AddGroupRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.AddGroupRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.AddGroupRequest)
   return false;
 #undef DO_
 }
 
 void AddGroupRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.AddGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->userid(), output);
@@ -432,12 +432,12 @@ void AddGroupRequest::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(2, this->group_id(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.AddGroupRequest)
 }
 
 ::google::protobuf::uint8* AddGroupRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.AddGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->userid(), target);
@@ -448,12 +448,12 @@ void AddGroupRequest::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(2, this->group_id(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.AddGroupRequest)
   return target;
 }
 
 int AddGroupRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.AddGroupRequest)
   int total_size = 0;
 
   // optional int32 userid = 1;
@@ -477,7 +477,7 @@ int AddGroupRequest::ByteSize() const {
 }
 
 void AddGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.AddGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -485,16 +485,16 @@ void AddGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const AddGroupRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.AddGroupRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.AddGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.AddGroupRequest)
     MergeFrom(*source);
   }
 }
 
 void AddGroupRequest::MergeFrom(const AddGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.AddGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -507,14 +507,14 @@ void AddGroupRequest::MergeFrom(const AddGroupRequest& from) {
 }
 
 void AddGroupRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.AddGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void AddGroupRequest::CopyFrom(const AddGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.AddGroupRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.AddGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -552,13 +552,13 @@ void AddGroupRequest::clear_userid() {
   userid_ = 0;
 }
  ::google::protobuf::int32 AddGroupRequest::userid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.AddGroupRequest.userid)
+  // @@protoc_insertion_point(field_get:ik_GroupService.AddGroupRequest.userid)
   return userid_;
 }
  void AddGroupRequest::set_userid(::google::protobuf::int32 value) {
   
   userid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.AddGroupRequest.userid)
+  // @@protoc_insertion_point(field_set:ik_GroupService.AddGroupRequest.userid)
 }
 
 // optional int32 group_id = 2;
@@ -566,13 +566,13 @@ void AddGroupRequest::clear_group_id() {
   group_id_ = 0;
 }
  ::google::protobuf::int32 AddGroupRequest::group_id() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.AddGroupRequest.group_id)
+  // @@protoc_insertion_point(field_get:ik_GroupService.AddGroupRequest.group_id)
   return group_id_;
 }
  void AddGroupRequest::set_group_id(::google::protobuf::int32 value) {
   
   group_id_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.AddGroupRequest.group_id)
+  // @@protoc_insertion_point(field_set:ik_GroupService.AddGroupRequest.group_id)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -587,7 +587,7 @@ const int CreateGroupRequest::kGroupNameFieldNumber;
 CreateGroupRequest::CreateGroupRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(constructor:ik_GroupService.CreateGroupRequest)
 }
 
 void CreateGroupRequest::InitAsDefaultInstance() {
@@ -599,7 +599,7 @@ CreateGroupRequest::CreateGroupRequest(const CreateGroupRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.CreateGroupRequest)
 }
 
 void CreateGroupRequest::SharedCtor() {
@@ -611,7 +611,7 @@ void CreateGroupRequest::SharedCtor() {
 }
 
 CreateGroupRequest::~CreateGroupRequest() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(destructor:ik_GroupService.CreateGroupRequest)
   SharedDtor();
 }
 
@@ -647,7 +647,7 @@ CreateGroupRequest* CreateGroupRequest::New(::google::protobuf::Arena* arena) co
 }
 
 void CreateGroupRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.CreateGroupRequest)
   userid_ = 0;
   group_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -656,7 +656,7 @@ bool CreateGroupRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.CreateGroupRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -702,17 +702,17 @@ bool CreateGroupRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.CreateGroupRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.CreateGroupRequest)
   return false;
 #undef DO_
 }
 
 void CreateGroupRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.CreateGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->userid(), output);
@@ -724,12 +724,12 @@ void CreateGroupRequest::SerializeWithCachedSizes(
       2, this->group_name(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.CreateGroupRequest)
 }
 
 ::google::protobuf::uint8* CreateGroupRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.CreateGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->userid(), target);
@@ -742,12 +742,12 @@ void CreateGroupRequest::SerializeWithCachedSizes(
         2, this->group_name(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.CreateGroupRequest)
   return target;
 }
 
 int CreateGroupRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.CreateGroupRequest)
   int total_size = 0;
 
   // optional int32 userid = 1;
@@ -771,7 +771,7 @@ int CreateGroupRequest::ByteSize() const {
 }
 
 void CreateGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.CreateGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -779,16 +779,16 @@ void CreateGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const CreateGroupRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.CreateGroupRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.CreateGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.CreateGroupRequest)
     MergeFrom(*source);
   }
 }
 
 void CreateGroupRequest::MergeFrom(const CreateGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.CreateGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -802,14 +802,14 @@ void CreateGroupRequest::MergeFrom(const CreateGroupRequest& from) {
 }
 
 void CreateGroupRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.CreateGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void CreateGroupRequest::CopyFrom(const CreateGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.CreateGroupRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.CreateGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -847,13 +847,13 @@ void CreateGroupRequest::clear_userid() {
   userid_ = 0;
 }
  ::google::protobuf::int32 CreateGroupRequest::userid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.CreateGroupRequest.userid)
+  // @@protoc_insertion_point(field_get:ik_GroupService.CreateGroupRequest.userid)
   return userid_;
 }
  void CreateGroupRequest::set_userid(::google::protobuf::int32 value) {
   
   userid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.CreateGroupRequest.userid)
+  // @@protoc_insertion_point(field_set:ik_GroupService.CreateGroupRequest.userid)
 }
 
 // optional bytes group_name = 2;
@@ -861,32 +861,32 @@ void CreateGroupRequest::clear_group_name() {
   group_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& CreateGroupRequest::group_name() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_get:ik_GroupService.CreateGroupRequest.group_name)
   return group_name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void CreateGroupRequest::set_group_name(const ::std::string& value) {
   
   group_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_set:ik_GroupService.CreateGroupRequest.group_name)
 }
  void CreateGroupRequest::set_group_name(const char* value) {
   
   group_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_set_char:ik_GroupService.CreateGroupRequest.group_name)
 }
  void CreateGroupRequest::set_group_name(const void* value, size_t size) {
   
   group_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_set_pointer:ik_GroupService.CreateGroupRequest.group_name)
 }
  ::std::string* CreateGroupRequest::mutable_group_name() {
   
-  // @@protoc_insertion_point(field_mutable:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_mutable:ik_GroupService.CreateGroupRequest.group_name)
   return group_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* CreateGroupRequest::release_group_name() {
-  // @@protoc_insertion_point(field_release:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_release:ik_GroupService.CreateGroupRequest.group_name)
   
   return group_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -897,7 +897,7 @@ void CreateGroupRequest::clear_group_name() {
     
   }
   group_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), group_name);
-  // @@protoc_insertion_point(field_set_allocated:ik_ChatService.CreateGroupRequest.group_name)
+  // @@protoc_insertion_point(field_set_allocated:ik_GroupService.CreateGroupRequest.group_name)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -911,7 +911,7 @@ const int CreateGroupResponse::kGrouidFieldNumber;
 CreateGroupResponse::CreateGroupResponse()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(constructor:ik_GroupService.CreateGroupResponse)
 }
 
 void CreateGroupResponse::InitAsDefaultInstance() {
@@ -923,7 +923,7 @@ CreateGroupResponse::CreateGroupResponse(const CreateGroupResponse& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.CreateGroupResponse)
 }
 
 void CreateGroupResponse::SharedCtor() {
@@ -933,7 +933,7 @@ void CreateGroupResponse::SharedCtor() {
 }
 
 CreateGroupResponse::~CreateGroupResponse() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(destructor:ik_GroupService.CreateGroupResponse)
   SharedDtor();
 }
 
@@ -968,7 +968,7 @@ CreateGroupResponse* CreateGroupResponse::New(::google::protobuf::Arena* arena) 
 }
 
 void CreateGroupResponse::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.CreateGroupResponse)
   grouid_ = 0;
 }
 
@@ -976,7 +976,7 @@ bool CreateGroupResponse::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.CreateGroupResponse)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1009,39 +1009,39 @@ bool CreateGroupResponse::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.CreateGroupResponse)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.CreateGroupResponse)
   return false;
 #undef DO_
 }
 
 void CreateGroupResponse::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.CreateGroupResponse)
   // optional int32 grouid = 1;
   if (this->grouid() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->grouid(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.CreateGroupResponse)
 }
 
 ::google::protobuf::uint8* CreateGroupResponse::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.CreateGroupResponse)
   // optional int32 grouid = 1;
   if (this->grouid() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->grouid(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.CreateGroupResponse)
   return target;
 }
 
 int CreateGroupResponse::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.CreateGroupResponse)
   int total_size = 0;
 
   // optional int32 grouid = 1;
@@ -1058,7 +1058,7 @@ int CreateGroupResponse::ByteSize() const {
 }
 
 void CreateGroupResponse::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.CreateGroupResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1066,16 +1066,16 @@ void CreateGroupResponse::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const CreateGroupResponse>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.CreateGroupResponse)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.CreateGroupResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.CreateGroupResponse)
     MergeFrom(*source);
   }
 }
 
 void CreateGroupResponse::MergeFrom(const CreateGroupResponse& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.CreateGroupResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1085,14 +1085,14 @@ void CreateGroupResponse::MergeFrom(const CreateGroupResponse& from) {
 }
 
 void CreateGroupResponse::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.CreateGroupResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void CreateGroupResponse::CopyFrom(const CreateGroupResponse& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.CreateGroupResponse)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.CreateGroupResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1129,13 +1129,13 @@ void CreateGroupResponse::clear_grouid() {
   grouid_ = 0;
 }
  ::google::protobuf::int32 CreateGroupResponse::grouid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.CreateGroupResponse.grouid)
+  // @@protoc_insertion_point(field_get:ik_GroupService.CreateGroupResponse.grouid)
   return grouid_;
 }
  void CreateGroupResponse::set_grouid(::google::protobuf::int32 value) {
   
   grouid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.CreateGroupResponse.grouid)
+  // @@protoc_insertion_point(field_set:ik_GroupService.CreateGroupResponse.grouid)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -1150,7 +1150,7 @@ const int QuitGroupRequest::kGroupidFieldNumber;
 QuitGroupRequest::QuitGroupRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(constructor:ik_GroupService.QuitGroupRequest)
 }
 
 void QuitGroupRequest::InitAsDefaultInstance() {
@@ -1162,7 +1162,7 @@ QuitGroupRequest::QuitGroupRequest(const QuitGroupRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.QuitGroupRequest)
 }
 
 void QuitGroupRequest::SharedCtor() {
@@ -1173,7 +1173,7 @@ void QuitGroupRequest::SharedCtor() {
 }
 
 QuitGroupRequest::~QuitGroupRequest() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(destructor:ik_GroupService.QuitGroupRequest)
   SharedDtor();
 }
 
@@ -1208,7 +1208,7 @@ QuitGroupRequest* QuitGroupRequest::New(::google::protobuf::Arena* arena) const 
 }
 
 void QuitGroupRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.QuitGroupRequest)
 #if defined(__clang__)
 #define ZR_HELPER_(f) \
   _Pragma("clang diagnostic push") \
@@ -1236,7 +1236,7 @@ bool QuitGroupRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.QuitGroupRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1284,17 +1284,17 @@ bool QuitGroupRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.QuitGroupRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.QuitGroupRequest)
   return false;
 #undef DO_
 }
 
 void QuitGroupRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.QuitGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->userid(), output);
@@ -1305,12 +1305,12 @@ void QuitGroupRequest::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(2, this->groupid(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.QuitGroupRequest)
 }
 
 ::google::protobuf::uint8* QuitGroupRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.QuitGroupRequest)
   // optional int32 userid = 1;
   if (this->userid() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->userid(), target);
@@ -1321,12 +1321,12 @@ void QuitGroupRequest::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(2, this->groupid(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.QuitGroupRequest)
   return target;
 }
 
 int QuitGroupRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.QuitGroupRequest)
   int total_size = 0;
 
   // optional int32 userid = 1;
@@ -1350,7 +1350,7 @@ int QuitGroupRequest::ByteSize() const {
 }
 
 void QuitGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.QuitGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1358,16 +1358,16 @@ void QuitGroupRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const QuitGroupRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.QuitGroupRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.QuitGroupRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.QuitGroupRequest)
     MergeFrom(*source);
   }
 }
 
 void QuitGroupRequest::MergeFrom(const QuitGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.QuitGroupRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1380,14 +1380,14 @@ void QuitGroupRequest::MergeFrom(const QuitGroupRequest& from) {
 }
 
 void QuitGroupRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.QuitGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void QuitGroupRequest::CopyFrom(const QuitGroupRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.QuitGroupRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.QuitGroupRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1425,13 +1425,13 @@ void QuitGroupRequest::clear_userid() {
   userid_ = 0;
 }
  ::google::protobuf::int32 QuitGroupRequest::userid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.QuitGroupRequest.userid)
+  // @@protoc_insertion_point(field_get:ik_GroupService.QuitGroupRequest.userid)
   return userid_;
 }
  void QuitGroupRequest::set_userid(::google::protobuf::int32 value) {
   
   userid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.QuitGroupRequest.userid)
+  // @@protoc_insertion_point(field_set:ik_GroupService.QuitGroupRequest.userid)
 }
 
 // optional int32 groupid = 2;
@@ -1439,13 +1439,13 @@ void QuitGroupRequest::clear_groupid() {
   groupid_ = 0;
 }
  ::google::protobuf::int32 QuitGroupRequest::groupid() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.QuitGroupRequest.groupid)
+  // @@protoc_insertion_point(field_get:ik_GroupService.QuitGroupRequest.groupid)
   return groupid_;
 }
  void QuitGroupRequest::set_groupid(::google::protobuf::int32 value) {
   
   groupid_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.QuitGroupRequest.groupid)
+  // @@protoc_insertion_point(field_set:ik_GroupService.QuitGroupRequest.groupid)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -1459,7 +1459,7 @@ const int GetGroupUsersRequest::kGroupIdFieldNumber;
 GetGroupUsersRequest::GetGroupUsersRequest()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(constructor:ik_GroupService.GetGroupUsersRequest)
 }
 
 void GetGroupUsersRequest::InitAsDefaultInstance() {
@@ -1471,7 +1471,7 @@ GetGroupUsersRequest::GetGroupUsersRequest(const GetGroupUsersRequest& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.GetGroupUsersRequest)
 }
 
 void GetGroupUsersRequest::SharedCtor() {
@@ -1481,7 +1481,7 @@ void GetGroupUsersRequest::SharedCtor() {
 }
 
 GetGroupUsersRequest::~GetGroupUsersRequest() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(destructor:ik_GroupService.GetGroupUsersRequest)
   SharedDtor();
 }
 
@@ -1516,7 +1516,7 @@ GetGroupUsersRequest* GetGroupUsersRequest::New(::google::protobuf::Arena* arena
 }
 
 void GetGroupUsersRequest::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.GetGroupUsersRequest)
   group_id_ = 0;
 }
 
@@ -1524,7 +1524,7 @@ bool GetGroupUsersRequest::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.GetGroupUsersRequest)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1557,39 +1557,39 @@ bool GetGroupUsersRequest::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.GetGroupUsersRequest)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.GetGroupUsersRequest)
   return false;
 #undef DO_
 }
 
 void GetGroupUsersRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.GetGroupUsersRequest)
   // optional int32 group_id = 1;
   if (this->group_id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->group_id(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.GetGroupUsersRequest)
 }
 
 ::google::protobuf::uint8* GetGroupUsersRequest::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.GetGroupUsersRequest)
   // optional int32 group_id = 1;
   if (this->group_id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->group_id(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.GetGroupUsersRequest)
   return target;
 }
 
 int GetGroupUsersRequest::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.GetGroupUsersRequest)
   int total_size = 0;
 
   // optional int32 group_id = 1;
@@ -1606,7 +1606,7 @@ int GetGroupUsersRequest::ByteSize() const {
 }
 
 void GetGroupUsersRequest::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.GetGroupUsersRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1614,16 +1614,16 @@ void GetGroupUsersRequest::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const GetGroupUsersRequest>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.GetGroupUsersRequest)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.GetGroupUsersRequest)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.GetGroupUsersRequest)
     MergeFrom(*source);
   }
 }
 
 void GetGroupUsersRequest::MergeFrom(const GetGroupUsersRequest& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.GetGroupUsersRequest)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1633,14 +1633,14 @@ void GetGroupUsersRequest::MergeFrom(const GetGroupUsersRequest& from) {
 }
 
 void GetGroupUsersRequest::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.GetGroupUsersRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void GetGroupUsersRequest::CopyFrom(const GetGroupUsersRequest& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.GetGroupUsersRequest)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.GetGroupUsersRequest)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1677,13 +1677,13 @@ void GetGroupUsersRequest::clear_group_id() {
   group_id_ = 0;
 }
  ::google::protobuf::int32 GetGroupUsersRequest::group_id() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.GetGroupUsersRequest.group_id)
+  // @@protoc_insertion_point(field_get:ik_GroupService.GetGroupUsersRequest.group_id)
   return group_id_;
 }
  void GetGroupUsersRequest::set_group_id(::google::protobuf::int32 value) {
   
   group_id_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.GetGroupUsersRequest.group_id)
+  // @@protoc_insertion_point(field_set:ik_GroupService.GetGroupUsersRequest.group_id)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -1698,7 +1698,7 @@ const int UserInfo::kNameFieldNumber;
 UserInfo::UserInfo()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(constructor:ik_GroupService.UserInfo)
 }
 
 void UserInfo::InitAsDefaultInstance() {
@@ -1710,7 +1710,7 @@ UserInfo::UserInfo(const UserInfo& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.UserInfo)
 }
 
 void UserInfo::SharedCtor() {
@@ -1722,7 +1722,7 @@ void UserInfo::SharedCtor() {
 }
 
 UserInfo::~UserInfo() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(destructor:ik_GroupService.UserInfo)
   SharedDtor();
 }
 
@@ -1758,7 +1758,7 @@ UserInfo* UserInfo::New(::google::protobuf::Arena* arena) const {
 }
 
 void UserInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.UserInfo)
   id_ = 0;
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1767,7 +1767,7 @@ bool UserInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.UserInfo)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -1813,17 +1813,17 @@ bool UserInfo::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.UserInfo)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.UserInfo)
   return false;
 #undef DO_
 }
 
 void UserInfo::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.UserInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
@@ -1835,12 +1835,12 @@ void UserInfo::SerializeWithCachedSizes(
       2, this->name(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.UserInfo)
 }
 
 ::google::protobuf::uint8* UserInfo::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.UserInfo)
   // optional int32 id = 1;
   if (this->id() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
@@ -1853,12 +1853,12 @@ void UserInfo::SerializeWithCachedSizes(
         2, this->name(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.UserInfo)
   return target;
 }
 
 int UserInfo::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.UserInfo)
   int total_size = 0;
 
   // optional int32 id = 1;
@@ -1882,7 +1882,7 @@ int UserInfo::ByteSize() const {
 }
 
 void UserInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.UserInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1890,16 +1890,16 @@ void UserInfo::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const UserInfo>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.UserInfo)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.UserInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.UserInfo)
     MergeFrom(*source);
   }
 }
 
 void UserInfo::MergeFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.UserInfo)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -1913,14 +1913,14 @@ void UserInfo::MergeFrom(const UserInfo& from) {
 }
 
 void UserInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.UserInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void UserInfo::CopyFrom(const UserInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.UserInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.UserInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1958,13 +1958,13 @@ void UserInfo::clear_id() {
   id_ = 0;
 }
  ::google::protobuf::int32 UserInfo::id() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.UserInfo.id)
+  // @@protoc_insertion_point(field_get:ik_GroupService.UserInfo.id)
   return id_;
 }
  void UserInfo::set_id(::google::protobuf::int32 value) {
   
   id_ = value;
-  // @@protoc_insertion_point(field_set:ik_ChatService.UserInfo.id)
+  // @@protoc_insertion_point(field_set:ik_GroupService.UserInfo.id)
 }
 
 // optional bytes name = 2;
@@ -1972,32 +1972,32 @@ void UserInfo::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  const ::std::string& UserInfo::name() const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_get:ik_GroupService.UserInfo.name)
   return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  void UserInfo::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_set:ik_GroupService.UserInfo.name)
 }
  void UserInfo::set_name(const char* value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_set_char:ik_GroupService.UserInfo.name)
 }
  void UserInfo::set_name(const void* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_set_pointer:ik_GroupService.UserInfo.name)
 }
  ::std::string* UserInfo::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_mutable:ik_GroupService.UserInfo.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* UserInfo::release_name() {
-  // @@protoc_insertion_point(field_release:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_release:ik_GroupService.UserInfo.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2008,7 +2008,7 @@ void UserInfo::clear_name() {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:ik_ChatService.UserInfo.name)
+  // @@protoc_insertion_point(field_set_allocated:ik_GroupService.UserInfo.name)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -2022,7 +2022,7 @@ const int GetGroupUsersResponse::kUsersFieldNumber;
 GetGroupUsersResponse::GetGroupUsersResponse()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(constructor:ik_GroupService.GetGroupUsersResponse)
 }
 
 void GetGroupUsersResponse::InitAsDefaultInstance() {
@@ -2034,7 +2034,7 @@ GetGroupUsersResponse::GetGroupUsersResponse(const GetGroupUsersResponse& from)
     _internal_metadata_(NULL) {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(copy_constructor:ik_GroupService.GetGroupUsersResponse)
 }
 
 void GetGroupUsersResponse::SharedCtor() {
@@ -2043,7 +2043,7 @@ void GetGroupUsersResponse::SharedCtor() {
 }
 
 GetGroupUsersResponse::~GetGroupUsersResponse() {
-  // @@protoc_insertion_point(destructor:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(destructor:ik_GroupService.GetGroupUsersResponse)
   SharedDtor();
 }
 
@@ -2078,7 +2078,7 @@ GetGroupUsersResponse* GetGroupUsersResponse::New(::google::protobuf::Arena* are
 }
 
 void GetGroupUsersResponse::Clear() {
-// @@protoc_insertion_point(message_clear_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(message_clear_start:ik_GroupService.GetGroupUsersResponse)
   users_.Clear();
 }
 
@@ -2086,13 +2086,13 @@ bool GetGroupUsersResponse::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(parse_start:ik_GroupService.GetGroupUsersResponse)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // repeated .ik_ChatService.UserInfo users = 1;
+      // repeated .ik_GroupService.UserInfo users = 1;
       case 1: {
         if (tag == 10) {
           DO_(input->IncrementRecursionDepth());
@@ -2121,45 +2121,45 @@ bool GetGroupUsersResponse::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(parse_success:ik_GroupService.GetGroupUsersResponse)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(parse_failure:ik_GroupService.GetGroupUsersResponse)
   return false;
 #undef DO_
 }
 
 void GetGroupUsersResponse::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ik_ChatService.GetGroupUsersResponse)
-  // repeated .ik_ChatService.UserInfo users = 1;
+  // @@protoc_insertion_point(serialize_start:ik_GroupService.GetGroupUsersResponse)
+  // repeated .ik_GroupService.UserInfo users = 1;
   for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       1, this->users(i), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(serialize_end:ik_GroupService.GetGroupUsersResponse)
 }
 
 ::google::protobuf::uint8* GetGroupUsersResponse::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ik_ChatService.GetGroupUsersResponse)
-  // repeated .ik_ChatService.UserInfo users = 1;
+  // @@protoc_insertion_point(serialize_to_array_start:ik_GroupService.GetGroupUsersResponse)
+  // repeated .ik_GroupService.UserInfo users = 1;
   for (unsigned int i = 0, n = this->users_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
         1, this->users(i), false, target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(serialize_to_array_end:ik_GroupService.GetGroupUsersResponse)
   return target;
 }
 
 int GetGroupUsersResponse::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(message_byte_size_start:ik_GroupService.GetGroupUsersResponse)
   int total_size = 0;
 
-  // repeated .ik_ChatService.UserInfo users = 1;
+  // repeated .ik_GroupService.UserInfo users = 1;
   total_size += 1 * this->users_size();
   for (int i = 0; i < this->users_size(); i++) {
     total_size +=
@@ -2174,7 +2174,7 @@ int GetGroupUsersResponse::ByteSize() const {
 }
 
 void GetGroupUsersResponse::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(generalized_merge_from_start:ik_GroupService.GetGroupUsersResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2182,16 +2182,16 @@ void GetGroupUsersResponse::MergeFrom(const ::google::protobuf::Message& from) {
       ::google::protobuf::internal::DynamicCastToGenerated<const GetGroupUsersResponse>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:ik_GroupService.GetGroupUsersResponse)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_ChatService.GetGroupUsersResponse)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:ik_GroupService.GetGroupUsersResponse)
     MergeFrom(*source);
   }
 }
 
 void GetGroupUsersResponse::MergeFrom(const GetGroupUsersResponse& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(class_specific_merge_from_start:ik_GroupService.GetGroupUsersResponse)
   if (GOOGLE_PREDICT_FALSE(&from == this)) {
     ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
   }
@@ -2199,14 +2199,14 @@ void GetGroupUsersResponse::MergeFrom(const GetGroupUsersResponse& from) {
 }
 
 void GetGroupUsersResponse::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(generalized_copy_from_start:ik_GroupService.GetGroupUsersResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void GetGroupUsersResponse::CopyFrom(const GetGroupUsersResponse& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:ik_ChatService.GetGroupUsersResponse)
+// @@protoc_insertion_point(class_specific_copy_from_start:ik_GroupService.GetGroupUsersResponse)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2238,33 +2238,33 @@ void GetGroupUsersResponse::InternalSwap(GetGroupUsersResponse* other) {
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // GetGroupUsersResponse
 
-// repeated .ik_ChatService.UserInfo users = 1;
+// repeated .ik_GroupService.UserInfo users = 1;
 int GetGroupUsersResponse::users_size() const {
   return users_.size();
 }
 void GetGroupUsersResponse::clear_users() {
   users_.Clear();
 }
-const ::ik_ChatService::UserInfo& GetGroupUsersResponse::users(int index) const {
-  // @@protoc_insertion_point(field_get:ik_ChatService.GetGroupUsersResponse.users)
+const ::ik_GroupService::UserInfo& GetGroupUsersResponse::users(int index) const {
+  // @@protoc_insertion_point(field_get:ik_GroupService.GetGroupUsersResponse.users)
   return users_.Get(index);
 }
-::ik_ChatService::UserInfo* GetGroupUsersResponse::mutable_users(int index) {
-  // @@protoc_insertion_point(field_mutable:ik_ChatService.GetGroupUsersResponse.users)
+::ik_GroupService::UserInfo* GetGroupUsersResponse::mutable_users(int index) {
+  // @@protoc_insertion_point(field_mutable:ik_GroupService.GetGroupUsersResponse.users)
   return users_.Mutable(index);
 }
-::ik_ChatService::UserInfo* GetGroupUsersResponse::add_users() {
-  // @@protoc_insertion_point(field_add:ik_ChatService.GetGroupUsersResponse.users)
+::ik_GroupService::UserInfo* GetGroupUsersResponse::add_users() {
+  // @@protoc_insertion_point(field_add:ik_GroupService.GetGroupUsersResponse.users)
   return users_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::ik_ChatService::UserInfo >*
+::google::protobuf::RepeatedPtrField< ::ik_GroupService::UserInfo >*
 GetGroupUsersResponse::mutable_users() {
-  // @@protoc_insertion_point(field_mutable_list:ik_ChatService.GetGroupUsersResponse.users)
+  // @@protoc_insertion_point(field_mutable_list:ik_GroupService.GetGroupUsersResponse.users)
   return &users_;
 }
-const ::google::protobuf::RepeatedPtrField< ::ik_ChatService::UserInfo >&
+const ::google::protobuf::RepeatedPtrField< ::ik_GroupService::UserInfo >&
 GetGroupUsersResponse::users() const {
-  // @@protoc_insertion_point(field_list:ik_ChatService.GetGroupUsersResponse.users)
+  // @@protoc_insertion_point(field_list:ik_GroupService.GetGroupUsersResponse.users)
   return users_;
 }
 
@@ -2285,7 +2285,7 @@ const ::google::protobuf::ServiceDescriptor* GroupServiceRpc::GetDescriptor() {
 }
 
 void GroupServiceRpc::AddGroup(::google::protobuf::RpcController* controller,
-                         const ::ik_ChatService::AddGroupRequest*,
+                         const ::ik_GroupService::AddGroupRequest*,
                          ::google::protobuf::Empty*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method AddGroup() not implemented.");
@@ -2293,15 +2293,15 @@ void GroupServiceRpc::AddGroup(::google::protobuf::RpcController* controller,
 }
 
 void GroupServiceRpc::CreateGroup(::google::protobuf::RpcController* controller,
-                         const ::ik_ChatService::CreateGroupRequest*,
-                         ::ik_ChatService::CreateGroupResponse*,
+                         const ::ik_GroupService::CreateGroupRequest*,
+                         ::ik_GroupService::CreateGroupResponse*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method CreateGroup() not implemented.");
   done->Run();
 }
 
 void GroupServiceRpc::QuitGroup(::google::protobuf::RpcController* controller,
-                         const ::ik_ChatService::QuitGroupRequest*,
+                         const ::ik_GroupService::QuitGroupRequest*,
                          ::google::protobuf::Empty*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method QuitGroup() not implemented.");
@@ -2309,8 +2309,8 @@ void GroupServiceRpc::QuitGroup(::google::protobuf::RpcController* controller,
 }
 
 void GroupServiceRpc::GetGroupUsers(::google::protobuf::RpcController* controller,
-                         const ::ik_ChatService::GetGroupUsersRequest*,
-                         ::ik_ChatService::GetGroupUsersResponse*,
+                         const ::ik_GroupService::GetGroupUsersRequest*,
+                         ::ik_GroupService::GetGroupUsersResponse*,
                          ::google::protobuf::Closure* done) {
   controller->SetFailed("Method GetGroupUsers() not implemented.");
   done->Run();
@@ -2325,26 +2325,26 @@ void GroupServiceRpc::CallMethod(const ::google::protobuf::MethodDescriptor* met
   switch(method->index()) {
     case 0:
       AddGroup(controller,
-             ::google::protobuf::down_cast<const ::ik_ChatService::AddGroupRequest*>(request),
+             ::google::protobuf::down_cast<const ::ik_GroupService::AddGroupRequest*>(request),
              ::google::protobuf::down_cast< ::google::protobuf::Empty*>(response),
              done);
       break;
     case 1:
       CreateGroup(controller,
-             ::google::protobuf::down_cast<const ::ik_ChatService::CreateGroupRequest*>(request),
-             ::google::protobuf::down_cast< ::ik_ChatService::CreateGroupResponse*>(response),
+             ::google::protobuf::down_cast<const ::ik_GroupService::CreateGroupRequest*>(request),
+             ::google::protobuf::down_cast< ::ik_GroupService::CreateGroupResponse*>(response),
              done);
       break;
     case 2:
       QuitGroup(controller,
-             ::google::protobuf::down_cast<const ::ik_ChatService::QuitGroupRequest*>(request),
+             ::google::protobuf::down_cast<const ::ik_GroupService::QuitGroupRequest*>(request),
              ::google::protobuf::down_cast< ::google::protobuf::Empty*>(response),
              done);
       break;
     case 3:
       GetGroupUsers(controller,
-             ::google::protobuf::down_cast<const ::ik_ChatService::GetGroupUsersRequest*>(request),
-             ::google::protobuf::down_cast< ::ik_ChatService::GetGroupUsersResponse*>(response),
+             ::google::protobuf::down_cast<const ::ik_GroupService::GetGroupUsersRequest*>(request),
+             ::google::protobuf::down_cast< ::ik_GroupService::GetGroupUsersResponse*>(response),
              done);
       break;
     default:
@@ -2358,13 +2358,13 @@ const ::google::protobuf::Message& GroupServiceRpc::GetRequestPrototype(
   GOOGLE_DCHECK_EQ(method->service(), descriptor());
   switch(method->index()) {
     case 0:
-      return ::ik_ChatService::AddGroupRequest::default_instance();
+      return ::ik_GroupService::AddGroupRequest::default_instance();
     case 1:
-      return ::ik_ChatService::CreateGroupRequest::default_instance();
+      return ::ik_GroupService::CreateGroupRequest::default_instance();
     case 2:
-      return ::ik_ChatService::QuitGroupRequest::default_instance();
+      return ::ik_GroupService::QuitGroupRequest::default_instance();
     case 3:
-      return ::ik_ChatService::GetGroupUsersRequest::default_instance();
+      return ::ik_GroupService::GetGroupUsersRequest::default_instance();
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       return *::google::protobuf::MessageFactory::generated_factory()
@@ -2379,11 +2379,11 @@ const ::google::protobuf::Message& GroupServiceRpc::GetResponsePrototype(
     case 0:
       return ::google::protobuf::Empty::default_instance();
     case 1:
-      return ::ik_ChatService::CreateGroupResponse::default_instance();
+      return ::ik_GroupService::CreateGroupResponse::default_instance();
     case 2:
       return ::google::protobuf::Empty::default_instance();
     case 3:
-      return ::ik_ChatService::GetGroupUsersResponse::default_instance();
+      return ::ik_GroupService::GetGroupUsersResponse::default_instance();
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       return *::google::protobuf::MessageFactory::generated_factory()
@@ -2403,29 +2403,29 @@ GroupServiceRpc_Stub::~GroupServiceRpc_Stub() {
 }
 
 void GroupServiceRpc_Stub::AddGroup(::google::protobuf::RpcController* controller,
-                              const ::ik_ChatService::AddGroupRequest* request,
+                              const ::ik_GroupService::AddGroupRequest* request,
                               ::google::protobuf::Empty* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(0),
                        controller, request, response, done);
 }
 void GroupServiceRpc_Stub::CreateGroup(::google::protobuf::RpcController* controller,
-                              const ::ik_ChatService::CreateGroupRequest* request,
-                              ::ik_ChatService::CreateGroupResponse* response,
+                              const ::ik_GroupService::CreateGroupRequest* request,
+                              ::ik_GroupService::CreateGroupResponse* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(1),
                        controller, request, response, done);
 }
 void GroupServiceRpc_Stub::QuitGroup(::google::protobuf::RpcController* controller,
-                              const ::ik_ChatService::QuitGroupRequest* request,
+                              const ::ik_GroupService::QuitGroupRequest* request,
                               ::google::protobuf::Empty* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(2),
                        controller, request, response, done);
 }
 void GroupServiceRpc_Stub::GetGroupUsers(::google::protobuf::RpcController* controller,
-                              const ::ik_ChatService::GetGroupUsersRequest* request,
-                              ::ik_ChatService::GetGroupUsersResponse* response,
+                              const ::ik_GroupService::GetGroupUsersRequest* request,
+                              ::ik_GroupService::GetGroupUsersResponse* response,
                               ::google::protobuf::Closure* done) {
   channel_->CallMethod(descriptor()->method(3),
                        controller, request, response, done);
@@ -2433,6 +2433,6 @@ void GroupServiceRpc_Stub::GetGroupUsers(::google::protobuf::RpcController* cont
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace ik_ChatService
+}  // namespace ik_GroupService
 
 // @@protoc_insertion_point(global_scope)
