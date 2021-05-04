@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ik_Proxy;
+
+message PoxryMessage
+{
+    bytes type = 1;
+    bytes request_msg = 2;
+}
