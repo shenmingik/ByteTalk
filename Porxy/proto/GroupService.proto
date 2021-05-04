@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package ik_ChatService;
+
+import "google/protobuf/empty.proto";
+
+option cc_generic_services = true;
+
+message AddGroupRequest
+{
+    int32 userid = 1;
+    int32 group_id = 2;
+}
+
+message CreateGroupRequest
+{
+    int32 userid = 1;
+    bytes group_name = 2;
+}
+
+message CreateGroupResponse
+{
+    int32 grouid = 1;
+}
+
+message QuitGroupRequest
+{
+    int32 userid = 1;
+    int32 groupid = 2;
+}
+
+message GetGroupUsersRequest
+{
+    int32 group_id = 1;
+}
+
+message  UserInfo
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
+message GetGroupUsersResponse
+{
+    repeated UserInfo users = 1;
+}
+
+service GroupServiceRpc
+{
+    rpc AddGroup (AddGroupRequest) returns (google.protobuf.Empty);
+    rpc CreateGroup (CreateGroupRequest) returns (CreateGroupResponse);
+    rpc QuitGroup (QuitGroupRequest) returns (google.protobuf.Empty);
+    rpc GetGroupUsers (GetGroupUsersRequest) returns (GetGroupUsersResponse);
+}

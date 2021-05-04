@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package ik_OfflineService;
+
+import "google/protobuf/empty.proto";
+
+option cc_generic_services = true;
+
+message WriteOfflineRequest
+{
+    int32 friend_id = 1;
+    bytes msg = 2;
+}
+
+message ReadOfflineRequest
+{
+    int32 myid = 1;
+}
+
+message ReadOfflineResponse
+{
+    repeated bytes msg = 1;
+}
+
+service OfflineServiceRpc
+{
+    rpc WriteOffline(WriteOfflineRequest) returns(google.protobuf.Empty);
+    rpc ReadOffline(ReadOfflineRequest) returns(ReadOfflineResponse);
+}

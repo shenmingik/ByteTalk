@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ik_ChatServer;
+
+message MsgRequest
+{
+    int32 id = 1;
+    bytes msg = 2;
+}

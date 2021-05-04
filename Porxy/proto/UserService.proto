@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package ik_UserService;
+import "google/protobuf/empty.proto";
+
+option cc_generic_services = true;
+
+// 有关登录的消息
+message LoginRequest
+{
+    int32 id = 1;
+    bytes password = 2;
+}
+
+message ErrorMsg
+{
+    bytes message = 2;
+}
+
+message LoginReponse
+{
+    bool is_success = 1;
+    ErrorMsg msg = 2;
+}
+
+// 有关注册
+message RegisterRequest
+{
+    bytes name = 1;
+    bytes password = 2;
+}
+
+message RegisterResponse
+{
+    bool is_success = 1;
+    int32 id = 2;
+}
+
+//有关下线消息
+message LoginOutRequest
+{
+    int32 id = 1;
+}
+
+//服务接口
+service UserServiceRpc
+{
+    rpc Login(LoginRequest) returns(LoginReponse);
+    rpc Registe(RegisterRequest) returns(RegisterResponse);
+    rpc LoginOut (LoginOutRequest)returns (google.protobuf.Empty);
+}

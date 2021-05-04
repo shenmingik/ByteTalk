@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package ik_FriendService;
+import "google/protobuf/empty.proto";
+
+option cc_generic_services = true;
+
+message UserInfoRequest
+{
+    int32 id = 1;
+}
+
+message UserInfoReponse
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
+message FriendInfo
+{
+    int32 id = 1;
+    bytes name = 2;
+}
+
+message FriendListRequest
+{
+    int32 id = 1;
+}
+
+message FriendListResponse
+{
+    bool is_success = 1;
+    repeated FriendInfo friends = 2;
+}
+
+message AddFriendRequest
+{
+    int32 myid = 1;
+    int32 friendid = 2;
+}
+
+message DeleteFriendRequest
+{
+    int32 myid = 1;
+    int32 friendid = 2;
+}
+
+service FriendServiceRpc
+{
+    rpc GetFriendList(FriendListRequest) returns(FriendListResponse);
+    rpc GetUserInfo(UserInfoRequest) returns(UserInfoReponse);
+    // 通过controller来判定是否失败
+    rpc AddFriend(AddFriendRequest) returns(google.protobuf.Empty);
+    rpc DeleteFriend(DeleteFriendRequest) returns(google.protobuf.Empty);
+}
